@@ -1,1 +1,1 @@
-# all-seaons-fitness
+# all-seasons-fitness
