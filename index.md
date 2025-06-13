@@ -26,11 +26,11 @@ Classes are located in the Mountlake Terrace / Edmonds WA area. Locations can ch
 
 # Sign Up & Pay
 
-Sign up and pay for classes via Acuity Scheduling (app links below). Cash preferred - use the "pay later" option. 
+Sign up and pay for classes via the Acuity scheduling website or app (links below). Cash preferred - use the "pay later" option. 
 
 <div style="text-align: center;">
-    <a href="https://allseasonsfitness.as.me" class="btn section-btn" target="_blank" rel="noopener noreferrer"><img src="assets/images/app-store.png"/>Apple Store</a>
-    <a href="https://allseasonsfitness.as.me" class="btn section-btn" target="_blank" rel="noopener noreferrer"><img src="assets/images/playstore.png"/>Google Play Store</a>
+    <a href="https://apps.apple.com/us/app/acuity-scheduling-client/id1509524919" class="btn section-btn" target="_blank" rel="noopener noreferrer"><img src="assets/images/app-store.png"/>Apple Store</a>
+    <a href="https://play.google.com/store/apps/details?id=com.acuityscheduling.client.android&hl=en_US" class="btn section-btn" target="_blank" rel="noopener noreferrer"><img src="assets/images/playstore.png"/>Google Play Store</a>
 </div>
 
 * * *
