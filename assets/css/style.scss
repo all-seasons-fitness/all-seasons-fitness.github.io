@@ -1,0 +1,172 @@
+---
+---
+
+// Overwrite variables.scss from Cayman theme
+
+// Breakpoints
+// $large-breakpoint: 64em !default;
+// $medium-breakpoint: 42em !default;
+
+// // Headers
+// $header-heading-color: #fff !default;
+// $header-bg-color: #159957 !default;
+// $header-bg-color-secondary: #155799 !default;
+
+// // Text
+// $section-headings-color: #159957 !default;
+// $body-text-color: #606c71 !default;
+// $body-link-color: #1e6bb8 !default;
+// $blockquote-text-color: #819198 !default;
+
+// // Code
+// $code-bg-color: #f3f6fa !default;
+// $code-text-color: #567482 !default;
+
+// // Borders
+// $border-color: #dce6f0 !default;
+// $table-border-color: #e9ebec !default;
+// $hr-border-color: #eff0f1 !default
+
+// @import "bootstrap.min"
+
+@import "{{ site.theme }}";
+
+// header/banner
+header.page-header {
+    padding: 0;
+    margin: 0;
+    margin-top: 80px;
+    margin-bottom: 1em;
+}
+
+// section headings
+.main-content h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+// spacing around the horizontal lines between sections
+.main-content hr {
+    margin: 2rem 2rem 0;
+}
+
+// all buttons
+.btn {
+    font-size: 1.15em;
+}
+
+// header button
+.btn.header-btn {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+// section buttons
+.btn.section-btn {
+    background-image: linear-gradient(120deg, #155997b2, #15955bb5);
+    color: white;
+    border-color: rgba(255,255,255,0.2)
+}
+
+.section-btn.btn:hover {
+    color:rgba(255,255,255,0.8);
+    text-decoration:none;
+    background-image: linear-gradient(120deg, rgba(21, 89, 151, 0.6), rgba(21, 149, 91, 0.6));
+    border-color: rgba(255,255,255,0.3)
+}
+
+.btn.section-btn img {
+    vertical-align: middle;
+    margin-right: 0.5em;
+    width: 1em;
+}
+
+// font size and content width
+@media screen and (min-width:64em) {
+    .main-content {
+        max-width: 80%;
+        font-size: 1em;
+    }
+    h2.project-tagline {
+        font-size: 1.75em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+// padding 
+@media screen and (min-width: 64em) {
+    .page-header {
+        padding: 0rem 6rem;
+    }
+}
+
+@media screen and (max-width: 42em) {
+    .page-header {
+        padding: 0rem 0rem;
+    }
+}
+  
+// nav style from freelancer
+
+@media(min-width:768px) {
+    .navbar-fixed-top {
+        padding: 10px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    background-color: white;
+}
+
+.navbar a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+}
+
+// .navbar-nav>.active>a {
+//     background-color: #{{ site.color.secondary-dark }} !important;
+// }
+
+// custom changes to navbar
+
+div.navbar-header.page-scroll button, div.navbar-header.page-scroll span, div.navbar-header.page-scroll a {
+    color: #159957;
+}
+
+ul.nav.navbar-nav.navbar-right li a {
+    color: #159957
+}
