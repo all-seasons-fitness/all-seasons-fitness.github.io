@@ -30,9 +30,12 @@ Anyone and everyone! I program for an intermediate level, but beginners are abso
 
 Kids are always welcome but not required either — you don’t have to be a parent to join!
 
-# First Class? Do This:
+# First Class Discount!
 
-Purchase + book your session on the Acuity scheduling app. Use the code "FIRSTCLASS!" to get your session for only $10!
+Purchase + book your session below with the code "FIRSTCLASS!" to get your session for only $10!
 Keep an eye out for a Facebook message from me beforehand as I’ll connect before your first class.
+
+<iframe src="https://allseasonsfitness.as.me/schedule/d78d06ae/appointment/75677355/calendar/any?certificate=FIRSTCLASS!" width="100%" height="800" frameBorder="0"></iframe>
+<script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
 
 Having issues? Just message me directly. Happy to help!
