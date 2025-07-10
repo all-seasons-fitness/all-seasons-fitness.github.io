@@ -41,8 +41,9 @@ logo: ./assets/images/logo1_white_transparent.png
 # navigation menu
 nav_pages:
   - index.md
-  - about.md
+  - coaches.md
   - first-class.md
+  - memberships.md
 
 # SEO Related
 # google_site_verification :

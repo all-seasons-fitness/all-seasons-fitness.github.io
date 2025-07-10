@@ -1,18 +1,20 @@
 ---
-title: About Brittany
-permalink: /about.html
+title: About the Coaches
+permalink: /coaches.html
 layout: default
 button_text: "Book a class!"
 button_url: "https://allseasonsfitness.as.me"
 ---
 
-# A Little About Me
+# About the Coaches
+
+## Meet Brittany
 
 Hi! I’m Brittany, proud mama of my two girls Amaiya and Tamia, and wife to my husband Drew. I'm from Humboldt County CA and have been in Seattle since 2010. I’ve been in the fitness industry for 17+ years, mostly in group coaching and management with my time in Seattle at Orangetheory Fitness and Experience Momentum.
 
 All Seasons Fitness was born when my eldest daughter arrived and I realized how few opportunities there were for parents to move their bodies with their kids in tow. These classes have allowed me to stay connected to the work I love while showing my daughters what strength looks like in real life. Instilling a love of movement in our kids matters deeply to me — and I’m grateful they get to watch us show up, do hard things, and take care of ourselves. 💪❤️
 
-# My Coaching Style
+## My Coaching Style
 
 I love fitness—but I also realize that fitness as an industry can be problematic as f***, so my goal is always to create a positive experience and opportunity for people to move with me.
 
@@ -24,7 +26,7 @@ You won’t hear me yelling about “earning your cheat meals" but I'll likely b
 
 I’ll offer modifications, challenges, feedback, and guidance so you can feel more in tune with your body and move with confidence. And for those of you who have struggled to find confidence in this industry I hope you can find it here. 💪
 
-# Real Talk on Kids, Chaos & Self-Compassion
+## Real Talk on Kids, Chaos & Self-Compassion
 
 I know parenting small kids is unpredictable and often a bit chaotic. That’s part of the beauty (and challenge) of these classes and that’s why these classes exist.
 
