@@ -43,6 +43,20 @@ header.page-header {
 .main-content h1 {
     margin-top: 1em;
     margin-bottom: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+
+.main-content h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+// main content text
+.main-content p, .main-content div {
+    font-size: 1.3em;
 }
 
 // spacing around the horizontal lines between sections
@@ -52,7 +66,7 @@ header.page-header {
 
 // all buttons
 .btn {
-    font-size: 1.15em;
+    font-size: 1.3em;
 }
 
 // header button
@@ -85,25 +99,90 @@ header.page-header {
 @media screen and (min-width:64em) {
     .main-content {
         max-width: 80%;
-        font-size: 1em;
     }
     h2.project-tagline {
-        font-size: 1.75em;
+        font-size: 2em;
         margin-top: 0;
         margin-bottom: 0;
     }
-}
-
-// padding 
-@media screen and (min-width: 64em) {
+    .main-content h1 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: 2.8em;
+    }
+    .main-content h2 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: 2.5em;
+    }
+    .main-content p, .main-content div {
+        font-size: 2em;
+    }
     .page-header {
         padding: 0rem 6rem;
+    }
+    div#acuity-schedule-container > div#loading-indicator {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .main-content {
+        max-width: 90%;
+    }
+    h2.project-tagline {
+        font-size: 2em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .main-content h1 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: 2.8em;
+    }
+    .main-content h2 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: 2.5em;
+    }
+    .main-content p, .main-content div {
+        font-size: 2em;
+    }
+    .page-header {
+        padding: 0rem 0rem;
+    }
+    div#acuity-schedule-container > div#loading-indicator {
+        font-size: 2em;
     }
 }
 
 @media screen and (max-width: 42em) {
+    .main-content {
+        max-width: 95%;
+    }
+    h2.project-tagline {
+        font-size: 2em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .main-content h1 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: 3em;
+    }
+    .main-content h2 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: 2.5em;
+    }
+    .main-content p, .main-content div {
+        font-size: 2em;
+    }
     .page-header {
         padding: 0rem 0rem;
+    }
+    div#acuity-schedule-container > div#loading-indicator {
+        font-size: 2em;
     }
 }
   
@@ -169,4 +248,61 @@ div.navbar-header.page-scroll button, div.navbar-header.page-scroll span, div.na
 
 ul.nav.navbar-nav.navbar-right li a {
     color: #159957
+}
+
+// add nested nav items (sub items)
+.collapse.navbar-collapse .nav-sub-menu {
+  list-style: none;
+}
+
+// .menu a{
+//   color: #fff;
+//   text-decoration: none;
+//   display: block;
+//   cursor: pointer;
+//   text-transform: uppercase;
+//   font-size: 12px;
+//   font-weight: 700;
+//   letter-spacing:0.2em;
+// }
+
+// show nav sub items on hover
+div.collapse.navbar-collapse > ul.nav > li.page-scroll:hover > ul.nav-sub-menu, div.collapse.navbar-collapse > ul.nav > li.page-scroll:active > ul.nav-sub-menu  {
+  display: block;
+}
+
+// nav sub item list
+div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu {
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  background: white;
+  min-width: 200px;
+  z-index: 1000;
+  display: none;
+  padding-inline-start: 20px;
+}
+
+// nav sub menu items
+div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li {
+ margin: 10px;
+}
+
+// nav sub menu a links
+div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li > a {
+ padding: 20px 0px;
+}
+
+// acuity scheduling iframe container
+div#acuity-schedule-container {
+    position: relative;
+}
+
+div#acuity-schedule-container > div#loading-indicator {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 10;
+    font-size: 1.3em;
 }
