@@ -6,36 +6,27 @@ button_text: "Book a class!"
 button_url: "https://allseasonsfitness.as.me"
 ---
 
-# What These Classes Are All About
-
-**Focus**: Functional strength (with extra glute & back work as we could all use some more of that!)
-
-**Style**: Strength-based conditioning — not just chasing a sweat to burn calories
-
-**Equipment**: We keep it simple so you’re not lugging too much gear
-
-**Environment**: Non-intimidating, kid-friendly, community-driven
-
-**Vibe**: Work hard, build community and support each other wherever we're at
-
-# Class Format
-
-**Length**: 1 hour
-
-**Structure**: 10 min warm-up, 32–40 min workout, short cool-down & stretch, lean-up, mingle, hang out if you’d like
-
-# Who Are These Classes For?
-
-Anyone and everyone! I program for an intermediate level, but beginners are absolutely welcome and everything can be scaled.
-
-Kids are always welcome but not required either — you don’t have to be a parent to join!
-
 # First Class Discount!
 
-Purchase + book your session below with the code "FIRSTCLASS!" to get your session for only $10!
+Welcome, we're glad you're here! Your first class is only $10! 
+
+Purchase + book your session below with the code "FIRSTCLASS!" to get your first class discount!
+
 Keep an eye out for a Facebook message from me beforehand as I’ll connect before your first class.
 
-<iframe src="https://allseasonsfitness.as.me/schedule/d78d06ae/appointment/75677355/calendar/any?certificate=FIRSTCLASS!" width="100%" height="800" frameBorder="0"></iframe>
-<script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
+<div id="acuity-schedule-container">
+    <iframe class="acuity-iframe" src="" width="100%" height="800" frameBorder="0"></iframe>
+    <div id="loading-indicator">Loading the schedule...</div>
+    <script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
+    <script>
+        const iframeEle = document.getElementsByClassName('acuity-iframe')[0];
+        console.log('iframe: ', iframeEle);
+        const loadingEle = document.getElementById('loading-indicator');
+        iframeEle.addEventListener('load', function() {
+            loadingEle.style.display = 'none';
+        });
+        iframeEle.src = "https://allseasonsfitness.as.me/schedule/d78d06ae/appointment/75677355/calendar/any?certificate=FIRSTCLASS!";
+    </script>
+</div>
 
-Having issues? Just message me directly. Happy to help!
+Having issues? [Just message me directly](index.html#contact). Happy to help!
