@@ -55,8 +55,13 @@ header.page-header {
 }
 
 // main content text
-.main-content p, .main-content div {
+.main-content p, .main-content div, .main-content ul {
     font-size: 1.3em;
+}
+
+// spacing between bullet point items
+.main-content li {
+    margin-bottom: 0.8em;
 }
 
 // spacing around the horizontal lines between sections
@@ -115,8 +120,11 @@ header.page-header {
         margin-bottom: 1em;
         font-size: 2.5em;
     }
-    .main-content p, .main-content div {
+    .main-content p, .main-content div, .main-content ul {
         font-size: 2em;
+    }
+    .main-content li {
+        margin-bottom: 0.8em;
     }
     .page-header {
         padding: 0rem 6rem;
@@ -145,8 +153,11 @@ header.page-header {
         margin-bottom: 1em;
         font-size: 2.5em;
     }
-    .main-content p, .main-content div {
+    .main-content p, .main-content div, .main-content ul {
         font-size: 2em;
+    }
+    .main-content li {
+        margin-bottom: 0.8em;
     }
     .page-header {
         padding: 0rem 0rem;
@@ -175,8 +186,11 @@ header.page-header {
         margin-bottom: 1em;
         font-size: 2.5em;
     }
-    .main-content p, .main-content div {
+    .main-content p, .main-content div, .main-content ul {
         font-size: 2em;
+    }
+    .main-content li {
+        margin-bottom: 0.8em;
     }
     .page-header {
         padding: 0rem 0rem;
