@@ -8,11 +8,9 @@ button_url: "https://allseasonsfitness.as.me"
 
 # First Class Discount!
 
-Welcome, we're glad you're here! Your first class is only $10! 
+Ready to give us a try? Your first class is only $10!
 
 Purchase + book your session below with the code "FIRSTCLASS!" to get your first class discount!
-
-Keep an eye out for a Facebook message from me beforehand as I’ll connect before your first class.
 
 <div id="acuity-schedule-container">
     <iframe class="acuity-iframe" src="" width="100%" height="800" frameBorder="0"></iframe>
@@ -30,3 +28,9 @@ Keep an eye out for a Facebook message from me beforehand as I’ll connect befo
 </div>
 
 Having issues? [Just message me directly](index.html#contact). Happy to help!
+
+All booked and ready to go? Keep an eye out for a text from Coach Brittany before class!
+
+Join in our FB group to gain access to all the pictures from class as well as monthly social events & community building opportunities.
+
+<div style="text-align: center;"><a href="https://www.facebook.com/groups/721088668952518/?ref=share&mibextid=NSMWBT" class="btn section-btn" target="_blank" rel="noopener noreferrer"><img src="assets/images/facebook_black.png"/>All Seasons Fitness</a></div>
