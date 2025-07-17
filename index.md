@@ -6,9 +6,11 @@ show_gh_info: false
 title: All Seasons Fitness
 ---
 
-All Seasons Fitness provides strength-based conditioning workouts in a non-intimidating, kid-friendly, community-driven environment. Classes are located in the Mountlake Terrace / Edmonds WA area.
+All Seasons Fitness was created to give people a place to move, connect, and get stronger —without the pressure to shrink, "bounce back" or show up looking perfectly put together.
 
-Who are these classes for? Anyone and everyone! They're designed for an intermediate level, but beginners are absolutely welcome and everything can be scaled. Kids are always welcome but not required either — you don’t have to be a parent to join!
+Our classes combine strength training, cardio, and core in a way that’s challenging but always adaptable. Whether you're pregnant, postpartum, starting fresh, or deep into your fitness journey, you'll find workouts that support your goals and a community that cheers you on. Kids are welcome. Modifications are always offered. And showing up imperfectly is more than enough.
+
+Classes are held outdoors in Mountlake Terrace during the spring/summer months, and indoors in Downtown Edmonds when the weather turns cold.
 
 **Length**: 1 hour
 
@@ -28,7 +30,7 @@ Who are these classes for? Anyone and everyone! They're designed for an intermed
 
 # Contact
 
-<div style="text-align:center">Phone: <a href="tel:+17078453595">(707) 845-3595</a> | Email: <a href="mailto:brittany.allseasonsfitness@gmail.com">brittany.allseasonsfitness@gmail.com</a> | <a href="https://www.facebook.com/brittany.athing/" target="_blank" rel="noopener noreferrer">Facebook profile</a></div>
+<div style="text-align:center"><a href="mailto:brittany.allseasonsfitness@gmail.com">brittany.allseasonsfitness@gmail.com</a> | <a href="https://www.facebook.com/brittany.athing/" target="_blank" rel="noopener noreferrer">Brittany's Facebook profile</a></div>
 <br>
 
 Join the All Seasons Fitness Facebook group for regular schedule/location updates, pictures, upcoming events, and more!
