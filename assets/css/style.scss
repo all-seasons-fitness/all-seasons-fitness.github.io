@@ -320,3 +320,37 @@ div#acuity-schedule-container > div#loading-indicator {
     z-index: 10;
     font-size: 1.3em;
 }
+
+// images
+img.asf-img {
+    justify-self: center;
+    max-width: 680px;
+}
+
+img.asf-img.asf-img-small {
+    justify-self: center;
+    max-width: 400px;
+    width: 50%;
+}
+
+img.asf-img.asf-img-small.pull-right {
+    margin: auto auto 0 1lh;
+}
+
+// float smaller image to left/right of text
+img.asf-img.asf-img-small.pull-left {
+    margin: auto 1lh 0 auto;
+}
+
+img.asf-img.asf-img-float-center {
+    display: inline-block;
+}
+
+// multiple images next to each other and centered
+img.asf-img.asf-img-float-center {
+    display: inline-block;
+}
+
+p:has(img.asf-img.asf-img-float-center) {
+    text-align: center;
+}
