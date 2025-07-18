@@ -10,6 +10,8 @@ button_url: "https://allseasonsfitness.as.me"
 
 ## Meet Brittany
 
+<img class="img-responsive asf-img pull-right asf-img-small" src="assets/images/brittany.jpg">
+
 Hi! I’m Brittany, proud mama of my two girls Amaiya and Tamia, and wife to my husband Drew. I'm from Humboldt County CA and have been in Seattle since 2010. I’ve been in the fitness industry for 17+ years, mostly in group coaching and management with my time in Seattle at Orangetheory Fitness and Experience Momentum.
 
 All Seasons Fitness was born when my eldest daughter arrived and I realized how few opportunities there were for parents to move their bodies with their kids in tow. These classes have allowed me to stay connected to the work I love while showing my daughters what strength looks like in real life. Instilling a love of movement in our kids matters deeply to me — and I’m grateful they get to watch us show up, do hard things, and take care of ourselves. 💪❤️
@@ -18,6 +20,7 @@ All Seasons Fitness was born when my eldest daughter arrived and I realized how 
 
 I love fitness—but I also realize that fitness as an industry can be problematic as f***, so my goal is always to create a positive experience and opportunity for people to move with me.
 
+<img class="img-responsive asf-img pull-left asf-img-small" src="assets/images/pushup.png">
 These classes are about building strength and confidence through movement that feels good. Yes, I’ll challenge you and encourage you to go heavier when you’re ready, but I’ll always be in your corner when you need to scale something back. Want to modify a workout? Need to cut reps? Step out for your kid? Great. Do what you need to do and I’ll be here to help you make it work.
 
 Movement is a tool—for mental health, energy, strength, resilience, and being able to fully live your life (and keep up with these wild little humans if you’ve got them). These workouts are not a punishment for cupcakes or a quest to shrink ourselves.
@@ -32,6 +35,7 @@ I know parenting small kids is unpredictable and often a bit chaotic. That’s p
 
 We need to keep showing up for ourselves, even in the chaos.
 
+<img class="img-responsive asf-img pull-right asf-img-small" src="assets/images/reverse_plank.png">
 If you're late, wearing only one shoe and covered in breastmilk.. come anyway. It's okay if you're low energy, and it's okay if kid needs you mid-set. You made it, you're showing up, and you can hop back in at any time.
 Pregnancy and postpartum shift everything so if you're a mom- please give yourself grace. You're not behind, broken or starting over. You're moving, and that's what matters. Just remember that while soreness is fun—total burnout that wrecks your week is not.
 

@@ -8,7 +8,12 @@ title: All Seasons Fitness
 
 All Seasons Fitness was created to give people a place to move, connect, and get stronger —without the pressure to shrink, "bounce back" or show up looking perfectly put together.
 
+<img class="img-responsive asf-img" src="assets/images/group1.png">
+
 Our classes combine strength training, cardio, and core in a way that’s challenging but always adaptable. Whether you're pregnant, postpartum, starting fresh, or deep into your fitness journey, you'll find workouts that support your goals and a community that cheers you on. Kids are welcome. Modifications are always offered. And showing up imperfectly is more than enough.
+
+<img class="img-responsive asf-img asf-img-small asf-img-float-center" src="assets/images/inside1.png">
+<img class="img-responsive asf-img asf-img-small asf-img-float-center" src="assets/images/latpull.png">
 
 Classes are held outdoors in Mountlake Terrace during the spring/summer months, and indoors in Downtown Edmonds when the weather turns cold.
 
@@ -25,6 +30,8 @@ Classes are held outdoors in Mountlake Terrace during the spring/summer months, 
 **Environment**: Non-intimidating, kid-friendly, community-driven
 
 **Vibe**: Work hard, build community and support each other wherever we're at
+
+<img class="img-responsive asf-img" src="assets/images/group3.png">
 
 * * *
 

@@ -31,3 +31,6 @@ You can buy memberships and book classes on the  <a href="https://allseasonsfitn
     <a href="https://apps.apple.com/us/app/acuity-scheduling-client/id1509524919" class="btn section-btn" target="_blank" rel="noopener noreferrer"><img src="assets/images/app-store.png"/>Apple Store</a>
     <a href="https://play.google.com/store/apps/details?id=com.acuityscheduling.client.android&hl=en_US" class="btn section-btn" target="_blank" rel="noopener noreferrer"><img src="assets/images/playstore.png"/>Google Play Store</a>
 </div>
+<br>
+
+<img class="img-responsive asf-img" src="assets/images/group7.png">

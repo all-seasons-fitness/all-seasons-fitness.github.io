@@ -18,3 +18,6 @@ button_url: "https://allseasonsfitness.as.me"
 - **What to bring**: Water, a mat, and anything your kiddo might need
 
 Classes are located in the Mountlake Terrace / Edmonds WA area. Locations can change throughout the year. Check the current schedule for details.
+
+<img class="img-responsive asf-img asf-img-small asf-img-float-center" src="assets/images/group1.png">
+<img class="img-responsive asf-img asf-img-small asf-img-float-center" src="assets/images/outside1.png">
