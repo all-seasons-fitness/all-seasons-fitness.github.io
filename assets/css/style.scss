@@ -37,6 +37,11 @@ header.page-header {
     margin: 0;
     margin-top: 80px;
     margin-bottom: 1em;
+    justify-items: center;
+}
+
+h2.project-tagline {
+    max-width: 95%;
 }
 
 // section headings
@@ -78,6 +83,7 @@ header.page-header {
 .btn.header-btn {
     margin-top: 1em;
     margin-bottom: 1em;
+    max-width: 95%;
 }
 
 // section buttons
