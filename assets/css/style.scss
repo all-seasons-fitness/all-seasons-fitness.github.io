@@ -31,6 +31,10 @@
 
 @import "{{ site.theme }}";
 
+// colors 
+// #155997b2
+// #15955bb5
+
 // header/banner
 header.page-header {
     padding: 0;
@@ -243,7 +247,13 @@ div#acuity-schedule-container > div#loading-indicator {
         padding-bottom: 150%;
     }
 }
-  
+
+@media(max-width: 992px) {
+    ul.nav.navbar-nav.navbar-right li a {
+        font-size: 0.9em;
+    }
+}
+
 // nav style from freelancer
 
 @media(min-width:768px) {
@@ -255,7 +265,7 @@ div#acuity-schedule-container > div#loading-indicator {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 1.7em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -294,18 +304,18 @@ div#acuity-schedule-container > div#loading-indicator {
     border: 0;
 }
 
-// .navbar-nav>.active>a {
-//     background-color: #{{ site.color.secondary-dark }} !important;
-// }
-
 // custom changes to navbar
 
 div.navbar-header.page-scroll button, div.navbar-header.page-scroll span, div.navbar-header.page-scroll a {
     color: #159957;
 }
 
+div.navbar-header.page-scroll button {
+    background-color: #15955bb5 !important;
+}
+
 ul.nav.navbar-nav.navbar-right li a {
-    color: #159957
+    color: #159957;
 }
 
 // add nested nav items (sub items)
