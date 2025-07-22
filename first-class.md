@@ -13,12 +13,11 @@ Ready to give us a try? Your first class is only $10!
 Purchase + book your session below with the code "FIRSTCLASS!" to get your first class discount!
 
 <div id="acuity-schedule-container">
-    <iframe class="acuity-iframe" src="" width="100%" height="800" frameBorder="0"></iframe>
+    <iframe class="acuity-iframe" src="" width="100%" height="800" frameBorder="0" allow="payment"></iframe>
     <div id="loading-indicator">Loading the schedule...</div>
     <script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
     <script>
         const iframeEle = document.getElementsByClassName('acuity-iframe')[0];
-        console.log('iframe: ', iframeEle);
         const loadingEle = document.getElementById('loading-indicator');
         iframeEle.addEventListener('load', function() {
             loadingEle.style.display = 'none';
