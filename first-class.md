@@ -1,5 +1,6 @@
 ---
 title: First class info
+short_name: first-class
 permalink: /first-class.html
 layout: default
 button_text: "Book a class!"

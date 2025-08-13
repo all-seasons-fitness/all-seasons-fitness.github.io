@@ -1,5 +1,6 @@
 ---
 title: About the Workouts
+short_name: workouts
 permalink: /workouts.html
 layout: default
 button_text: "Book a class!"

@@ -1,5 +1,6 @@
 ---
 title: About the Coaches
+short_name: coaches
 permalink: /coaches.html
 layout: default
 button_text: "Book a class!"

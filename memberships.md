@@ -1,5 +1,6 @@
 ---
 title: Membership Options
+short_name: memeberships
 permalink: /memberships.html
 layout: default
 button_text: "Buy a membership"

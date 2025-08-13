@@ -4,9 +4,10 @@ button_text: "Book a class!"
 button_url: "https://allseasonsfitness.as.me"
 show_gh_info: false
 title: All Seasons Fitness
+short_name: home
 ---
 
-All Seasons Fitness was created to give people a place to move, connect, and get stronger —without the pressure to shrink, "bounce back" or show up looking perfectly put together.
+All Seasons Fitness was created to give people a place to move, connect, and get stronger — without the pressure to shrink, "bounce back" or show up looking perfectly put together.
 
 <img class="img-responsive asf-img" src="assets/images/group1.png">
 
