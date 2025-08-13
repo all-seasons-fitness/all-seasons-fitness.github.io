@@ -299,6 +299,14 @@ div#acuity-schedule-container > div#loading-indicator {
     outline: 0;
 }
 
+.navbar a.active {
+    background-color: #15599729;
+}
+
+.navbar li, .navbar li a {
+    border-radius: 10px;
+}
+
 .navbar-default,
 .navbar-inverse {
     border: 0;
