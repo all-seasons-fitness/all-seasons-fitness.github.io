@@ -136,6 +136,7 @@ div#acuity-schedule-container > div#loading-indicator {
     transform: translate(-50%, 0%);
     z-index: 10;
     font-size: 1.3em;
+    text-align: center;
 }
 
 // media queries go last to get precedence
@@ -168,7 +169,7 @@ div#acuity-schedule-container > div#loading-indicator {
         padding: 0rem 6rem;
     }
     div#acuity-schedule-container > div#loading-indicator {
-        font-size: 2em;
+        font-size: 1.2em;
     }
     div#acuity-schedule-container {
         padding-bottom: 100%;
@@ -205,7 +206,7 @@ div#acuity-schedule-container > div#loading-indicator {
         padding: 0rem 0rem;
     }
     div#acuity-schedule-container > div#loading-indicator {
-        font-size: 2em;
+        font-size: 1.2em;
     }
     div#acuity-schedule-container {
         padding-bottom: 150%;
@@ -241,7 +242,7 @@ div#acuity-schedule-container > div#loading-indicator {
         padding: 0rem 0rem;
     }
     div#acuity-schedule-container > div#loading-indicator {
-        font-size: 2em;
+        font-size: 1.2em;
     }
     div#acuity-schedule-container {
         padding-bottom: 150%;
@@ -255,7 +256,7 @@ div#acuity-schedule-container > div#loading-indicator {
 }
 
 // nav style from freelancer
-
+// switch nav from toggle button (for narrow mobile screens/phone) to listing all nav items
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 10px 0;
