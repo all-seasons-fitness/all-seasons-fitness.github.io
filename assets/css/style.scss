@@ -139,6 +139,131 @@ div#acuity-schedule-container > div#loading-indicator {
     text-align: center;
 }
 
+// nav style from freelancer
+.navbar {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    background-color: white;
+}
+
+.navbar a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+.navbar a.active {
+    background-color: #15599729;
+}
+
+.navbar li, .navbar li a {
+    border-radius: 10px;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+}
+
+// custom changes to navbar
+
+div.navbar-header.page-scroll button, div.navbar-header.page-scroll span, div.navbar-header.page-scroll a {
+    color: #159957;
+}
+
+div.navbar-header.page-scroll button {
+    background-color: #15955bb5 !important;
+}
+
+ul.nav.navbar-nav.navbar-right li a {
+    color: #159957;
+}
+
+// add nested nav items (sub items)
+.collapse.navbar-collapse .nav-sub-menu {
+  list-style: none;
+}
+
+// .menu a{
+//   color: #fff;
+//   text-decoration: none;
+//   display: block;
+//   cursor: pointer;
+//   text-transform: uppercase;
+//   font-size: 12px;
+//   font-weight: 700;
+//   letter-spacing:0.2em;
+// }
+
+// show nav sub items on hover
+div.collapse.navbar-collapse > ul.nav > li.page-scroll:hover > ul.nav-sub-menu, div.collapse.navbar-collapse > ul.nav > li.page-scroll:active > ul.nav-sub-menu  {
+  display: block;
+}
+
+// nav sub item list - mobile
+div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu {
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  background: white;
+  min-width: 200px;
+  z-index: 1000;
+  display: none;
+  padding-inline-start: 20px;
+}
+
+// nav sub menu items - mobile
+div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li {
+ margin: 20px 0px;
+}
+
+// nav sub menu a links
+div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li > a {
+  margin: 20px 0px;
+  padding: 10px;
+}
+
+// images
+img.asf-img {
+    justify-self: center;
+    width: 100%;
+    max-width: 680px;
+}
+
+img.asf-img.asf-img-small {
+    justify-self: center;
+    width: 100%;
+}
+
+img.asf-img.asf-img-small.pull-right {
+    margin: auto auto 0 1lh;
+}
+
+// float smaller image to left/right of text
+img.asf-img.asf-img-small.pull-left {
+    margin: auto 1lh 0 auto;
+}
+
+img.asf-img.asf-img-float-center {
+    display: inline-block;
+}
+
+// multiple images next to each other and centered
+img.asf-img.asf-img-float-center {
+    display: inline-block;
+}
+
+p:has(img.asf-img.asf-img-float-center) {
+    text-align: center;
+}
+
 // media queries go last to get precedence
 @media screen and (min-width:64em) {
     .main-content {
@@ -255,132 +380,6 @@ div#acuity-schedule-container > div#loading-indicator {
     }
 }
 
-// nav style from freelancer
-.navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    background-color: white;
-}
-
-.navbar a:focus {
-    outline: 0;
-}
-
-.navbar .navbar-nav {
-    letter-spacing: 1px;
-}
-
-.navbar .navbar-nav li a:focus {
-    outline: 0;
-}
-
-.navbar a.active {
-    background-color: #15599729;
-}
-
-.navbar li, .navbar li a {
-    border-radius: 10px;
-}
-
-.navbar-default,
-.navbar-inverse {
-    border: 0;
-}
-
-// custom changes to navbar
-
-div.navbar-header.page-scroll button, div.navbar-header.page-scroll span, div.navbar-header.page-scroll a {
-    color: #159957;
-}
-
-div.navbar-header.page-scroll button {
-    background-color: #15955bb5 !important;
-}
-
-ul.nav.navbar-nav.navbar-right li a {
-    color: #159957;
-}
-
-// add nested nav items (sub items)
-.collapse.navbar-collapse .nav-sub-menu {
-  list-style: none;
-}
-
-// .menu a{
-//   color: #fff;
-//   text-decoration: none;
-//   display: block;
-//   cursor: pointer;
-//   text-transform: uppercase;
-//   font-size: 12px;
-//   font-weight: 700;
-//   letter-spacing:0.2em;
-// }
-
-// show nav sub items on hover
-div.collapse.navbar-collapse > ul.nav > li.page-scroll:hover > ul.nav-sub-menu, div.collapse.navbar-collapse > ul.nav > li.page-scroll:active > ul.nav-sub-menu  {
-  display: block;
-}
-
-// nav sub item list - mobile
-div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu {
-  position: absolute;
-  top: 30px;
-  left: 5px;
-  background: white;
-  min-width: 200px;
-  z-index: 1000;
-  display: none;
-  padding-inline-start: 20px;
-}
-
-// nav sub menu items - mobile
-div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li {
- margin: 20px 0px;
-}
-
-// nav sub menu a links
-div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li > a {
-  margin: 20px 0px;
-  padding: 10px;
-}
-
-// images
-img.asf-img {
-    justify-self: center;
-    width: 100%;
-    max-width: 680px;
-}
-
-img.asf-img.asf-img-small {
-    justify-self: center;
-    max-width: 400px;
-    width: 50%;
-}
-
-img.asf-img.asf-img-small.pull-right {
-    margin: auto auto 0 1lh;
-}
-
-// float smaller image to left/right of text
-img.asf-img.asf-img-small.pull-left {
-    margin: auto 1lh 0 auto;
-}
-
-img.asf-img.asf-img-float-center {
-    display: inline-block;
-}
-
-// multiple images next to each other and centered
-img.asf-img.asf-img-float-center {
-    display: inline-block;
-}
-
-p:has(img.asf-img.asf-img-float-center) {
-    text-align: center;
-}
-
 // switch nav from toggle button (for narrow mobile screens/phone) to listing all nav items
 // these override the mobile/collapsed nav settings and apply to larger screens
 @media(min-width:768px) {
@@ -420,5 +419,13 @@ p:has(img.asf-img.asf-img-float-center) {
         z-index: 1000;
         display: none;
         padding-inline-start: 10px;
+    }
+}
+
+// small images side by side on wider screens
+@media(min-width: 1173px) {
+    img.asf-img.asf-img-small {
+        max-width: 400px;
+        width: 50%;
     }
 }
