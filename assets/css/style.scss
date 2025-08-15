@@ -257,6 +257,7 @@ div#acuity-schedule-container > div#loading-indicator {
 
 // nav style from freelancer
 // switch nav from toggle button (for narrow mobile screens/phone) to listing all nav items
+// these override the mobile/collapsed nav settings and apply to larger screens
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 10px 0;
@@ -278,6 +279,22 @@ div#acuity-schedule-container > div#loading-indicator {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+
+    div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li > a {
+        margin: 20px 0px;
+        padding: 10px;
+    }
+
+    div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu {
+        position: absolute;
+        top: 60px;
+        left: 5px;
+        background: white;
+        min-width: 200px;
+        z-index: 1000;
+        display: none;
+        padding-inline-start: 10px;
     }
 }
 
@@ -348,19 +365,19 @@ div.collapse.navbar-collapse > ul.nav > li.page-scroll:hover > ul.nav-sub-menu, 
   display: block;
 }
 
-// nav sub item list
+// nav sub item list - mobile
 div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu {
   position: absolute;
-  top: 60px;
+  top: 30px;
   left: 5px;
   background: white;
   min-width: 200px;
   z-index: 1000;
   display: none;
-  padding-inline-start: 10px;
+  padding-inline-start: 20px;
 }
 
-// nav sub menu items
+// nav sub menu items - mobile
 div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li {
  margin: 20px 0px;
 }
