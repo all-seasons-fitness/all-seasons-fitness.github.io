@@ -3,8 +3,6 @@ title: About the Coaches
 short_name: coaches
 permalink: /coaches.html
 layout: default
-button_text: "Book a class!"
-button_url: "https://allseasonsfitness.as.me"
 ---
 
 # About the Coaches

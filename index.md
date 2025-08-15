@@ -1,7 +1,5 @@
 ---
 layout: default
-button_text: "Book a class!"
-button_url: "https://allseasonsfitness.as.me"
 show_gh_info: false
 title: All Seasons Fitness
 short_name: home

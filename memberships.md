@@ -3,8 +3,6 @@ title: Membership Options
 short_name: memeberships
 permalink: /memberships.html
 layout: default
-button_text: "Buy a membership"
-button_url: "https://allseasonsfitness.as.me"
 ---
 
 # Membership Options
