@@ -48,6 +48,10 @@ h2.project-tagline {
     max-width: 95%;
 }
 
+img.logo {
+    width: 350px;
+}
+
 // section headings
 .main-content h1 {
     margin-top: 1em;
@@ -419,6 +423,10 @@ p:has(img.asf-img.asf-img-float-center) {
         z-index: 1000;
         display: none;
         padding-inline-start: 10px;
+    }
+
+    img.logo {
+        width: 400px;
     }
 }
 
