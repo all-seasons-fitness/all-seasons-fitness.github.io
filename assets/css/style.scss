@@ -256,48 +256,6 @@ div#acuity-schedule-container > div#loading-indicator {
 }
 
 // nav style from freelancer
-// switch nav from toggle button (for narrow mobile screens/phone) to listing all nav items
-// these override the mobile/collapsed nav settings and apply to larger screens
-@media(min-width:768px) {
-    .navbar-fixed-top {
-        padding: 10px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-fixed-top .navbar-brand {
-        font-size: 1.7em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
-    }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-
-    div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li > a {
-        margin: 20px 0px;
-        padding: 10px;
-    }
-
-    div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu {
-        position: absolute;
-        top: 60px;
-        left: 5px;
-        background: white;
-        min-width: 200px;
-        z-index: 1000;
-        display: none;
-        padding-inline-start: 10px;
-    }
-}
-
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -421,4 +379,46 @@ img.asf-img.asf-img-float-center {
 
 p:has(img.asf-img.asf-img-float-center) {
     text-align: center;
+}
+
+// switch nav from toggle button (for narrow mobile screens/phone) to listing all nav items
+// these override the mobile/collapsed nav settings and apply to larger screens
+@media(min-width:768px) {
+    .navbar-fixed-top {
+        padding: 10px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 1.7em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+
+    div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li > a {
+        margin: 20px 0px;
+        padding: 10px;
+    }
+
+    div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu {
+        position: absolute;
+        top: 60px;
+        left: 5px;
+        background: white;
+        min-width: 200px;
+        z-index: 1000;
+        display: none;
+        padding-inline-start: 10px;
+    }
 }
