@@ -1,0 +1,13 @@
+- title: About
+  url: "#"
+  children:
+    - title: The Coaches
+      url: /coaches.html
+    - title: The Workouts
+      url: /workouts.html
+
+- title: First Class
+  url: /first-class.html
+
+- title: Memberships
+  url: /memberships.html

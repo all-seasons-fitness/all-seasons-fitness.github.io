@@ -18,19 +18,36 @@
                 <li class="hidden">
                     <a href="index.html#page-top">Home</a>
                 </li>
-                <li class="page-scroll">
-                    <a href="#" class="nav-sub-menu-top-level">About</a>
-                    <ul class="nav-sub-menu">
-                        <li><a href="./coaches.html" class="nav-sub-menu-link">The coaches</a></li>
-                        <li><a href="./workouts.html" class="nav-sub-menu-link">The workouts</a></li>
-                    </ul>
-                </li>
-                <li class="page-scroll">
-                    <a href="./first-class.html">First Class</a>
-                </li>
-                <li class="page-scroll">
-                    <a href="./memberships.html">Memberships</a>
-                </li>
+                {% for item in site.data.navigation %}
+                    <!-- Assign active if the page URL matches the link URL for this item or one of its children -->
+                    {% assign is_active = false %}
+                    {% if page.url == item.url %}
+                        {% assign is_active = true %}
+                    {% endif %}
+                    {% if item.children %}
+                        {% for child in item.children %}
+                        {% if page.url == child.url %}
+                            {% assign is_active = true %}
+                        {% endif %}
+                        {% endfor %}
+                    {% endif %}
+
+                    <li class="page-scroll{% if is_active %} active{% endif %}">
+                        <a href="{{ item.url }}" class="{% if item.children %}nav-sub-menu-top-level{% endif %}">
+                        {{ item.title }}
+                        </a>
+
+                        {% if item.children %}
+                        <ul class="nav-sub-menu">
+                            {% for child in item.children %}
+                            <li class="{% if page.url == child.url %}active{% endif %}">
+                                <a href="{{ child.url }}" class="nav-sub-menu-link">{{ child.title }}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </li>
+                {% endfor %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
