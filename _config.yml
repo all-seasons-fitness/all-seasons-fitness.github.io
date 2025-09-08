@@ -38,13 +38,6 @@ github.is_project_page: false
 # main logo in header
 logo: ./assets/images/logo1_white_transparent.png
 
-# navigation menu
-nav_pages:
-  - index.md
-  - coaches.md
-  - first-class.md
-  - memberships.md
-
 # SEO Related
 # google_site_verification :
 # bing_site_verification   :
