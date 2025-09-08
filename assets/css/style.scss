@@ -68,7 +68,7 @@ img.logo {
 }
 
 // main content text
-.main-content p, .main-content div, .main-content ul {
+.main-content p, .main-content div, .main-content ul, .main-content ol {
     font-size: 1.3em;
 }
 
@@ -289,7 +289,7 @@ p:has(img.asf-img.asf-img-float-center) {
         margin-bottom: 1em;
         font-size: 2.5em;
     }
-    .main-content p, .main-content div, .main-content ul {
+    .main-content p, .main-content div, .main-content ul, .main-content ol {
         font-size: 2em;
     }
     .main-content li {
@@ -326,7 +326,7 @@ p:has(img.asf-img.asf-img-float-center) {
         margin-bottom: 1em;
         font-size: 2.5em;
     }
-    .main-content p, .main-content div, .main-content ul {
+    .main-content p, .main-content div, .main-content ul, .main-content ol {
         font-size: 2em;
     }
     .main-content li {
@@ -362,7 +362,7 @@ p:has(img.asf-img.asf-img-float-center) {
         margin-bottom: 1em;
         font-size: 2.5em;
     }
-    .main-content p, .main-content div, .main-content ul {
+    .main-content p, .main-content div, .main-content ul, .main-content ol {
         font-size: 2em;
     }
     .main-content li {
