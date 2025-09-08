@@ -438,3 +438,35 @@ p:has(img.asf-img.asf-img-float-center) {
         width: 50%;
     }
 }
+
+
+// table (for schedule)
+.main-content {
+    table {
+        width: 80%;
+        border: none;
+        margin: 0 auto;
+        margin-bottom: 3em;
+        border-collapse: collapse;
+        display: table;
+    }
+    table th, table td {
+        border: none;
+        padding: 12px 15px;
+        text-align: center;
+        font-family: inherit;
+        font-size: 2em;
+        width: 50%;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    table tr:nth-child(odd) {
+        background-color: #f9f9f9;
+    }
+}
+
+span.quote {
+    font-style: italic;
+    color: #818181
+}
