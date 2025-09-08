@@ -6,8 +6,19 @@
     - title: The Workouts
       url: /workouts.html
 
-- title: First Class
-  url: /first-class.html
+- title: Get Started
+  url: "#"
+  children:
+    - title: First Class
+      url: /first-class.html
+    - title: FAQ
+      url: /faq.html
+
+- title: Schedule
+  url: schedule.html
 
 - title: Memberships
   url: /memberships.html
+
+- title: Reviews
+  url: /reviews.html
