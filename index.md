@@ -16,27 +16,13 @@ Our classes combine strength training, cardio, and core in a way that’s challe
 
 Classes are held outdoors in Mountlake Terrace during the spring/summer months, and indoors in Downtown Edmonds when the weather turns cold.
 
-**Length**: 1 hour
-
-**Structure**: 10 min warm-up, 32–40 min workout, short cool-down & stretch, lean-up, mingle, hang out if you’d like
-
-**Focus**: Functional strength (with extra glute & back work as we could all use some more of that!)
-
-**Style**: Strength-based conditioning — not just chasing a sweat to burn calories
-
-**Equipment**: We keep it simple so you’re not lugging too much gear
-
-**Environment**: Non-intimidating, kid-friendly, community-driven
-
-**Vibe**: Work hard, build community and support each other wherever we're at
-
 <img class="img-responsive asf-img" src="assets/images/group3.png">
 
 * * *
 
 # Contact
 
-<div style="text-align:center"><a href="mailto:brittany.allseasonsfitness@gmail.com">brittany.allseasonsfitness@gmail.com</a> | <a href="https://www.facebook.com/brittany.athing/" target="_blank" rel="noopener noreferrer">Brittany's Facebook profile</a></div>
+<div style="text-align:center"><a href="mailto:brittany.allseasonsfitness@gmail.com">brittany.allseasonsfitness@gmail.com</a></div>
 <br>
 
 Join the All Seasons Fitness Facebook group for regular schedule/location updates, pictures, upcoming events, and more!
