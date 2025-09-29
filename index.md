@@ -18,15 +18,15 @@ Classes are held outdoors in Mountlake Terrace during the spring/summer months, 
 
 <img class="img-responsive asf-img" src="assets/images/group3.png">
 
+Join the All Seasons Fitness Facebook group for regular schedule/location updates, pictures, upcoming events, and more!
+
+<div style="text-align: center;"><a href="https://www.facebook.com/groups/721088668952518/?ref=share&mibextid=NSMWBT" class="btn section-btn" target="_blank" rel="noopener noreferrer"><img src="assets/images/facebook_black.png"/>All Seasons Fitness</a></div>
+
 * * *
 
 # Contact
 
 <div style="text-align:center"><a href="mailto:brittany.allseasonsfitness@gmail.com">brittany.allseasonsfitness@gmail.com</a></div>
 <br>
-
-Join the All Seasons Fitness Facebook group for regular schedule/location updates, pictures, upcoming events, and more!
-
-<div style="text-align: center;"><a href="https://www.facebook.com/groups/721088668952518/?ref=share&mibextid=NSMWBT" class="btn section-btn" target="_blank" rel="noopener noreferrer"><img src="assets/images/facebook_black.png"/>All Seasons Fitness</a></div>
 
 <!-- ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png) -->
