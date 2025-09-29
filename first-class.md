@@ -5,7 +5,7 @@ permalink: /first-class.html
 layout: default
 ---
 
-# Your First Class at All Seasons Fitness
+# Your First Class
 
 Showing up for your first class can feel a little intimidating — we get it! Here’s what to expect and how to prepare so you can dive in confidently.
 
@@ -13,7 +13,7 @@ Showing up for your first class can feel a little intimidating — we get it! He
 
 1. **Warm-Up** – We’ll move together to get your body ready.
 2. **Guided Workout** – Exercises are led by your coach and can be scaled to your fitness level.
-3. **Cool Down & Stretch** – Time to recover and celebrate what you did.
+3. **Cool Down & Stretch** – Time to recover and celebrate what you did!
 
 ## How to Prepare
 
@@ -46,7 +46,7 @@ Your first class is **$10**. Reserve your spot and use the code "FirstClass!" wh
     </script>
 </div>
 
-Having issues? [Just email Brittany directly](index.html#contact). Happy to help!
+Having issues? [Just email Brittany directly](index.html#contact).
 
 Join in our FB group to gain access to all the pictures from class as well as monthly social events & community building opportunities.
 
