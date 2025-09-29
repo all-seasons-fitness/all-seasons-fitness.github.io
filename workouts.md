@@ -7,7 +7,7 @@ layout: default
 
 # About the Workouts
 
-- **Who should come**: Anyone and everyone! If you're cleared and safe to exercise, you're welcome to join the crew. I program classes to the intermediate level and will scale things up or down according to your needs.
+- **Who should come**: Anyone and everyone! If you're cleared and safe to exercise, you're welcome to join the crew. Classes are programmed to the intermediate level and will be scaled up or down according to your needs.
 - **Length**: 60 minutes
 - **Style**: Bootcamp/CrossFit-inspired, with an emphasis on functional strength through strength based endurance training
 - **Class structure**: 10 min warm up, 32-40 min workout, followed by a short cool down, stretch and mingle
