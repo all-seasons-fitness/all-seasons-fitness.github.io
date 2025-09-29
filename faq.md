@@ -61,7 +61,7 @@ Comfortable workout clothes, a water bottle, and whatever you need for your kidd
 
 **Do I need to bring my own equipment?**
 
-We’ll provide dumbbells for your **first class** so you can just show up. After that, you have two options:
+We’ll provide dumbbells for your [first class](/first-class.html) so you can just show up. After that, you have two options:
    - Use the weights we bring each session, or
    - Bring your own set and receive a member discount.
 
