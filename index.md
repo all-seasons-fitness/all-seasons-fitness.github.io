@@ -9,7 +9,7 @@ All Seasons Fitness was created to give people a place to move, connect, and get
 
 <img class="img-responsive asf-img" src="assets/images/group1.png">
 
-Our classes combine strength training, cardio, and core in a way that’s challenging but always adaptable. Whether you're pregnant, postpartum, starting fresh, or deep into your fitness journey, you'll find workouts that support your goals and a community that cheers you on. Kids are welcome. Modifications are always offered. And showing up imperfectly is more than enough.
+Our classes combine strength training, cardio, and core in a way that’s challenging but always adaptable. Classes are open and welcoming to all genders and fitness levels. Whether you’re starting fresh, deep into your fitness journey, pregnant or postpartum, you’ll find workouts that support your goals and a community that cheers you on. Kids are welcome. Modifications are always offered. And showing up imperfectly is more than enough.
 
 <img class="img-responsive asf-img asf-img-small asf-img-float-center" src="assets/images/inside1.png">
 <img class="img-responsive asf-img asf-img-small asf-img-float-center" src="assets/images/latpull.png">
