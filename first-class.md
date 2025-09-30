@@ -7,6 +7,7 @@ layout: default
 
 # Your First Class
 
+<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/group3.png">
 Showing up for your first class can feel a little intimidating — we get it! Here’s what to expect and how to prepare so you can dive in confidently.
 
 ## What Happens in Class
