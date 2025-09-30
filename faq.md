@@ -11,6 +11,8 @@ layout: default
 
 **Do I need to be in shape before I join?**
 
+<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/inside1.png">
+
 Not at all! Every class is designed with options for all fitness levels — from brand-new beginners to experienced athletes. You’ll always be encouraged to move at your pace, and this is a crew of people who get it — wherever you’re at.
 
 **Am I too old/too young to join?**
@@ -52,6 +54,9 @@ Yes! All Seasons Fitness is family-friendly and while kids aren't a part of the 
 **What do my kids do during class?**
 
 It depends on your kiddo! Some play with others, some will stay next to you and try to climb all over you every chance they get. Sometimes the goal is just getting out of the house and getting some movement in. Bring snacks, toys, or whatever keeps them happy. If you need to nurse or step aside for a moment, that’s okay too!
+
+<img class="img-responsive asf-img asf-img-small asf-img-float-center" src="assets/images/pushup.png">
+<img class="img-responsive asf-img asf-img-small asf-img-float-center" src="assets/images/reverse_plank.png">
 
 ## Gear & Costs
 
