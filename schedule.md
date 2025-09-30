@@ -15,4 +15,6 @@ layout: default
 
 Subject to change! Check the <a href="https://allseasonsfitness.as.me" target="_blank" rel="noopener noreferrer">All Seasons Fitness Acuity website</a> for the most up-to-date information.
 
-Classes have a 3 person minimum so please make sure to sign up in advance! 
+Classes have a 3 person minimum so please make sure to sign up in advance!
+
+<img class="img-responsive asf-img" src="assets/images/group4.png">
