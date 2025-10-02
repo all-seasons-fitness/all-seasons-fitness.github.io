@@ -243,8 +243,8 @@ img.asf-img {
 }
 
 img.asf-img.asf-img-small {
-    justify-self: center;
-    width: 100%;
+    max-width: 400px;
+    width: 50%;
 }
 
 img.asf-img.asf-img-small.pull-right {
@@ -256,14 +256,16 @@ img.asf-img.asf-img-small.pull-left {
     margin: auto 1lh 0 auto;
 }
 
-img.asf-img.asf-img-float-center {
+// multiple images next to each other and centered
+img.asf-img.asf-img-small.asf-img-float-center {
+    max-width: 400px;
+    width: 50%;
     display: inline-block;
 }
 
-// multiple images next to each other and centered
-img.asf-img.asf-img-float-center {
-    display: inline-block;
-}
+// img.asf-img.asf-img-float-center {
+//     display: inline-block;
+// }
 
 p:has(img.asf-img.asf-img-float-center) {
     text-align: center;
@@ -431,14 +433,24 @@ p:has(img.asf-img.asf-img-float-center) {
     }
 }
 
-// small images side by side on wider screens
-@media(min-width: 1173px) {
-    img.asf-img.asf-img-small {
-        max-width: 400px;
-        width: 50%;
+// when screen gets small enough, the multiple small images that are floating centered next to each other should be stacked and wider
+@media(max-width: 1174px) {
+    img.asf-img.asf-img-small.asf-img-float-center {
+        justify-self: center;
+        width: 100%;
+        max-width: 80%;
     }
 }
 
+// when screen gets small enough, the small images that are pulled left/right should take up the full width
+@media(max-width: 550px) {
+    img.asf-img.asf-img-small.pull-right, img.asf-img.asf-img-small.pull-left {
+        justify-self: center;
+        width: 100%;
+        max-width: 80%;
+        float: unset !important;
+    }
+}
 
 // table (for schedule)
 .main-content {
