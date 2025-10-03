@@ -39,7 +39,7 @@
 header.page-header {
     padding: 0;
     margin: 0;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 1em;
     justify-items: center;
 }
@@ -178,6 +178,10 @@ div#acuity-schedule-container > div#loading-indicator {
 }
 
 // custom changes to navbar
+
+nav.navbar.navbar-default.navbar-fixed-top {
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
 
 div.navbar-header.page-scroll button, div.navbar-header.page-scroll span, div.navbar-header.page-scroll a {
     color: #159957;
@@ -395,6 +399,10 @@ p:has(img.asf-img.asf-img-float-center) {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+    }
+
+    header.page-header {
+        margin-top: 80px;
     }
 
     .navbar-fixed-top .navbar-brand {
