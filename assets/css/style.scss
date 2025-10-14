@@ -241,6 +241,8 @@ div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li > 
 
 // images
 img.asf-img {
+    margin-left: auto;
+    margin-right: auto;
     justify-self: center;
     width: 100%;
     max-width: 680px;
@@ -444,6 +446,8 @@ p:has(img.asf-img.asf-img-float-center) {
 // when screen gets small enough, the multiple small images that are floating centered next to each other should be stacked and wider
 @media(max-width: 1174px) {
     img.asf-img.asf-img-small.asf-img-float-center {
+        margin-left: auto;
+        margin-right: auto;
         justify-self: center;
         width: 100%;
         max-width: 80%;
@@ -453,6 +457,8 @@ p:has(img.asf-img.asf-img-float-center) {
 // when screen gets small enough, the small images that are pulled left/right should take up the full width
 @media(max-width: 550px) {
     img.asf-img.asf-img-small.pull-right, img.asf-img.asf-img-small.pull-left {
+        margin-left: auto;
+        margin-right: auto;
         justify-self: center;
         width: 100%;
         max-width: 80%;
