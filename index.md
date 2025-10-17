@@ -13,7 +13,7 @@ Our classes combine strength training, cardio, and core in a way that’s challe
 
 <img class="img-responsive asf-img" src="assets/images/latpull.png">
 
-Classes are held outdoors in Mountlake Terrace during the spring/summer months, and indoors in Downtown Edmonds when the weather turns cold.
+Classes are currently in The Masonic Center in Downtown Edmonds. We move outdoors in Mountlake Terrace during the spring and summer months.
 
 <img class="img-responsive asf-img" src="assets/images/dads.jpg">
 
