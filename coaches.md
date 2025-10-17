@@ -17,7 +17,7 @@ All Seasons Fitness was born when my eldest daughter arrived and I realized how 
 
 ### My Coaching Style
 
-I love fitness—but I also realize that fitness as an industry can be problematic as f***, so my goal is always to create a positive experience and opportunity for people to move with me.
+I love fitness—but I also realize that fitness as an industry can be incredibly problematic, so my goal is always to create a positive experience and opportunity for people to move with me.
 
 These classes are about building strength and confidence through movement that feels good. Yes, I’ll challenge you and encourage you to go heavier when you’re ready, but I’ll always be in your corner when you need to scale something back. Want to modify a workout? Need to cut reps? Step out for your kid? Great. Do what you need to do and I’ll be here to help you make it work.
 
