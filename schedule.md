@@ -17,5 +17,5 @@ Please double check the <a href="https://allseasonsfitness.as.me" target="_blank
 | Sunday | 9am with Brittany or Kristina |
 
 <img class="img-responsive asf-img" src="assets/images/group4.png">
-gi
+
 <p style="font-style: italic;">Classes have a 3 person minimum so please make sure to sign up in advance.</p>
