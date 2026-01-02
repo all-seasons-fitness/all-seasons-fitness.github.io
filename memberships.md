@@ -29,11 +29,11 @@ Memberships renew monthly and can be canceled or changed anytime — you’re in
 
 ## Sign Up & Book Classes
 
-You can buy memberships/packs and reserve your spot on the  <a href="https://allseasonsfitness.as.me" target="_blank" rel="noopener noreferrer">All Seasons Fitness Acuity website</a>, or download the Acuity scheduling app (links below) to sign up and pay for classes from your phone.
+You can buy memberships/packs and reserve your spot on the  <a href="https://allseasonsfitness.pushpress.com/landing/calendar" target="_blank" rel="noopener noreferrer">All Seasons Fitness Push Press website</a>, or download the app (links below) to sign up and pay for classes from your phone.
 
 <div style="text-align: center;">
-    <a href="https://apps.apple.com/us/app/acuity-scheduling-client/id1509524919" class="btn section-btn" target="_blank" rel="noopener noreferrer"><img src="assets/images/app-store.png"/>Apple Store</a>
-    <a href="https://play.google.com/store/apps/details?id=com.acuityscheduling.client.android&hl=en_US" class="btn section-btn" target="_blank" rel="noopener noreferrer"><img src="assets/images/playstore.png"/>Google Play Store</a>
+    <a href="https://apps.apple.com/us/app/all-seasons-fitness/id6755699897" class="btn section-btn" target="_blank" rel="noopener noreferrer"><img src="assets/images/app-store.png"/>Apple Store</a>
+    <a href="https://play.google.com/store/apps/details?id=com.pushpress.allseasonsfitness" class="btn section-btn" target="_blank" rel="noopener noreferrer"><img src="assets/images/playstore.png"/>Google Play Store</a>
 </div>
 <br>
 

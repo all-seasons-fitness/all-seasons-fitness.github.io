@@ -43,7 +43,7 @@ We're outdoors in Mountlake Terrace for part of the year, indoors at the Masonic
 
 **Do I need to sign up ahead of time?**
 
-Yes, please do! It helps us plan class and make sure equipment is ready for you. Reserve your spot on the <a href="https://allseasonsfitness.as.me" target="_blank" rel="noopener noreferrer">All Seasons Fitness Acuity website</a>.
+Yes, please do! It helps us plan class and make sure equipment is ready for you. <a href="https://allseasonsfitness.pushpress.com/open/interested/" target="_blank" rel="noopener noreferrer">Register for your first class</a> or reserve your spot on the <a href="https://allseasonsfitness.pushpress.com/landing/calendar" target="_blank" rel="noopener noreferrer">All Seasons Fitness Push Press website</a>.
 
 ## Family-Friendly
 

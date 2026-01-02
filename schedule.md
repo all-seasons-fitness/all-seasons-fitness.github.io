@@ -7,7 +7,7 @@ layout: default
 
 # Class Schedule
 
-Please double check the <a href="https://allseasonsfitness.as.me" target="_blank" rel="noopener noreferrer">All Seasons Fitness Acuity website</a> for the most up-to-date schedulng information. Classes subject to change. 
+Please double check the <a href="https://allseasonsfitness.pushpress.com/landing/calendar" target="_blank" rel="noopener noreferrer">All Seasons Fitness Push Press website</a> for the most up-to-date schedulng information. Classes subject to change.
 
 
 | Monday | 5:30am with Katie <br/> 10am with Brittany <br/> 4:30pm with Brittany |
