@@ -72,4 +72,4 @@ We’ll provide dumbbells for your [first class](/first-class.html) so you can j
 
 **How much does it cost?**
 
-Your [first class](/first-class.html) is $10. After that, you can choose a membership or class pack that fits your schedule - see the [memberships page](/memberships.html) for more info. 
+Your [first class](/first-class.html) is free! After that, you can choose a membership or class pack that fits your schedule - see the [memberships page](/memberships.html) for more info. 
