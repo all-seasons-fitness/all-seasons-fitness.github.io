@@ -11,21 +11,21 @@ No start-up fees. No long cancellation windows. No pressure. Just options that f
 
 ## Try Your First Class
 
-$10 – Your [first class](/first-class.html) is a low-commitment way to see if we’re a good fit.
+Free! – Your [first class](/first-class.html) is a low-commitment way to see if we’re a good fit.
 
-## Montly Memberships
+## Monthly Memberships
 
-- **4x/month** $55 → Great for once-a-week accountability.
-- **8x/month** $100 → Two days/week is ideal for strength and fitness.
-- **Unlimited** $125 → Come as often as you like!
+- **4x/month** $62 → Great for once-a-week accountability.
+- **8x/month** $118 → Two days/week is ideal for strength and fitness.
+- **Unlimited** $145 → Come as often as you like!
 
 Memberships renew monthly and can be canceled or changed anytime — you’re in control.
 
 ## Flexible Options
 
-- **10-Class Pack** $150 (6 month expiration)
-- **20-Class Pack** $280 (6 month expiration)
-- **Drop-Ins** $17 → Jump in whenever it works for you!
+- **10-Class Pack** $170 (6 month expiration)
+- **20-Class Pack** $320 (6 month expiration)
+- **Drop-Ins** $20 → Jump in whenever it works for you!
 
 ## Sign Up & Book Classes
 
