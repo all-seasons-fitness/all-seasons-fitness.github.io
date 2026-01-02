@@ -31,23 +31,14 @@ Showing up for your first class can feel a little intimidating — we get it! He
 
 ## Ready to Join?
 
-Your first class is **$10**. Reserve your spot and use the code "FirstClass!" when booking with Acuity (code is automatically applied on the booking page below). You'll have an option to pay with card or bring cash. Once you're in, look out for a text from one of our coaches! 
+Your first class is **FREE**. Just fill out a short form and you'll receive a link to book your first class. 
+<br><br>
 
-<div id="acuity-schedule-container">
-    <iframe class="acuity-iframe" src="" allow="payment"></iframe>
-    <div id="loading-indicator">Loading the schedule...</div>
-    <script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
-    <script>
-        const iframeEle = document.getElementsByClassName('acuity-iframe')[0];
-        const loadingEle = document.getElementById('loading-indicator');
-        iframeEle.addEventListener('load', function() {
-            loadingEle.style.display = 'none';
-        });
-        iframeEle.src = "https://allseasonsfitness.as.me/schedule/d78d06ae/appointment/75677355/calendar/any?certificate=FIRSTCLASS!";
-    </script>
-</div>
+<div style="text-align: center;"><a href="https://allseasonsfitness.pushpress.com/open/interested/" class="btn section-btn" target="_blank" rel="noopener noreferrer">Sign up for my first class!</a></div>
 
-Having issues? [Just email Brittany directly](index.html#contact).
+<br>
+<hr>
+<br>
 
 Join in our FB group to gain access to all the pictures from class as well as monthly social events & community building opportunities.
 
