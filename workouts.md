@@ -7,16 +7,32 @@ layout: default
 
 # About the Workouts
 
-- **Who should come**: Anyone and everyone! If you're cleared and safe to exercise, you're welcome to join the crew. Classes are programmed to the intermediate level and will be scaled up or down according to your needs.
-- **Length**: 60 minutes
-- **Style**: Bootcamp/CrossFit-inspired, with an emphasis on functional strength through strength based endurance training
-- **Class structure**: 10 min warm up, 32-40 min workout, followed by a short cool down, stretch and mingle
-- **Equipment**: Dumbbells, with the occasional use of resistance bands & other equipment
-- **Kids?**: Totally welcome to tag along!
-- **Environment**: Non intimidating, family friendly & community-driven
-- **What to bring**: Water, a mat, and anything your kiddo might need
+**Who it's for:**
+All fitness levels are welcome. Classes are programmed at an intermediate level, with clear options to scale up or down so everyone can train safely and effectively.
 
-Classes are located in the Mountlake Terrace / Edmonds WA area. Locations can change throughout the year. Check the current schedule for details.
+**Class length:**
+60 minutes
+
+**Style:**
+Bootcamp / CrossFit-inspired training with an emphasis on functional strength, strength-based endurance, and efficient conditioning.
+
+**Class flow:**
+Each class includes a guided warm-up, a focused strength and conditioning workout (32–40 minutes), and time to cool down, stretch, and connect at the end.
+
+**Equipment:**
+Dumbbells are used in every class, with occasional resistance bands and other simple equipment mixed in.
+
+**Kids:**
+Kids are welcome to hang out during class. Many members bring theirs, and we aim to keep the environment relaxed and realistic.
+
+**Environment:**
+Supportive, non-intimidating, and community-driven. Strong coaching without the pressure or performative gym culture.
+
+**What to bring:**
+Water, a mat if you like one, and anything your kiddo may need.
+
+**Location:**
+Classes are held in the Mountlake Terrace / Edmonds, WA area. Locations may change seasonally — check the current schedule for details.
 
 <img class="img-responsive asf-img asf-img-small asf-img-float-center" src="assets/images/group1.png">
 <img class="img-responsive asf-img asf-img-small asf-img-float-center" src="assets/images/outside1.png">

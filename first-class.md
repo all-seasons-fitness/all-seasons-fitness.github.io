@@ -5,40 +5,37 @@ permalink: /first-class.html
 layout: default
 ---
 
-# Your First Class
-
-<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/group3.png">
-Showing up for your first class can feel a little intimidating — we get it! Here’s what to expect and how to prepare so you can dive in confidently.
-
-## What Happens in Class
-
-1. **Warm-Up** – We’ll move together to get your body ready.
-2. **Guided Workout** – Exercises are led by your coach and can be scaled to your fitness level.
-3. **Cool Down & Stretch** – Time to recover and celebrate what you did!
+# Your First Class at All Seasons Fitness
 
 ## How to Prepare
 
-- Wear comfortable workout clothes and shoes.
-- Bring a water bottle & a mat (yoga mat, outdoor blanket.. it all works!)
-- Kids are welcome — bring snacks, toys, or whatever keeps them happy. 
-- Don’t worry about equipment — we provide dumbbells for your first class.
+Wear comfortable workout clothes and athletic shoes.
+
+Bring water and a mat (a yoga mat, towel, or outdoor blanket all work).
+
+Kids are welcome — bring snacks, toys, or whatever helps them stay comfortable.
+
+All equipment is provided for your first class.
+
+## What Happens in Class
+
+**Warm-Up:** We start together with a guided warm-up to get your body ready.
+
+**Workout:** The main workout combines strength and conditioning. Your coach will demonstrate the movements, offers options, watch your form and help you adjust as needed.
+
+**Cool Down:** We finish with a short cool down and stretch, plus a few minutes to connect before heading out.
 
 ## What We Ask of You
 
-- Arrive 5–10 minutes early so we can greet you and get you set up.
-- Let your coach know about any injuries, pregnancy, or postpartum needs.
-- Come ready to move at your own pace and have fun — no expectations, no judgment.
+Please arrive 10 minutes early so we can get you set up and ready to go.
+
+Let your coach know about any injuries, pregnancy, or postpartum considerations.
+
+Move at your own pace and take rest as needed.
 
 ## Ready to Join?
 
-Your first class is **FREE**. Just fill out a short form and you'll receive a link to book your first class. 
-<br><br>
-
-<div style="text-align: center;"><a href="https://allseasonsfitness.pushpress.com/open/interested/" class="btn section-btn" target="_blank" rel="noopener noreferrer">Sign up for my first class!</a></div>
-
-<br>
-<hr>
-<br>
+Your first class is free! <a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" target="_blank" rel="noopener noreferrer">Click here to book your free class</a>.
 
 Join in our FB group to gain access to all the pictures from class as well as monthly social events & community building opportunities.
 
