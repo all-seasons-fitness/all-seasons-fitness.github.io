@@ -21,7 +21,7 @@
         <!-- style="background-image: url('{{ page.logo }}'); background-repeat: no-repeat;" -->
       <a href="index.html#page-top"><img src="{{ site.logo }}" alt="Logo" class="logo"></a>
       <!-- <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1> -->
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       {% if page.button_text %}
         <a href="{{ page.button_url }}" class="btn header-btn" target="_blank" rel="noopener noreferrer"`>{{ page.button_text }}</a>
       {% endif %}

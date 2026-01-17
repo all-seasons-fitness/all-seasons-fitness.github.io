@@ -7,13 +7,13 @@
 // $large-breakpoint: 64em !default;
 // $medium-breakpoint: 42em !default;
 
-// // Headers
+// Headers
 // $header-heading-color: #fff !default;
-// $header-bg-color: #159957 !default;
-// $header-bg-color-secondary: #155799 !default;
+// $header-bg-color: #36726f !default;
+// $header-bg-color-secondary: #36726f !default;
 
-// // Text
-// $section-headings-color: #159957 !default;
+// Text - override section headings to brand teal
+$section-headings-color: #36726f !default;
 // $body-text-color: #606c71 !default;
 // $body-link-color: #1e6bb8 !default;
 // $blockquote-text-color: #819198 !default;
@@ -31,9 +31,22 @@
 
 @import "{{ site.theme }}";
 
-// colors 
-// #155997b2
-// #15955bb5
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Signika:wght@700&display=swap');
+
+// Typography
+body, .main-content {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .project-tagline {
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+}
+
+// colors
+// #36726fb2
+// #36726fb5
 
 // header/banner
 header.page-header {
@@ -96,7 +109,7 @@ img.logo {
 
 // section buttons
 .btn.section-btn {
-    background-image: linear-gradient(120deg, #155997b2, #15955bb5);
+    background-image: linear-gradient(90deg, #2e5f8b 0%, #36726f 100%);
     color: white;
     border-color: rgba(255,255,255,0.2)
 }
@@ -104,7 +117,7 @@ img.logo {
 .section-btn.btn:hover {
     color:rgba(255,255,255,0.8);
     text-decoration:none;
-    background-image: linear-gradient(120deg, rgba(21, 89, 151, 0.6), rgba(21, 149, 91, 0.6));
+    background-image: linear-gradient(90deg, rgba(46, 95, 139, 0.8), rgba(54, 114, 111, 0.8));
     border-color: rgba(255,255,255,0.3)
 }
 
@@ -151,6 +164,12 @@ div#acuity-schedule-container > div#loading-indicator {
     background-color: white;
 }
 
+.navbar-brand {
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
 .navbar a:focus {
     outline: 0;
 }
@@ -165,7 +184,7 @@ div#acuity-schedule-container > div#loading-indicator {
 
 // this level of specificity is needed to override bootstrap
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    background-color: #15599729;
+    background-color: #36726f29;
 }
 
 .navbar li, .navbar li a {
@@ -184,15 +203,15 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 
 div.navbar-header.page-scroll button, div.navbar-header.page-scroll span, div.navbar-header.page-scroll a {
-    color: #159957;
+    color: #36726f;
 }
 
 div.navbar-header.page-scroll button {
-    background-color: #15955bb5 !important;
+    background-color: #36726fb5 !important;
 }
 
 ul.nav.navbar-nav.navbar-right li a {
-    color: #159957;
+    color: #36726f;
 }
 
 // add nested nav items (sub items)
@@ -470,30 +489,70 @@ p:has(img.asf-img.asf-img-float-center) {
 // table (for schedule)
 .main-content {
     table {
-        width: 80%;
+        width: 90%;
+        max-width: 800px;
         border: none;
-        margin: 0 auto;
-        margin-bottom: 3em;
-        border-collapse: collapse;
+        margin: 2em auto 3em;
+        border-collapse: separate;
+        border-spacing: 0;
         display: table;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     }
     table th, table td {
         border: none;
-        padding: 12px 15px;
-        text-align: center;
-        font-family: inherit;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        padding: 18px 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.8em;
+    }
+    table tr:last-child td {
+        border-bottom: none;
+    }
+    table td:first-child {
+        background: linear-gradient(90deg, #2e5f8b 0%, #36726f 100%);
+        color: white;
+        font-family: 'Signika', sans-serif;
+        font-weight: 700;
         font-size: 2em;
-        width: 50%;
+        text-align: center;
+        width: 30%;
+    }
+    table td:last-child {
+        text-align: left;
+        background-color: white;
+        width: 70%;
+        line-height: 1.8;
     }
     th {
-        background-color: #f2f2f2;
+        background: linear-gradient(90deg, #2e5f8b 0%, #36726f 100%);
+        color: white;
+        font-family: 'Signika', sans-serif;
     }
-    table tr:nth-child(odd) {
-        background-color: #f9f9f9;
+    table tr:nth-child(even) td:last-child {
+        background-color: #f8faf9;
+    }
+    table tr:hover td:last-child {
+        background-color: #e8f5e9;
     }
 }
 
 span.quote {
     font-style: italic;
     color: #818181
+}
+
+// testimonial styling with subtle teal background
+.testimonial {
+    background-color: rgba(54, 114, 111, 0.08);
+    border-left: 4px solid #36726f;
+    padding: 1.2em 1.5em;
+    margin: 1.5em 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.testimonial p {
+    margin: 0;
+    font-style: italic;
 }

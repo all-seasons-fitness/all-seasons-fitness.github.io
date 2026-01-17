@@ -3,12 +3,12 @@ title: Schedule
 short_name: schedule
 permalink: /schedule.html
 layout: default
+description: "Weekly class schedule for All Seasons Fitness in Edmonds and Mountlake Terrace, WA. Morning, midday, and evening options available."
 ---
 
 # Class Schedule
 
-Please double check the <a href="https://allseasonsfitness.pushpress.com/landing/calendar" target="_blank" rel="noopener noreferrer">All Seasons Fitness Push Press website</a> for the most up-to-date schedulng information. Classes subject to change.
-
+We offer classes throughout the week to fit different schedules. All classes are 60 minutes and welcome all fitness levels. [Meet our coaches](/coaches.html) to learn more about who you'll be training with.
 
 | Monday | 5:30am with Katie <br/> 10am with Brittany <br/> 4:30pm with Kristina |
 | Wednesday | 5:30am with Katie <br/> 10am with Kristina <br/> 5:30pm with Brittany |
@@ -16,6 +16,18 @@ Please double check the <a href="https://allseasonsfitness.pushpress.com/landing
 | Saturday | 9am with Brittany <br/> 10:30am with Brittany |
 | Sunday | 9am with Brittany or Kristina |
 
-<img class="img-responsive asf-img" src="assets/images/group4.png">
+<div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/calendar" class="btn section-btn" target="_blank" rel="noopener noreferrer">View Full Calendar</a></div>
 
-<p style="font-style: italic;">Classes have a 3 person minimum so please make sure to sign up in advance.</p>
+<img class="img-responsive asf-img" src="assets/images/class_indoor_large.jpg" alt="Large indoor class with members and kids working out together">
+
+---
+
+<div class="testimonial">
+
+"What keeps me coming back is the community Brittany has built. Besides the workouts, we do fun things together outside of class. We even camp together in the summer! These ladies will laugh with you, cry with you, and meet you where you're at." — Johna B.
+
+</div>
+
+---
+
+<div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a></div>
