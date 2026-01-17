@@ -474,8 +474,8 @@ p:has(img.asf-img.asf-img-float-center) {
     }
 }
 
-// when screen gets small enough, the small images that are pulled left/right should take up the full width
-@media(max-width: 550px) {
+// mobile styles for screens under 768px
+@media(max-width: 768px) {
     img.asf-img.asf-img-small.pull-right, img.asf-img.asf-img-small.pull-left {
         margin-left: auto;
         margin-right: auto;
