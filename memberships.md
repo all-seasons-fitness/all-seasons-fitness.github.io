@@ -52,4 +52,4 @@ A good fit if your availability changes month to month or you prefer pay-as-you-
 
 All memberships, class packs, and reservations are managed through PushPress. Access to the All Seasons Fitness app will begin when you start a membership.
 
-<div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Trial</a></div>
+<div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a></div>
