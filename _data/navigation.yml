@@ -1,24 +1,20 @@
-- title: About
-  url: "#"
-  children:
-    - title: The Coaches
-      url: /coaches.html
-    - title: The Workouts
-      url: /workouts.html
+- title: Workouts
+  url: /workouts.html
 
-- title: Get Started
-  url: "#"
-  children:
-    - title: First Class
-      url: /first-class.html
-    - title: FAQ
-      url: /faq.html
+- title: Coaches
+  url: /coaches.html
 
 - title: Schedule
-  url: schedule.html
+  url: /schedule.html
+
+- title: First Class
+  url: /first-class.html
 
 - title: Memberships
   url: /memberships.html
+
+- title: FAQ
+  url: /faq.html
 
 - title: Reviews
   url: /reviews.html
