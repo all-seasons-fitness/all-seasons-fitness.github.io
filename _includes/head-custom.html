@@ -1,2 +1,80 @@
 <link rel="icon" type="image/jpeg" href="{{ '/assets/images/favicon.jpg' | relative_url }}">
 <link rel="apple-touch-icon" href="{{ '/assets/images/favicon.jpg' | relative_url }}">
+
+<!-- Open Graph tags for social sharing -->
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:description" content="{{ page.description | default: site.description }}">
+<meta property="og:image" content="https://all-seasons-fitness.com/assets/images/logo1_white_transparent.png">
+<meta property="og:url" content="https://all-seasons-fitness.com{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="All Seasons Fitness">
+
+<!-- Twitter Card tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | default: site.title }}">
+<meta name="twitter:description" content="{{ page.description | default: site.description }}">
+<meta name="twitter:image" content="https://all-seasons-fitness.com/assets/images/logo1_white_transparent.png">
+
+<!-- Structured Data for Local Business -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsActivityLocation",
+  "name": "All Seasons Fitness",
+  "description": "Strength-based conditioning for all seasons of life. Community-based fitness classes in Edmonds and Mountlake Terrace, WA. Kids welcome, all fitness levels.",
+  "url": "https://all-seasons-fitness.com",
+  "telephone": "",
+  "email": "Brittany@all-seasons-fitness.com",
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.8107,
+      "longitude": -122.3774
+    },
+    "geoRadius": "10 mi"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Edmonds",
+    "addressRegion": "WA",
+    "addressCountry": "US"
+  },
+  "priceRange": "$$",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Monday",
+      "opens": "05:30",
+      "closes": "17:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Wednesday",
+      "opens": "05:30",
+      "closes": "18:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Friday",
+      "opens": "05:30",
+      "closes": "11:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "11:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "09:00",
+      "closes": "10:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/groups/721088668952518/"
+  ]
+}
+</script>
