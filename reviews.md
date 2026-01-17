@@ -64,7 +64,7 @@ We're proud of the community we've built at All Seasons Fitness. Here's what som
 
 ---
 
-<div style="text-align: center; margin: 1.5em 0;"><a href="https://share.google/zhdQcO1b18eSTSGla" class="btn section-btn" target="_blank" rel="noopener noreferrer">Read More Reviews on Google</a></div>
+<div style="text-align: center; margin: 1.5em 0;"><a href="https://share.google/zhdQcO1b18eSTSGla" class="btn section-btn" target="_blank" rel="noopener noreferrer">More on Google</a></div>
 
 ---
 
