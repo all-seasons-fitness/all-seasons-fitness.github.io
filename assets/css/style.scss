@@ -486,15 +486,17 @@ p:has(img.asf-img.asf-img-float-center) {
     }
     // smaller table text on mobile so times + names fit on one line
     .main-content table th, .main-content table td {
-        padding: 12px 8px;
-        font-size: 1em;
+        padding: 10px 6px;
+        font-size: 0.75em;
+        white-space: nowrap;
     }
     .main-content table td:first-child {
-        font-size: 1.1em;
-        width: 25%;
+        font-size: 0.85em;
+        width: 20%;
     }
     .main-content table td:last-child {
-        line-height: 1.6;
+        line-height: 2;
+        white-space: normal;
     }
     // more padding on testimonials for mobile
     .testimonial {
