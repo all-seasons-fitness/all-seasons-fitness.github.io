@@ -496,6 +496,11 @@ p:has(img.asf-img.asf-img-float-center) {
     .main-content table td:last-child {
         line-height: 1.6;
     }
+    // more padding on testimonials for mobile
+    .testimonial {
+        padding: 1.5em 1.8em;
+        margin: 1.5em 0.5em;
+    }
 }
 
 // table (for schedule)
