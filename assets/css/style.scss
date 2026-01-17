@@ -484,6 +484,18 @@ p:has(img.asf-img.asf-img-float-center) {
         max-width: 80%;
         float: unset !important;
     }
+    // smaller table text on mobile so times + names fit on one line
+    .main-content table th, .main-content table td {
+        padding: 12px 8px;
+        font-size: 1em;
+    }
+    .main-content table td:first-child {
+        font-size: 1.1em;
+        width: 25%;
+    }
+    .main-content table td:last-child {
+        line-height: 1.6;
+    }
 }
 
 // table (for schedule)
