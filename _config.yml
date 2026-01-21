@@ -22,8 +22,8 @@ email: beckyannegilbert@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Strength-based conditioning for all seasons of life.
 github_username:  becky-gilbert
-domain: all-seasons-fitness.github.io
-url: https://all-seasons-fitness.github.io
+domain: all-seasons-fitness.com
+url: https://all-seasons-fitness.com
 baseurl: "" # the subpath of your site, e.g. /blog
 locale: "en-US"
 subtitle: Strength-based conditioning for all seasons of life.
