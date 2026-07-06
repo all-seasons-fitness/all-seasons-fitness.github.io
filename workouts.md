@@ -43,6 +43,8 @@ Kids are welcome to hang out during class. Many members bring theirs, and we aim
 **Environment:**
 Supportive, non-intimidating, and community-driven. Strong coaching without the pressure or performative gym culture.
 
+<div style="clear:both;"></div>
+
 ---
 
 ## Logistics
