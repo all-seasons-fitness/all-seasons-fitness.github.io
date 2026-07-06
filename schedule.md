@@ -11,7 +11,7 @@ description: "Weekly class schedule for All Seasons Fitness in Edmonds and Mount
 
 We offer classes throughout the week to fit different schedules. All classes are 60 minutes and welcome all fitness levels. [Meet our coaches](/coaches.html) to learn more about who you'll be training with.
 
-Classes are held indoors in Edmonds during the school year and outdoors in Mountlake Terrace during summer — exact directions sent when you book.
+<div class="location-callout">Classes are held indoors in Edmonds during the school year and outdoors in Mountlake Terrace during summer — exact directions sent when you book.</div>
 
 | Monday | 9:30am - Brittany <br/> 5:30pm - Kristina |
 | Wednesday | 9:30am - Kristina <br/> 5:30pm - Brittany |

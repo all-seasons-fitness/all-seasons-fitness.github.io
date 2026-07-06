@@ -1,42 +1,23 @@
 ---
 ---
 
-// Overwrite variables.scss from Cayman theme
-
-// Breakpoints
-// $large-breakpoint: 64em !default;
-// $medium-breakpoint: 42em !default;
-
-// Headers
-// $header-heading-color: #fff !default;
-// $header-bg-color: #36726f !default;
-// $header-bg-color-secondary: #36726f !default;
-
-// Text - override section headings to brand teal
-$section-headings-color: #36726f !default;
-// $body-text-color: #606c71 !default;
-// $body-link-color: #1e6bb8 !default;
-// $blockquote-text-color: #819198 !default;
-
-// // Code
-// $code-bg-color: #f3f6fa !default;
-// $code-text-color: #567482 !default;
-
-// // Borders
-// $border-color: #dce6f0 !default;
-// $table-border-color: #e9ebec !default;
-// $hr-border-color: #eff0f1 !default
-
-// @import "bootstrap.min"
+// Brand color overrides — must be before @import to win over Cayman !default values
+$header-bg-color: #081A09;
+$header-bg-color-secondary: #081A09;
+$header-heading-color: #fff;
+$body-link-color: #129559;
+$body-text-color: #081A09;
+$section-headings-color: #081A09;
 
 @import "{{ site.theme }}";
 
 // Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Signika:wght@700&display=swap');
 
-// Typography
+// ---- TYPOGRAPHY ----
 body, .main-content {
     font-family: 'Open Sans', sans-serif;
+    color: #081A09;
 }
 
 h1, h2, h3, h4, h5, h6, .project-tagline {
@@ -44,17 +25,16 @@ h1, h2, h3, h4, h5, h6, .project-tagline {
     font-weight: 700;
 }
 
-// colors
-// #36726fb2
-// #36726fb5
-
-// header/banner
+// ---- HEADER / HERO ----
+// Solid brand dark green — no gradient
 header.page-header {
     padding: 0;
     margin: 0;
     margin-top: 60px;
     margin-bottom: 1em;
     justify-items: center;
+    background-color: #081A09;
+    background-image: none;
 }
 
 h2.project-tagline {
@@ -65,7 +45,7 @@ img.logo {
     width: 350px;
 }
 
-// section headings
+// ---- SECTION HEADINGS ----
 .main-content h1 {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -80,45 +60,70 @@ img.logo {
     font-size: 1.5em;
 }
 
-// main content text
+// ---- BODY TEXT ----
 .main-content p, .main-content div, .main-content ul, .main-content ol {
     font-size: 1.3em;
 }
 
-// spacing between bullet point items
 .main-content li {
     margin-bottom: 0.8em;
 }
 
-// spacing around the horizontal lines between sections
 .main-content hr {
     margin: 2rem 2rem 0;
 }
 
-// all buttons
-.btn {
-    font-size: 1.3em;
+// ---- LINKS ----
+.main-content a {
+    color: #129559;
 }
 
-// header button
+.main-content a:hover {
+    color: #167975;
+    text-decoration: underline;
+}
+
+// ---- BUTTONS — all CTAs are orange, nothing else ----
+.btn {
+    font-size: 1.3em;
+    border-radius: 6px;
+}
+
 .btn.header-btn {
     margin-top: 1em;
     margin-bottom: 1em;
     max-width: 95%;
+    background: #FF8438;
+    background-image: none;
+    color: #081A09;
+    font-weight: 700;
+    border-color: transparent;
 }
 
-// section buttons
+.btn.header-btn:hover,
+.btn.header-btn:focus {
+    background: #d96b28;
+    background-image: none;
+    color: #081A09;
+    border-color: transparent;
+    text-decoration: none;
+}
+
 .btn.section-btn {
-    background-image: linear-gradient(90deg, #2e5f8b 0%, #36726f 100%);
-    color: white;
-    border-color: rgba(255,255,255,0.2)
+    background: #FF8438;
+    background-image: none;
+    color: #081A09;
+    font-weight: 700;
+    border-color: transparent;
 }
 
-.section-btn.btn:hover {
-    color:rgba(255,255,255,0.8);
-    text-decoration:none;
-    background-image: linear-gradient(90deg, rgba(46, 95, 139, 0.8), rgba(54, 114, 111, 0.8));
-    border-color: rgba(255,255,255,0.3)
+.btn.section-btn:hover,
+.btn.section-btn:focus {
+    color: #081A09;
+    background: #d96b28;
+    background-image: none;
+    border-color: transparent;
+    text-decoration: none;
 }
 
 .btn.section-btn img {
@@ -127,7 +132,127 @@ img.logo {
     width: 1em;
 }
 
-// acuity scheduling iframe container
+// ---- NAV ----
+.navbar {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    background-color: #081A09;
+    border-color: transparent;
+}
+
+.navbar-brand {
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: #fff !important;
+}
+
+.navbar-brand:hover {
+    color: rgba(255,255,255,0.85) !important;
+}
+
+.navbar a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+ul.nav.navbar-nav.navbar-right li a {
+    color: rgba(255,255,255,0.9);
+}
+
+ul.nav.navbar-nav.navbar-right li a:hover {
+    color: #fff;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: rgba(255,255,255,0.15);
+    color: #fff;
+}
+
+.navbar li, .navbar li a {
+    border-radius: 10px;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.45);
+}
+
+div.navbar-header.page-scroll button,
+div.navbar-header.page-scroll span,
+div.navbar-header.page-scroll a {
+    color: #fff;
+}
+
+div.navbar-header.page-scroll button {
+    background-color: rgba(255,255,255,0.15) !important;
+    border-color: rgba(255,255,255,0.3);
+}
+
+// Free Class nav CTA — the one orange element in the nav
+a.nav-cta {
+    background: #FF8438 !important;
+    color: #081A09 !important;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 5px 12px !important;
+    margin-left: 6px;
+}
+
+a.nav-cta:hover,
+a.nav-cta:focus {
+    background: #d96b28 !important;
+    color: #081A09 !important;
+    text-decoration: none;
+}
+
+// sub-nav
+.collapse.navbar-collapse .nav-sub-menu {
+    list-style: none;
+}
+
+div.collapse.navbar-collapse > ul.nav > li.page-scroll:hover > ul.nav-sub-menu,
+div.collapse.navbar-collapse > ul.nav > li.page-scroll:active > ul.nav-sub-menu {
+    display: block;
+}
+
+div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu {
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    background: #081A09;
+    min-width: 200px;
+    z-index: 1000;
+    display: none;
+    padding-inline-start: 20px;
+}
+
+div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li {
+    margin: 20px 0px;
+}
+
+div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li > a {
+    margin: 20px 0px;
+    padding: 10px;
+    color: rgba(255,255,255,0.9);
+}
+
+// ---- ACUITY IFRAME ----
 div#acuity-schedule-container {
     position: relative;
     width: 100%;
@@ -156,109 +281,7 @@ div#acuity-schedule-container > div#loading-indicator {
     text-align: center;
 }
 
-// nav style from freelancer
-.navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    background-color: white;
-}
-
-.navbar-brand {
-    font-family: 'Signika', sans-serif;
-    font-weight: 700;
-    font-size: 1.8em;
-}
-
-.navbar a:focus {
-    outline: 0;
-}
-
-.navbar .navbar-nav {
-    letter-spacing: 1px;
-}
-
-.navbar .navbar-nav li a:focus {
-    outline: 0;
-}
-
-// this level of specificity is needed to override bootstrap
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    background-color: #36726f29;
-}
-
-.navbar li, .navbar li a {
-    border-radius: 10px;
-}
-
-.navbar-default,
-.navbar-inverse {
-    border: 0;
-}
-
-// custom changes to navbar
-
-nav.navbar.navbar-default.navbar-fixed-top {
-    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
-}
-
-div.navbar-header.page-scroll button, div.navbar-header.page-scroll span, div.navbar-header.page-scroll a {
-    color: #36726f;
-}
-
-div.navbar-header.page-scroll button {
-    background-color: #36726fb5 !important;
-}
-
-ul.nav.navbar-nav.navbar-right li a {
-    color: #36726f;
-}
-
-// add nested nav items (sub items)
-.collapse.navbar-collapse .nav-sub-menu {
-  list-style: none;
-}
-
-// .menu a{
-//   color: #fff;
-//   text-decoration: none;
-//   display: block;
-//   cursor: pointer;
-//   text-transform: uppercase;
-//   font-size: 12px;
-//   font-weight: 700;
-//   letter-spacing:0.2em;
-// }
-
-// show nav sub items on hover
-div.collapse.navbar-collapse > ul.nav > li.page-scroll:hover > ul.nav-sub-menu, div.collapse.navbar-collapse > ul.nav > li.page-scroll:active > ul.nav-sub-menu  {
-  display: block;
-}
-
-// nav sub item list - mobile
-div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu {
-  position: absolute;
-  top: 30px;
-  left: 5px;
-  background: white;
-  min-width: 200px;
-  z-index: 1000;
-  display: none;
-  padding-inline-start: 20px;
-}
-
-// nav sub menu items - mobile
-div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li {
- margin: 20px 0px;
-}
-
-// nav sub menu a links
-div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li > a {
-  margin: 20px 0px;
-  padding: 10px;
-}
-
-// images
+// ---- IMAGES ----
 img.asf-img {
     margin-left: auto;
     margin-right: auto;
@@ -277,27 +300,103 @@ img.asf-img.asf-img-small.pull-right {
     margin: auto auto 0 1lh;
 }
 
-// float smaller image to left/right of text
 img.asf-img.asf-img-small.pull-left {
     margin: auto 1lh 0 auto;
 }
 
-// multiple images next to each other and centered
 img.asf-img.asf-img-small.asf-img-float-center {
     max-width: 400px;
     width: 50%;
     display: inline-block;
 }
 
-// img.asf-img.asf-img-float-center {
-//     display: inline-block;
-// }
-
 p:has(img.asf-img.asf-img-float-center) {
     text-align: center;
 }
 
-// media queries go last to get precedence
+// ---- TABLE (schedule) ----
+.main-content {
+    table {
+        width: 90%;
+        max-width: 800px;
+        border: none;
+        margin: 2em auto 3em;
+        border-collapse: separate;
+        border-spacing: 0;
+        display: table;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    }
+    table th, table td {
+        border: none;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        padding: 18px 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.8em;
+    }
+    table tr:last-child td {
+        border-bottom: none;
+    }
+    table td:first-child {
+        background: #081A09;
+        color: white;
+        font-family: 'Signika', sans-serif;
+        font-weight: 700;
+        font-size: 2em;
+        text-align: center;
+        width: 30%;
+    }
+    table td:last-child {
+        text-align: left;
+        background-color: white;
+        width: 70%;
+        line-height: 1.8;
+    }
+    th {
+        background: #081A09;
+        color: white;
+        font-family: 'Signika', sans-serif;
+    }
+    table tr:nth-child(even) td:last-child {
+        background-color: #f8faf9;
+    }
+    table tr:hover td:last-child {
+        background-color: rgba(18, 149, 89, 0.06);
+    }
+}
+
+span.quote {
+    font-style: italic;
+    color: #818181;
+}
+
+// ---- TESTIMONIAL QUOTE CARDS ----
+// Light green tint (~7% opacity), green left border
+.testimonial {
+    background-color: rgba(18, 149, 89, 0.07);
+    border-left: 4px solid #129559;
+    padding: 1.2em 1.5em;
+    margin: 1.5em 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.testimonial p {
+    margin: 0;
+    font-style: italic;
+}
+
+// ---- SCHEDULE LOCATION CALLOUT — yellow accent, used nowhere else ----
+.location-callout {
+    background: #FFED4D;
+    color: #081A09;
+    font-weight: 600;
+    padding: 0.75em 1.25em;
+    border-radius: 6px;
+    margin: 1em 0 1.5em;
+}
+
+// ---- MEDIA QUERIES ----
 @media screen and (min-width:64em) {
     .main-content {
         max-width: 80%;
@@ -413,8 +512,6 @@ p:has(img.asf-img.asf-img-float-center) {
     }
 }
 
-// switch nav from toggle button (for narrow mobile screens/phone) to listing all nav items
-// these override the mobile/collapsed nav settings and apply to larger screens
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 10px 0;
@@ -451,7 +548,7 @@ p:has(img.asf-img.asf-img-float-center) {
         position: absolute;
         top: 60px;
         left: 5px;
-        background: white;
+        background: #081A09;
         min-width: 200px;
         z-index: 1000;
         display: none;
@@ -463,7 +560,6 @@ p:has(img.asf-img.asf-img-float-center) {
     }
 }
 
-// when screen gets small enough, the multiple small images that are floating centered next to each other should be stacked and wider
 @media(max-width: 1174px) {
     img.asf-img.asf-img-small.asf-img-float-center {
         margin-left: auto;
@@ -474,7 +570,6 @@ p:has(img.asf-img.asf-img-float-center) {
     }
 }
 
-// mobile styles for screens under 768px
 @media(max-width: 768px) {
     img.asf-img.asf-img-small.pull-right, img.asf-img.asf-img-small.pull-left {
         margin-left: auto;
@@ -484,7 +579,6 @@ p:has(img.asf-img.asf-img-float-center) {
         max-width: 80%;
         float: unset !important;
     }
-    // smaller table text on mobile so times + names fit on one line
     .main-content table th, .main-content table td {
         padding: 10px 6px;
         font-size: 0.75em;
@@ -499,90 +593,16 @@ p:has(img.asf-img.asf-img-float-center) {
         line-height: 2;
         white-space: normal;
     }
-    // more padding on testimonials for mobile
     .testimonial {
         padding: 1.5em 1.8em;
         margin: 1.5em 0.5em;
     }
-    // more spacing between reviews on mobile
     .main-content hr {
         margin: 2.5em 1em;
     }
-    // center header tagline on mobile
     h2.project-tagline {
         text-align: center;
         width: 100%;
         padding: 0 1em;
     }
-}
-
-// table (for schedule)
-.main-content {
-    table {
-        width: 90%;
-        max-width: 800px;
-        border: none;
-        margin: 2em auto 3em;
-        border-collapse: separate;
-        border-spacing: 0;
-        display: table;
-        border-radius: 12px;
-        overflow: hidden;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-    }
-    table th, table td {
-        border: none;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-        padding: 18px 20px;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1.8em;
-    }
-    table tr:last-child td {
-        border-bottom: none;
-    }
-    table td:first-child {
-        background: linear-gradient(90deg, #2e5f8b 0%, #36726f 100%);
-        color: white;
-        font-family: 'Signika', sans-serif;
-        font-weight: 700;
-        font-size: 2em;
-        text-align: center;
-        width: 30%;
-    }
-    table td:last-child {
-        text-align: left;
-        background-color: white;
-        width: 70%;
-        line-height: 1.8;
-    }
-    th {
-        background: linear-gradient(90deg, #2e5f8b 0%, #36726f 100%);
-        color: white;
-        font-family: 'Signika', sans-serif;
-    }
-    table tr:nth-child(even) td:last-child {
-        background-color: #f8faf9;
-    }
-    table tr:hover td:last-child {
-        background-color: #e8f5e9;
-    }
-}
-
-span.quote {
-    font-style: italic;
-    color: #818181
-}
-
-// testimonial styling with subtle teal background
-.testimonial {
-    background-color: rgba(54, 114, 111, 0.08);
-    border-left: 4px solid #36726f;
-    padding: 1.2em 1.5em;
-    margin: 1.5em 0;
-    border-radius: 0 8px 8px 0;
-}
-
-.testimonial p {
-    margin: 0;
-    font-style: italic;
 }

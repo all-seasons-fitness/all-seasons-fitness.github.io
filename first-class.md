@@ -64,6 +64,6 @@ We're so glad you're here! Your first class is free, and we'll make sure you fee
 
 <p style="margin: 1.5em 0 0.5em; font-size: 0.9em; color: #606c71;">Join our community for class photos & social events</p>
 
-<a href="https://www.facebook.com/groups/721088668952518/?ref=share&mibextid=NSMWBT" target="_blank" rel="noopener noreferrer" style="color: #36726f;"><img src="assets/images/facebook_black.png" alt="Facebook icon" style="width: 1.5em; vertical-align: middle; margin-right: 0.3em;"/>All Seasons Fitness on Facebook</a>
+<a href="https://www.facebook.com/groups/721088668952518/?ref=share&mibextid=NSMWBT" target="_blank" rel="noopener noreferrer" style="color: #129559;"><img src="assets/images/facebook_black.png" alt="Facebook icon" style="width: 1.5em; vertical-align: middle; margin-right: 0.3em;"/>All Seasons Fitness on Facebook</a>
 
 </div>

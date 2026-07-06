@@ -33,7 +33,7 @@
                     {% endif %}
 
                     <li class="page-scroll{% if is_active %} active{% endif %}">
-                        <a href="{{ item.url }}" class="{% if item.children %}nav-sub-menu-top-level{% endif %}">
+                        <a href="{{ item.url }}"{% if item.external %} target="_blank" rel="noopener noreferrer"{% endif %} class="{% if item.cta %}nav-cta{% endif %}{% if item.children %} nav-sub-menu-top-level{% endif %}">
                         {{ item.title }}
                         </a>
 
