@@ -99,4 +99,3 @@ Your first class is free! After that, you can choose a membership or class pack 
 
 We'd love to hear from you! Reach out anytime.
 
-<div style="text-align: center;">Contact: <a href="mailto:Brittany@all-seasons-fitness.com">Brittany@all-seasons-fitness.com</a></div>

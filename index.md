@@ -50,6 +50,3 @@ Join the All Seasons Fitness Facebook group for updates, pictures, and events!
 
 <div style="text-align: center;"><a href="https://www.facebook.com/groups/721088668952518/?ref=share&mibextid=NSMWBT" class="btn section-btn" target="_blank" rel="noopener noreferrer"><img src="assets/images/facebook_black.png" alt="Facebook icon"/>All Seasons Fitness</a></div>
 
-<div style="text-align:center; margin-top: 1.5em;">Location: Edmonds & Mountlake Terrace, WA</div>
-
-<div style="text-align:center; margin-top: 0.5em;">Contact: <a href="mailto:Brittany@all-seasons-fitness.com">Brittany@all-seasons-fitness.com</a></div>
