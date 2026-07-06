@@ -27,7 +27,7 @@ url: https://all-seasons-fitness.com
 baseurl: "" # the subpath of your site, e.g. /blog
 locale: "en-US"
 subtitle: Strength-based conditioning for all seasons of life.
-name: "Your Name"
+name: "All Seasons Fitness"
 github.is_project_page: false
 #repository: "all-seasons-fitness/all-seasons-fitness.github.io"
 # masthead_title: # overrides the website title displayed in the masthead, use " " for no title
@@ -86,10 +86,10 @@ defaults:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "All Seasons Fitness"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Community-based group fitness classes in Edmonds and Mountlake Terrace, WA."
+  location         : "Edmonds & Mountlake Terrace, WA"
   email            :
   links:
     - label: "Email"

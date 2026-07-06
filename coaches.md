@@ -1,9 +1,10 @@
 ---
-title: About the Coaches
+title: Meet the Coaches
 short_name: coaches
 permalink: /coaches.html
 layout: default
-description: "Meet the coaches at All Seasons Fitness — Brittany and Kristina. Experienced trainers who bring energy and real-life perspective to every class."
+html_title: "Meet the Coaches | All Seasons Fitness — Edmonds & Mountlake Terrace"
+description: "Meet Brittany and Kristina, the coaches at All Seasons Fitness in Edmonds and Mountlake Terrace, WA. Experienced trainers who bring energy and real-life perspective to every class."
 ---
 
 # About the Coaches
@@ -56,3 +57,5 @@ I've been lucky to spend the last eight years coaching everything from youth spo
 "I've been going to All Seasons Fitness for several years now and it fits so many stages of life! The workouts are strength focused and Brittany (and all the coaches) are great about offering appropriate modifications for varying skill levels and pregnancy & postpartum. I love having the ability to bring kids to the workout — they play, you workout — and bonus it sets a great example for them on doing hard things!" — Emily F.
 
 </div>
+
+<div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a></div>

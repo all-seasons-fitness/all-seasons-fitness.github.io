@@ -3,7 +3,9 @@ layout: default
 show_gh_info: false
 title: All Seasons Fitness
 short_name: home
-description: "Strength-based conditioning for all seasons of life"
+html_title: "All Seasons Fitness | Group Strength Classes in Edmonds & Mountlake Terrace, WA"
+description: "Small-group strength and conditioning classes for adults in Edmonds and Mountlake Terrace, WA. Kids welcome at every class. Your first class is free."
+subtagline: "Small-group strength classes in Edmonds & Mountlake Terrace — kids welcome, first class free."
 ---
 
 All Seasons Fitness is a community-based strength training gym built for real life. Our classes blend strength, conditioning, and core work in a way that's challenging, adaptable, and sustainable — without the pressure to show up as anything other than yourself.

@@ -3,7 +3,8 @@ title: About the Workouts
 short_name: workouts
 permalink: /workouts.html
 layout: default
-description: "60-minute strength and conditioning classes for all fitness levels. Kids welcome, modifications always available."
+html_title: "About the Workouts | All Seasons Fitness — Edmonds & Mountlake Terrace"
+description: "60-minute strength and conditioning classes in Edmonds and Mountlake Terrace, WA. All fitness levels welcome — modifications always available, kids welcome."
 ---
 
 # About the Workouts
@@ -62,3 +63,5 @@ Classes are held in the Mountlake Terrace / Edmonds, WA area. Locations may chan
 "I had been doing HIIT classes for a long time but felt like my body just couldn't keep up with the high intensity anymore. I was looking for something lower intensity, but everything I tried didn't feel like a real workout. Enter All Seasons Fitness. The strength-focused workouts get my heart rate up, challenge me, and most importantly I leave feeling accomplished every single time." — Katie Q.
 
 </div>
+
+<div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a></div>

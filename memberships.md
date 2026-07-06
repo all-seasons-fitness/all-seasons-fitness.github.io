@@ -3,7 +3,8 @@ title: Membership Options
 short_name: memberships
 permalink: /memberships.html
 layout: default
-description: "Flexible membership options, class packs, and drop-ins. First class is free! No long-term commitments required."
+html_title: "Memberships & Pricing | All Seasons Fitness"
+description: "Flexible membership options, class packs, and drop-ins for All Seasons Fitness in Edmonds and Mountlake Terrace. First class free — no long-term commitments."
 ---
 
 # Memberships, Class Packs & Drop-Ins
@@ -26,9 +27,11 @@ The hardest part is often walking in the door. Come as you are, try us out, and 
 
 **4x / month — $62**
 A good starting point for building a routine or training once per week.
+<small style="color: #606c71;">about $15.50 per class</small>
 
 **8x / month — $118**
 Ideal for training 2x per week, where strength gains and progress start to compound.
+<small style="color: #606c71;">about $14.75 per class</small>
 
 **Unlimited — $145 ⭐ Best Value**
 Best for members training 2–3x per week or more, or anyone wanting flexibility week to week.
@@ -40,8 +43,10 @@ Best for members training 2–3x per week or more, or anyone wanting flexibility
 <img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/dad_lifting_kid.jpg" alt="Dad lifting child overhead while mom works out with dumbbells">
 
 **10-Class Pack — $185** (6 month expiration)
+<small style="color: #606c71;">$18.50 per class</small>
 
 **20-Class Pack — $320** (12 month expiration)
+<small style="color: #606c71;">$16 per class</small>
 
 **Drop-In — $20**
 A good fit if your availability changes month to month or you prefer pay-as-you-go.

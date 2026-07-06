@@ -3,7 +3,8 @@ title: Frequently Asked Questions
 short_name: faq
 permalink: /faq.html
 layout: default
-description: "Common questions about All Seasons Fitness — class info, kids policy, modifications, costs, and more."
+html_title: "FAQ | All Seasons Fitness"
+description: "Common questions about All Seasons Fitness in Edmonds and Mountlake Terrace — class info, kids policy, modifications, costs, and more."
 ---
 
 # Frequently Asked Questions

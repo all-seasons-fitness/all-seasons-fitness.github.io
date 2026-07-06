@@ -3,7 +3,8 @@ title: First class info
 short_name: first-class
 permalink: /first-class.html
 layout: default
-description: "Your first class is free! Here's what to expect, what to bring, and how to prepare for your first workout at All Seasons Fitness."
+html_title: "Book Your Free First Class | All Seasons Fitness"
+description: "Your first class at All Seasons Fitness is free. Here's what to expect, what to bring, and how to prepare for your first workout in Edmonds or Mountlake Terrace, WA."
 ---
 
 # Your First Class at All Seasons Fitness
