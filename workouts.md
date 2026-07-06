@@ -32,7 +32,7 @@ Each class includes a guided warm-up, a focused strength and conditioning workou
 
 ## What to Expect
 
-<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/monkey_bars.jpg" alt="Member hanging from monkey bars at outdoor class">
+<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/mom_toddler_class.jpg" alt="Mom pausing workout to interact with toddler while other members smile">
 
 **Equipment:**
 Dumbbells are used in every class, with occasional resistance bands and other simple equipment mixed in.

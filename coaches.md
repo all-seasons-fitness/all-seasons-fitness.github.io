@@ -32,7 +32,6 @@ And while you won't hear me talking about "earning" food — I will absolutely b
 
 ### Real Talk on Kids, Chaos & Self-Compassion
 
-<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/mom_toddler_class.jpg" alt="Mom pausing workout to interact with toddler while other members smile">
 
 Parenting small kids is unpredictable and often chaotic — and that's exactly why these classes exist.
 
