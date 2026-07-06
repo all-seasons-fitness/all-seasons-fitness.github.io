@@ -39,9 +39,9 @@ Best for members training 2–3x per week or more, or anyone wanting flexibility
 
 <img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/dad_lifting_kid.jpg" alt="Dad lifting child overhead while mom works out with dumbbells">
 
-**10-Class Pack — $170** (expires in 6 months)
+**10-Class Pack — $185** (expires in 6 months)
 
-**20-Class Pack — $320** (expires in 6 months)
+**20-Class Pack — $320** (expires in 1 year)
 
 **Drop-In — $20**
 A good fit if your availability changes month to month or you prefer pay-as-you-go.

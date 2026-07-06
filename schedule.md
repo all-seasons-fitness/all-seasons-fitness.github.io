@@ -10,11 +10,11 @@ description: "Weekly class schedule for All Seasons Fitness in Edmonds and Mount
 
 We offer classes throughout the week to fit different schedules. All classes are 60 minutes and welcome all fitness levels. [Meet our coaches](/coaches.html) to learn more about who you'll be training with.
 
-| Monday | 5:30am - Katie <br/> 10am - Brittany <br/> 4:30pm - Kristina |
-| Wednesday | 5:30am - Katie <br/> 10am - Kristina <br/> 5:30pm - Brittany |
-| Friday | 5:30am - Katie <br/> 10am - Brittany |
-| Saturday | 9am - Brittany <br/> 10:30am - Brittany |
-| Sunday | 9am - Brittany or Kristina |
+| Monday | 9:30am - Brittany <br/> 5:30pm - Kristina |
+| Wednesday | 9:30am - Kristina <br/> 5:30pm - Brittany |
+| Friday | 9:30am - Brittany |
+| Saturday | 9am - Brittany/Kristina |
+| Sunday | 9am - Brittany/Kristina |
 
 <div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/calendar" class="btn section-btn" target="_blank" rel="noopener noreferrer">View Full Calendar</a></div>
 
