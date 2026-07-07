@@ -2,8 +2,8 @@
 ---
 
 // Brand color overrides — must be before @import to win over Cayman !default values
-$header-bg-color: #081A09;
-$header-bg-color-secondary: #081A09;
+$header-bg-color: #136988;
+$header-bg-color-secondary: #15905F;
 $header-heading-color: #fff;
 $body-link-color: #129559;
 $body-text-color: #081A09;
@@ -12,7 +12,18 @@ $section-headings-color: #081A09;
 @import "{{ site.theme }}";
 
 // Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Signika:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Signika:wght@700&display=swap');
+
+// ---- SCROLL OFFSET for fixed nav ----
+html {
+    scroll-padding-top: 72px;
+}
+
+@media(min-width: 768px) {
+    html {
+        scroll-padding-top: 88px;
+    }
+}
 
 // ---- TYPOGRAPHY ----
 body, .main-content {
@@ -25,37 +36,68 @@ h1, h2, h3, h4, h5, h6, .project-tagline {
     font-weight: 700;
 }
 
-// ---- HEADER / HERO ----
-// Solid brand dark green — no gradient
+// Catch-all link color to prevent browser-default blue
+a {
+    color: #129559;
+}
+
+a:hover {
+    color: #167975;
+}
+
+// ---- HEADER / HERO (homepage only) ----
 header.page-header {
-    padding: 0;
-    margin: 0;
-    margin-top: 60px;
-    margin-bottom: 1em;
-    justify-items: center;
-    background-color: #081A09;
-    background-image: none;
+    background-color: #136988;
+    background-image: linear-gradient(to right, #136988, #15905F);
+    padding: 3.5rem 2rem 3rem;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 h2.project-tagline {
     max-width: 95%;
+    margin-bottom: 0.6em;
 }
 
-img.logo {
-    width: 350px;
+// Hero subhead lines — sized for WCAG large-text threshold on gradient
+.hero-sub1 {
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    font-size: 1.35em;
+    color: #fff;
+    letter-spacing: 0.02em;
+    margin: 0 auto 0.4em;
+    max-width: 85%;
+}
+
+.hero-sub2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.05em;
+    color: rgba(255,255,255,0.9);
+    margin: 0 auto 1.5em;
+    max-width: 80%;
+}
+
+// ---- SUBPAGE SPACER (replaces hero on non-homepage) ----
+.subpage-spacer {
+    height: 72px;
 }
 
 // ---- SECTION HEADINGS ----
 .main-content h1 {
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.75em;
     text-align: center;
     font-size: 2em;
 }
 
 .main-content h2 {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 1.25em;
+    margin-bottom: 0.6em;
     text-align: left;
     font-size: 1.5em;
 }
@@ -83,50 +125,61 @@ img.logo {
     text-decoration: underline;
 }
 
-// ---- BUTTONS — all CTAs are orange, nothing else ----
+// ---- BUTTONS ----
+// Base: pill shape only — font-size set per variant
 .btn {
-    font-size: 1.3em;
-    border-radius: 6px;
+    border-radius: 50px;
 }
 
-.btn.header-btn {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    max-width: 95%;
-    background: #FF8438;
-    background-image: none;
-    color: #081A09;
-    font-weight: 700;
-    border-color: transparent;
-}
-
-.btn.header-btn:hover,
-.btn.header-btn:focus {
-    background: #d96b28;
-    background-image: none;
-    color: #081A09;
-    border-color: transparent;
-    text-decoration: none;
-}
-
+// PRIMARY — yellow pill (booking/free-class actions only)
 .btn.section-btn {
-    background: #FF8438;
+    font-size: 1.125rem;
+    padding: 12px 28px;
+    background: #FFED4D;
     background-image: none;
     color: #081A09;
     font-weight: 700;
     border-color: transparent;
+    line-height: 1.3;
 }
 
 .btn.section-btn:hover,
 .btn.section-btn:focus {
-    color: #081A09;
-    background: #d96b28;
+    background: #f5e030;
     background-image: none;
+    color: #081A09;
     border-color: transparent;
     text-decoration: none;
 }
 
 .btn.section-btn img {
+    vertical-align: middle;
+    margin-right: 0.5em;
+    width: 1em;
+}
+
+// SECONDARY — outline (View Schedule, View Full Calendar, external links)
+.btn.btn-alt {
+    font-size: 1rem;
+    padding: 8px 20px;
+    background: transparent;
+    background-image: none;
+    color: #129559;
+    font-weight: 600;
+    border: 2px solid #129559;
+    line-height: 1.3;
+}
+
+.btn.btn-alt:hover,
+.btn.btn-alt:focus {
+    background: rgba(18, 149, 89, 0.08);
+    background-image: none;
+    color: #129559;
+    border-color: #129559;
+    text-decoration: none;
+}
+
+.btn.btn-alt img {
     vertical-align: middle;
     margin-right: 0.5em;
     width: 1em;
@@ -142,14 +195,14 @@ img.logo {
 }
 
 .navbar-brand {
-    font-family: 'Signika', sans-serif;
-    font-weight: 700;
-    font-size: 1.8em;
-    color: #fff !important;
+    padding: 10px 15px;
+    height: auto;
 }
 
-.navbar-brand:hover {
-    color: rgba(255,255,255,0.85) !important;
+.nav-logo {
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
 }
 
 .navbar a:focus {
@@ -173,11 +226,12 @@ ul.nav.navbar-nav.navbar-right li a:hover {
     background-color: rgba(255,255,255,0.1);
 }
 
+// Active page: subtle text color, no boxed highlight
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    background-color: rgba(255,255,255,0.15);
-    color: #fff;
+    background-color: transparent;
+    color: #AAD03E;
 }
 
 .navbar li, .navbar li a {
@@ -204,19 +258,21 @@ div.navbar-header.page-scroll button {
     border-color: rgba(255,255,255,0.3);
 }
 
-// Free Class nav CTA — the one orange element in the nav
+// Free Class nav CTA — yellow pill, compact
 a.nav-cta {
-    background: #FF8438 !important;
+    background: #FFED4D !important;
     color: #081A09 !important;
+    font-size: 13px;
     font-weight: 700;
-    border-radius: 6px;
-    padding: 5px 12px !important;
+    border-radius: 50px;
+    padding: 6px 14px !important;
     margin-left: 6px;
+    line-height: 1.3;
 }
 
 a.nav-cta:hover,
 a.nav-cta:focus {
-    background: #d96b28 !important;
+    background: #f5e030 !important;
     color: #081A09 !important;
     text-decoration: none;
 }
@@ -250,6 +306,34 @@ div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li > 
     margin: 20px 0px;
     padding: 10px;
     color: rgba(255,255,255,0.9);
+}
+
+// ---- FOOTER ----
+.site-footer {
+    background: #081A09;
+    color: rgba(255,255,255,0.9);
+    border-top: none;
+    padding: 1.5em 2em;
+    text-align: center;
+    margin-top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.site-footer a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.site-footer .footer-meta {
+    font-size: 0.875em;
+    margin-top: 0.5em;
+    opacity: 0.8;
 }
 
 // ---- ACUITY IFRAME ----
@@ -372,7 +456,6 @@ span.quote {
 }
 
 // ---- TESTIMONIAL QUOTE CARDS ----
-// Light green tint (~7% opacity), green left border
 .testimonial {
     background-color: rgba(18, 149, 89, 0.07);
     border-left: 4px solid #129559;
@@ -386,13 +469,19 @@ span.quote {
     font-style: italic;
 }
 
-// ---- SCHEDULE LOCATION CALLOUT — yellow accent, used nowhere else ----
+// ---- SCHEDULE LOCATION CALLOUT ----
+// Reads as a helpful note: fit-content, pale yellow tint, yellow left border
 .location-callout {
-    background: #FFED4D;
+    display: block;
+    width: fit-content;
+    max-width: 600px;
+    background: #FFF9D6;
     color: #081A09;
-    font-weight: 600;
-    padding: 0.75em 1.25em;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 10px 16px;
     border-radius: 6px;
+    border-left: 3px solid #FFED4D;
     margin: 1em 0 1.5em;
 }
 
@@ -404,16 +493,22 @@ span.quote {
     h2.project-tagline {
         font-size: 2em;
         margin-top: 0;
-        margin-bottom: 1.5em;
+        margin-bottom: 0.6em;
+    }
+    .hero-sub1 {
+        font-size: 1.5em;
+    }
+    .hero-sub2 {
+        font-size: 1.15em;
     }
     .main-content h1 {
         margin-top: 1em;
-        margin-bottom: 1em;
+        margin-bottom: 0.75em;
         font-size: 2.8em;
     }
     .main-content h2 {
-        margin-top: 1em;
-        margin-bottom: 1em;
+        margin-top: 1.25em;
+        margin-bottom: 0.6em;
         font-size: 2.5em;
     }
     .main-content p, .main-content div, .main-content ul, .main-content ol {
@@ -423,7 +518,7 @@ span.quote {
         margin-bottom: 0.8em;
     }
     .page-header {
-        padding: 0rem 6rem;
+        padding: 4rem 6rem 3.5rem;
     }
     div#acuity-schedule-container > div#loading-indicator {
         font-size: 1.2em;
@@ -441,16 +536,16 @@ span.quote {
     h2.project-tagline {
         font-size: 2em;
         margin-top: 0;
-        margin-bottom: 1.5em;
+        margin-bottom: 0.6em;
     }
     .main-content h1 {
         margin-top: 1em;
-        margin-bottom: 1em;
+        margin-bottom: 0.75em;
         font-size: 2.8em;
     }
     .main-content h2 {
-        margin-top: 1em;
-        margin-bottom: 1em;
+        margin-top: 1.25em;
+        margin-bottom: 0.6em;
         font-size: 2.5em;
     }
     .main-content p, .main-content div, .main-content ul, .main-content ol {
@@ -460,7 +555,7 @@ span.quote {
         margin-bottom: 0.8em;
     }
     .page-header {
-        padding: 0rem 0rem;
+        padding: 3rem 2rem 2.5rem;
     }
     div#acuity-schedule-container > div#loading-indicator {
         font-size: 1.2em;
@@ -477,16 +572,16 @@ span.quote {
     h2.project-tagline {
         font-size: 1.5em;
         margin-top: 0;
-        margin-bottom: 1.5em;
+        margin-bottom: 0.6em;
     }
     .main-content h1 {
         margin-top: 1em;
-        margin-bottom: 1em;
+        margin-bottom: 0.75em;
         font-size: 3em;
     }
     .main-content h2 {
-        margin-top: 1em;
-        margin-bottom: 1em;
+        margin-top: 1.25em;
+        margin-bottom: 0.6em;
         font-size: 2.5em;
     }
     .main-content p, .main-content div, .main-content ul, .main-content ol {
@@ -496,7 +591,7 @@ span.quote {
         margin-bottom: 0.8em;
     }
     .page-header {
-        padding: 0rem 0rem;
+        padding: 2.5rem 1.5rem 2rem;
     }
     div#acuity-schedule-container > div#loading-indicator {
         font-size: 1.2em;
@@ -521,11 +616,14 @@ span.quote {
     }
 
     header.page-header {
-        margin-top: 80px;
+        margin-top: 88px;
+    }
+
+    .subpage-spacer {
+        height: 88px;
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 1.7em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -533,10 +631,6 @@ span.quote {
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
-    }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
     }
 
     div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li > a {
@@ -553,10 +647,6 @@ span.quote {
         z-index: 1000;
         display: none;
         padding-inline-start: 10px;
-    }
-
-    img.logo {
-        width: 400px;
     }
 }
 

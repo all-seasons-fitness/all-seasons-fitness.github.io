@@ -6,7 +6,7 @@
 
 {% seo title=false %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Signika:wght@700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#081A09">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -18,36 +18,31 @@
   <body>
     {% include nav.html %}
 
-    <header class="page-header" role="banner">  
-        <!-- style="background-image: url('{{ page.logo }}'); background-repeat: no-repeat;" -->
-      <a href="index.html#page-top"><img src="{{ site.logo }}" alt="Logo" class="logo"></a>
-      <!-- <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1> -->
+    {% if page.short_name == 'home' %}
+    <header class="page-header" role="banner">
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      {% if page.subtagline %}
-        <p style="font-family: 'Signika', sans-serif; font-size: 1em; font-weight: 400; color: rgba(255,255,255,0.78); letter-spacing: 0.025em; text-align: center; margin: -0.5em auto 1.5em; max-width: 85%;">{{ page.subtagline }}</p>
+      {% if page.hero_sub1 %}
+        <p class="hero-sub1">{{ page.hero_sub1 }}</p>
       {% endif %}
-      {% if page.button_text %}
-        <a href="{{ page.button_url }}" class="btn header-btn" target="_blank" rel="noopener noreferrer"`>{{ page.button_text }}</a>
+      {% if page.hero_sub2 %}
+        <p class="hero-sub2">{{ page.hero_sub2 }}</p>
       {% endif %}
-      {% if page.show_gh_info %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
+      <a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Free Class</a>
     </header>
+    {% else %}
+    <div class="subpage-spacer"></div>
+    {% endif %}
 
     <main id="content" class="main-content" role="main">
-
-        {{ content }}
-        <div style="clear: both;"></div>
-
-      <footer class="site-footer">
-        <p>All Seasons Fitness &middot; Serving Edmonds, Mountlake Terrace &amp; surrounding communities</p>
-        <p><a href="tel:+14257807466">(425) 780-7466</a> &middot; <a href="mailto:Brittany@all-seasons-fitness.com">Brittany@all-seasons-fitness.com</a></p>
-      </footer>
+      {{ content }}
+      <div style="clear: both;"></div>
     </main>
+
+    <footer class="site-footer">
+      <p>all-seasons-fitness.com &nbsp;&middot;&nbsp; Edmonds &amp; Mountlake Terrace, WA</p>
+      <p><a href="tel:+14257807466">(425) 780-7466</a> &nbsp;&middot;&nbsp; <a href="mailto:Brittany@all-seasons-fitness.com">Brittany@all-seasons-fitness.com</a></p>
+      <p class="footer-meta"><a href="https://www.facebook.com/groups/721088668952518/?ref=share&amp;mibextid=NSMWBT" target="_blank" rel="noopener noreferrer">Facebook Community</a></p>
+    </footer>
     {% include js.html %}
   </body>
 </html>

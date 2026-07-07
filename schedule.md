@@ -19,7 +19,7 @@ We offer classes throughout the week to fit different schedules. All classes are
 | Saturday | 9am - Brittany/Kristina |
 | Sunday | 9am - Brittany/Kristina |
 
-<div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/calendar" class="btn section-btn" target="_blank" rel="noopener noreferrer">View Full Calendar</a></div>
+<div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/calendar" class="btn btn-alt" target="_blank" rel="noopener noreferrer">View Full Calendar</a></div>
 
 <img class="img-responsive asf-img" src="assets/images/class_indoor_large.jpg" alt="Large indoor class with members and kids working out together">
 

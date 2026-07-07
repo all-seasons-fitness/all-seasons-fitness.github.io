@@ -5,7 +5,8 @@ title: All Seasons Fitness
 short_name: home
 html_title: "All Seasons Fitness | Group Strength Classes in Edmonds & Mountlake Terrace, WA"
 description: "Small-group strength and conditioning classes for adults in Edmonds and Mountlake Terrace, WA. Kids welcome at every class. Your first class is free."
-subtagline: "Edmonds & Mountlake Terrace &middot; kids welcome &middot; first class free"
+hero_sub1: "Kids Welcome. All Levels. Every Season."
+hero_sub2: "Small-group strength classes in Edmonds &amp; Mountlake Terrace — first class free."
 ---
 
 All Seasons Fitness is a community-based strength training gym built for real life. Our classes blend strength, conditioning, and core work in a way that's challenging, adaptable, and sustainable — without the pressure to show up as anything other than yourself.
@@ -14,7 +15,7 @@ All Seasons Fitness is a community-based strength training gym built for real li
 
 <div style="text-align: center; margin: 1.5em 0;">
 <a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a>
-<a href="/schedule.html" class="btn section-btn">View Schedule</a>
+<a href="/schedule.html" class="btn btn-alt">View Schedule</a>
 </div>
 
 ## Who It's For
@@ -44,9 +45,11 @@ You'll find coaching that meets you where you are and a community that genuinely
 
 ---
 
-## Connect With Us
+## Ready to try a class?
 
-Join the All Seasons Fitness Facebook group for updates, pictures, and events!
+Your first class is free — kids welcome.
 
-<div style="text-align: center;"><a href="https://www.facebook.com/groups/721088668952518/?ref=share&mibextid=NSMWBT" class="btn section-btn" target="_blank" rel="noopener noreferrer"><img src="assets/images/facebook_black.png" alt="Facebook icon"/>All Seasons Fitness</a></div>
+<div style="text-align: center; margin: 1.5em 0;">
+<a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a>
+</div>
 
