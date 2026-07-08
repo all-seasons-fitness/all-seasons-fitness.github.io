@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: All Seasons Fitness
-email: beckyannegilbert@gmail.com
+email: Brittany@all-seasons-fitness.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Strength-based conditioning for all seasons of life.
-github_username:  becky-gilbert
+  Small-group strength classes for parents and adults in Edmonds & Mountlake Terrace, WA. Kids welcome. First class free.
+# github_username: removed — was showing developer credentials on a business site
 domain: all-seasons-fitness.com
 url: https://all-seasons-fitness.com
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -65,15 +65,17 @@ social:
 # Build settings
 #remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-  - jekyll-remote-theme 
+  - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-gist
+  - jekyll-sitemap
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-remote-theme 
+  - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-gist
+  - jekyll-sitemap
 
 defaults:
   -

@@ -5,17 +5,75 @@
     <title>{{ page.html_title | default: page.title | default: site.title }}</title>
 
 {% seo title=false %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Signika:wght@700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#081A09">
+    <meta name="theme-color" content="#136988">
+    <meta property="og:image" content="https://all-seasons-fitness.com/assets/images/class_indoor_large.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="All Seasons Fitness">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <!-- BG edited file path -->
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="{{ '/index.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MDN18LXJYB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MDN18LXJYB');
+    </script>
+
+    <!-- LocalBusiness structured data for Google local search & map pack -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ExerciseGym",
+      "name": "All Seasons Fitness",
+      "description": "Small-group strength and conditioning classes for adults in Edmonds and Mountlake Terrace, WA. Kids welcome at every class. Your first class is free.",
+      "url": "https://all-seasons-fitness.com",
+      "image": "https://all-seasons-fitness.com/assets/images/class_indoor_large.jpg",
+      "telephone": "+14257807466",
+      "email": "Brittany@all-seasons-fitness.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Edmonds",
+        "addressRegion": "WA",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Edmonds" },
+        { "@type": "City", "name": "Mountlake Terrace" }
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Wednesday", "Friday"],
+          "opens": "09:30",
+          "closes": "10:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Wednesday"],
+          "opens": "17:30",
+          "closes": "18:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday", "Sunday"],
+          "opens": "09:00",
+          "closes": "10:00"
+        }
+      ],
+      "priceRange": "$$",
+      "sameAs": ["https://www.facebook.com/groups/721088668952518/"]
+    }
+    </script>
   </head>
-  <body>
+  <body class="page-{{ page.short_name | default: 'other' }}">
     {% include nav.html %}
 
     {% if page.short_name == 'home' %}
@@ -27,10 +85,18 @@
       {% if page.hero_sub2 %}
         <p class="hero-sub2">{{ page.hero_sub2 }}</p>
       {% endif %}
-      <a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Free Class</a>
+      <a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a>
+      <div class="hero-ridge" aria-hidden="true">
+        <img src="/assets/images/All_Seasons_Fitness_Mountain_Graphic.svg" alt="" class="hero-ridge-img">
+      </div>
     </header>
     {% else %}
-    <div class="subpage-spacer"></div>
+    <header class="page-band" role="banner">
+      <h1 class="page-band-title">{{ page.band_title | default: page.title }}</h1>
+      <div class="hero-ridge" aria-hidden="true">
+        <img src="/assets/images/All_Seasons_Fitness_Mountain_Graphic.svg" alt="" class="hero-ridge-img">
+      </div>
+    </header>
     {% endif %}
 
     <main id="content" class="main-content" role="main">
@@ -38,10 +104,31 @@
       <div style="clear: both;"></div>
     </main>
 
+    <div class="footer-ridge" aria-hidden="true" role="presentation">
+      <svg viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="footer-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#136988"/>
+            <stop offset="100%" stop-color="#15905F"/>
+          </linearGradient>
+        </defs>
+        <path d="M0,65 C360,20 1080,95 1440,45 L1440,100 L0,100 Z" fill="url(#footer-grad)"/>
+      </svg>
+    </div>
     <footer class="site-footer">
-      <p>all-seasons-fitness.com &nbsp;&middot;&nbsp; Edmonds &amp; Mountlake Terrace, WA</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="/index.html">Home</a>
+        <a href="/workouts.html">Classes</a>
+        <a href="/schedule.html">Schedule</a>
+        <a href="/coaches.html">Coaches</a>
+        <a href="/memberships.html">Memberships</a>
+        <a href="/first-class.html">First Class</a>
+        <a href="/reviews.html">Reviews</a>
+        <a href="/faq.html">FAQ</a>
+      </nav>
+      <p>Edmonds &amp; Mountlake Terrace, WA</p>
       <p><a href="tel:+14257807466">(425) 780-7466</a> &nbsp;&middot;&nbsp; <a href="mailto:Brittany@all-seasons-fitness.com">Brittany@all-seasons-fitness.com</a></p>
-      <p class="footer-meta"><a href="https://www.facebook.com/groups/721088668952518/?ref=share&amp;mibextid=NSMWBT" target="_blank" rel="noopener noreferrer">Facebook Community</a></p>
+      <p class="footer-meta"><a href="https://www.facebook.com/groups/721088668952518/?ref=share&amp;mibextid=NSMWBT" target="_blank" rel="noopener noreferrer">Facebook Community</a> &nbsp;&middot;&nbsp; <a href="https://mailchi.mp/all-seasons-fitness.com/asf-website-info-sign-up" target="_blank" rel="noopener noreferrer">Get Class Updates</a></p>
     </footer>
     {% include js.html %}
   </body>
