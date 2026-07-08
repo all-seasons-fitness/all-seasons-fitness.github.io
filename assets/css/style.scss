@@ -1,105 +1,276 @@
 ---
 ---
 
-// Brand color overrides — must be before @import to win over Cayman !default values
+// Hero gradient stops (kept exactly): #136988 teal → #15905F green
+// --pine darkens #15905F slightly to achieve AA contrast on solid UI elements
 $header-bg-color: #136988;
 $header-bg-color-secondary: #15905F;
 $header-heading-color: #fff;
-$body-link-color: #129559;
-$body-text-color: #081A09;
-$section-headings-color: #081A09;
+$body-link-color: #136988;        // teal
+$body-text-color: #2b2f2e;        // charcoal
+$section-headings-color: #1e4736; // pine
 
 @import "{{ site.theme }}";
 
 // Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Signika:wght@700&display=swap');
 
+// ---- PALETTE ----
+// Derived from the hero gradient (#136988 teal → #15905F green)
+:root {
+    --pine:         #1e4736;  // deep forest green; white on it = 10.8:1 AAA ✓
+    --teal:         #136988;  // blue-green; white on it = 6.2:1 AA ✓
+    --cream:        #edf6f9;  // light teal tint — brand-aligned card/stripe background
+    --charcoal:     #2b2f2e;  // soft near-black body text
+    --asf-gradient: linear-gradient(to right, #136988, #15905F);
+}
+
 // ---- SCROLL OFFSET for fixed nav ----
 html {
-    scroll-padding-top: 72px;
+    scroll-padding-top: 88px;
+    min-height: 100%;
+    background: linear-gradient(to bottom, #ffffff 20%, #d8e2e7 100%);
 }
 
 @media(min-width: 768px) {
     html {
-        scroll-padding-top: 88px;
+        scroll-padding-top: 112px;
     }
 }
 
 // ---- TYPOGRAPHY ----
-body, .main-content {
+body {
+    background: transparent;
+    position: relative;
+    min-height: 100vh;
+    color: var(--charcoal);
     font-family: 'Open Sans', sans-serif;
-    color: #081A09;
+    padding-top: 88px;
 }
+
+// Mountain watermark: sits between html gradient and body content.
+// 180vw wide pushes circle edges ~576px off-screen each side.
+// 600px height clips the mask before the circular arc (y=211 in SVG)
+// so only the mountain ridgeline is ever visible.
+body::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 850px;
+    background-color: var(--pine);
+    -webkit-mask-image: url('/assets/images/All_Seasons_Fitness_Mountain_Graphic.svg');
+    mask-image: url('/assets/images/All_Seasons_Fitness_Mountain_Graphic.svg');
+    -webkit-mask-size: 180vw auto;
+    mask-size: 180vw auto;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center top;
+    mask-position: center top;
+    opacity: 0.09;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.main-content {
+    background: transparent;
+    color: var(--charcoal);
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    overflow: clip;
+}
+
+
 
 h1, h2, h3, h4, h5, h6, .project-tagline {
     font-family: 'Signika', sans-serif;
     font-weight: 700;
 }
 
-// Catch-all link color to prevent browser-default blue
 a {
-    color: #129559;
+    color: var(--teal);
 }
 
 a:hover {
-    color: #167975;
+    color: var(--pine);
 }
 
-// ---- HEADER / HERO (homepage only) ----
+// ---- HERO (homepage only) ----
 header.page-header {
     background-color: #136988;
     background-image: linear-gradient(to right, #136988, #15905F);
     padding: 3.5rem 2rem 3rem;
-    margin-top: 72px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 
+// Dominant headline: largest, tight leading, breathing room below
 h2.project-tagline {
-    max-width: 95%;
-    margin-bottom: 0.6em;
+    color: #fff;
+    opacity: 1; // Cayman theme sets opacity: 0.7 on .project-tagline — override to full white
+    max-width: 90%;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 1.2em;
 }
 
-// Hero subhead lines — sized for WCAG large-text threshold on gradient
+// Line 2: bold white, clearly smaller than headline
 .hero-sub1 {
     font-family: 'Signika', sans-serif;
     font-weight: 700;
     font-size: 1.35em;
-    color: #fff;
+    color: #ffffff;
     letter-spacing: 0.02em;
-    margin: 0 auto 0.4em;
+    margin: 0 auto 0.5em;
     max-width: 85%;
 }
 
+// Line 3: smallest, softest — three distinct levels without color difference
 .hero-sub2 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 1.05em;
-    color: rgba(255,255,255,0.9);
-    margin: 0 auto 1.5em;
+    font-weight: 400;
+    font-size: 0.95em;
+    color: rgba(255, 255, 255, 0.82);
+    margin: 0 auto 1.8em;
     max-width: 80%;
 }
 
-// ---- SUBPAGE SPACER (replaces hero on non-homepage) ----
+// Hero text content stays above the ridge (z-index: 1 over ridge's z-index: 0)
+h2.project-tagline,
+.hero-sub1,
+.hero-sub2 {
+    position: relative;
+    z-index: 1;
+}
+
+// ---- HERO RIDGELINE ----
+// Mountain silhouette at 9% white opacity along the hero's bottom edge
+.hero-ridge {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 180px;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.hero-ridge-img {
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    width: 72%;
+    max-width: 580px;
+    height: auto;
+    filter: brightness(0) invert(1);
+    opacity: 0.09;
+}
+
+// Hero CTA: white pill on gradient — inverted so it pops against the colored background
+header.page-header .btn.section-btn {
+    background: #ffffff;
+    background-image: none;
+    color: var(--pine);
+    border: none;
+    position: relative;
+    z-index: 1;
+}
+
+header.page-header .btn.section-btn:hover,
+header.page-header .btn.section-btn:focus {
+    background: var(--cream);
+    background-image: none;
+    color: var(--pine);
+    border: none;
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.3);
+}
+
+// ---- PAGE BAND (content pages) ----
+// Slim gradient header on every non-home page, matching the hero gradient.
+// Contains the page H1 in white so the markdown H1 is hidden (see below).
+.page-band {
+    background: var(--asf-gradient);
+    padding: 2rem 2rem 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 130px;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-band-title {
+    color: #ffffff;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    line-height: 1.1;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+// Subtle mountain silhouette in the page band (same treatment as hero)
+.page-band .hero-ridge-img {
+    opacity: 0.07;
+}
+
+// Hide the duplicate H1 that markdown renders — the band shows it instead
+body:not(.page-home) .main-content > h1:first-child {
+    display: none;
+}
+
+// ---- SUBPAGE SPACER (fallback for pages without band) ----
 .subpage-spacer {
-    height: 72px;
+    height: 80px;
 }
 
 // ---- SECTION HEADINGS ----
 .main-content h1 {
-    margin-top: 1em;
-    margin-bottom: 0.75em;
+    color: var(--pine);
+    margin-top: 0.8em;
+    margin-bottom: 0.6em;
     text-align: center;
     font-size: 2em;
+    line-height: 1.15;
 }
 
+// H1 accent bar: teal, centered (yellow removed — near-invisible on cream)
+.main-content h1::after {
+    content: '';
+    display: block;
+    width: 52px;
+    height: 3px;
+    background: var(--teal);
+    border-radius: 2px;
+    margin: 0.4em auto 0;
+}
+
+// H2: section heading, pine — no decorative bar (bar on every H2 creates noise)
 .main-content h2 {
-    margin-top: 1.25em;
-    margin-bottom: 0.6em;
+    color: var(--pine);
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
     text-align: left;
     font-size: 1.5em;
+    line-height: 1.2;
+}
+
+// H3: pine, no bar (coaches page sub-sections only)
+.main-content h3 {
+    color: var(--pine);
+    margin-top: 1.2em;
+    margin-bottom: 0.4em;
+    font-size: 1.2em;
 }
 
 // ---- BODY TEXT ----
@@ -111,45 +282,51 @@ h2.project-tagline {
     margin-bottom: 0.8em;
 }
 
+// HR — teal-tinted section break
 .main-content hr {
-    margin: 2rem 2rem 0;
+    border: none;
+    border-top: 2px solid rgba(19, 105, 136, 0.2);
+    max-width: 70%;
+    margin: 2.5rem auto;
 }
 
 // ---- LINKS ----
 .main-content a {
-    color: #129559;
+    color: var(--teal);
 }
 
 .main-content a:hover {
-    color: #167975;
+    color: var(--pine);
     text-decoration: underline;
 }
 
 // ---- BUTTONS ----
-// Base: pill shape only — font-size set per variant
 .btn {
     border-radius: 50px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
 }
 
-// PRIMARY — yellow pill (booking/free-class actions only)
+// PRIMARY — gradient background, white text, ≥44px height
 .btn.section-btn {
-    font-size: 1.125rem;
-    padding: 12px 28px;
-    background: #FFED4D;
-    background-image: none;
-    color: #081A09;
+    font-size: 1.35rem;
+    padding: 14px 32px;
+    line-height: 1.3;
+    background: var(--asf-gradient);
+    background-color: #136988;
+    color: #ffffff;
     font-weight: 700;
     border-color: transparent;
-    line-height: 1.3;
 }
 
 .btn.section-btn:hover,
 .btn.section-btn:focus {
-    background: #f5e030;
-    background-image: none;
-    color: #081A09;
+    background: linear-gradient(to right, #0e5a72, #116e47);
+    background-color: #0e5a72;
+    color: #ffffff;
     border-color: transparent;
     text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 22px rgba(19, 105, 136, 0.45);
 }
 
 .btn.section-btn img {
@@ -158,25 +335,27 @@ h2.project-tagline {
     width: 1em;
 }
 
-// SECONDARY — outline (View Schedule, View Full Calendar, external links)
+// SECONDARY — outlined pine, transparent bg, ≥44px height
 .btn.btn-alt {
-    font-size: 1rem;
-    padding: 8px 20px;
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    line-height: 1.3;
     background: transparent;
     background-image: none;
-    color: #129559;
+    color: var(--pine);
     font-weight: 600;
-    border: 2px solid #129559;
-    line-height: 1.3;
+    border: 2px solid var(--pine);
 }
 
 .btn.btn-alt:hover,
 .btn.btn-alt:focus {
-    background: rgba(18, 149, 89, 0.08);
+    background: rgba(30, 71, 54, 0.07);
     background-image: none;
-    color: #129559;
-    border-color: #129559;
+    color: var(--pine);
+    border-color: var(--pine);
     text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 3px 10px rgba(30, 71, 54, 0.2);
 }
 
 .btn.btn-alt img {
@@ -188,9 +367,10 @@ h2.project-tagline {
 // ---- NAV ----
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
-    background-color: #081A09;
+    background: var(--asf-gradient);
+    background-color: #136988;  // fallback
     border-color: transparent;
 }
 
@@ -200,9 +380,23 @@ h2.project-tagline {
 }
 
 .nav-logo {
-    height: 40px;
+    height: 92px;
     width: auto;
     vertical-align: middle;
+    filter: brightness(0) invert(1);
+}
+
+// Wordmark shown on desktop, hidden on mobile (icon only)
+.nav-wordmark {
+    display: none;
+    color: #ffffff;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 0.03em;
+    vertical-align: middle;
+    margin-left: 9px;
+    white-space: nowrap;
 }
 
 .navbar a:focus {
@@ -210,7 +404,7 @@ h2.project-tagline {
 }
 
 .navbar .navbar-nav {
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 
 .navbar .navbar-nav li a:focus {
@@ -218,20 +412,26 @@ h2.project-tagline {
 }
 
 ul.nav.navbar-nav.navbar-right li a {
-    color: rgba(255,255,255,0.9);
+    color: rgba(255, 255, 255, 0.88);
+    padding: 14px 11px;
 }
 
 ul.nav.navbar-nav.navbar-right li a:hover {
     color: #fff;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.12);
 }
 
-// Active page: subtle text color, no boxed highlight
+// Active page: full white + underline
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    background-color: transparent;
-    color: #AAD03E;
+    background-color: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.95);
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+    border-radius: 6px;
 }
 
 .navbar li, .navbar li a {
@@ -244,7 +444,7 @@ ul.nav.navbar-nav.navbar-right li a:hover {
 }
 
 nav.navbar.navbar-default.navbar-fixed-top {
-    box-shadow: 0 2px 8px rgba(0,0,0,0.45);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
 }
 
 div.navbar-header.page-scroll button,
@@ -254,30 +454,33 @@ div.navbar-header.page-scroll a {
 }
 
 div.navbar-header.page-scroll button {
-    background-color: rgba(255,255,255,0.15) !important;
-    border-color: rgba(255,255,255,0.3);
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    border-color: rgba(255, 255, 255, 0.3);
 }
 
-// Free Class nav CTA — yellow pill, compact
+// Nav CTA: white pill on pine nav — inverted to stand out from nav links
 a.nav-cta {
-    background: #FFED4D !important;
-    color: #081A09 !important;
-    font-size: 13px;
+    background: #ffffff !important;
+    color: var(--pine) !important;
+    font-size: 14px;
     font-weight: 700;
     border-radius: 50px;
-    padding: 6px 14px !important;
-    margin-left: 6px;
+    padding: 10px 18px !important;
+    margin-left: 8px;
     line-height: 1.3;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
 }
 
 a.nav-cta:hover,
 a.nav-cta:focus {
-    background: #f5e030 !important;
-    color: #081A09 !important;
+    background: var(--cream) !important;
+    color: var(--pine) !important;
     text-decoration: none;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-// sub-nav
+// sub-nav dropdown
 .collapse.navbar-collapse .nav-sub-menu {
     list-style: none;
 }
@@ -291,7 +494,7 @@ div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu {
     position: absolute;
     top: 30px;
     left: 5px;
-    background: #081A09;
+    background: var(--asf-gradient);
     min-width: 200px;
     z-index: 1000;
     display: none;
@@ -305,23 +508,68 @@ div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li {
 div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li > a {
     margin: 20px 0px;
     padding: 10px;
-    color: rgba(255,255,255,0.9);
+    color: rgba(255, 255, 255, 0.9);
 }
 
-// ---- FOOTER ----
+// ---- FOOTER RIDGE ----
+// Mountain silhouette as the top edge of the footer; pine fill so it reads as
+// one continuous shape with the pine footer below it.
+// viewBox cropped to y=375 to bring mountain base flush with the SVG bottom.
+.footer-ridge {
+    display: block;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-ridge svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+// ---- FOOTER NAV ----
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.3em 1.4em;
+    margin-bottom: 1.2em;
+}
+
+.footer-nav a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+// ---- FOOTER — matches nav gradient ----
 .site-footer {
-    background: #081A09;
-    color: rgba(255,255,255,0.9);
+    background: var(--asf-gradient);
+    background-color: #136988;  // fallback
+    color: rgba(255, 255, 255, 0.9);
     border-top: none;
-    padding: 1.5em 2em;
+    padding: 2em 2em;
     text-align: center;
     margin-top: 0;
     width: 100%;
     box-sizing: border-box;
+    font-size: 1.2rem;
+    line-height: 2.1;
 }
 
 .site-footer a {
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
 }
 
@@ -410,43 +658,44 @@ p:has(img.asf-img.asf-img-float-center) {
         display: table;
         border-radius: 12px;
         overflow: hidden;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
     }
     table th, table td {
         border: none;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.25);
         padding: 18px 20px;
         font-family: 'Open Sans', sans-serif;
         font-size: 1.8em;
+        line-height: 1.9;
     }
     table tr:last-child td {
         border-bottom: none;
     }
     table td:first-child {
-        background: #081A09;
-        color: white;
+        background: var(--asf-gradient);
+        color: #ffffff;
         font-family: 'Signika', sans-serif;
         font-weight: 700;
         font-size: 2em;
         text-align: center;
-        width: 30%;
+        width: 22%;
     }
     table td:last-child {
         text-align: left;
-        background-color: white;
-        width: 70%;
+        background-color: #ffffff;
+        width: 78%;
         line-height: 1.8;
     }
     th {
-        background: #081A09;
-        color: white;
+        background: var(--asf-gradient);
+        color: #ffffff;
         font-family: 'Signika', sans-serif;
     }
     table tr:nth-child(even) td:last-child {
-        background-color: #f8faf9;
+        background-color: var(--cream);
     }
     table tr:hover td:last-child {
-        background-color: rgba(18, 149, 89, 0.06);
+        background-color: rgba(19, 105, 136, 0.07);
     }
 }
 
@@ -455,13 +704,13 @@ span.quote {
     color: #818181;
 }
 
-// ---- TESTIMONIAL QUOTE CARDS ----
+// ---- PRICING LIST ----
+// ---- TESTIMONIALS — cream card, pine left accent ----
 .testimonial {
-    background-color: rgba(18, 149, 89, 0.07);
-    border-left: 4px solid #129559;
-    padding: 1.2em 1.5em;
-    margin: 1.5em 0;
-    border-radius: 0 8px 8px 0;
+    border-left: 4px solid var(--pine);
+    padding: 0.75em 1.5em;
+    margin: 1em 0;
+    font-style: italic;
 }
 
 .testimonial p {
@@ -469,47 +718,125 @@ span.quote {
     font-style: italic;
 }
 
-// ---- SCHEDULE LOCATION CALLOUT ----
-// Reads as a helpful note: fit-content, pale yellow tint, yellow left border
-.location-callout {
+// ---- TESTIMONIAL CITATION ----
+.testimonial cite {
     display: block;
-    width: fit-content;
-    max-width: 600px;
-    background: #FFF9D6;
-    color: #081A09;
-    font-weight: 400;
-    font-size: 1em;
-    padding: 10px 16px;
-    border-radius: 6px;
-    border-left: 3px solid #FFED4D;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--pine);
+    font-size: 0.9em;
+    margin-top: 0.75em;
+    padding-top: 0.5em;
+    border-top: 1px solid rgba(30, 71, 54, 0.15);
+}
+
+.review-stars {
+    font-size: 0.85em;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.4em;
+}
+
+// ---- SCHEDULE LOCATION CALLOUT — cream background, teal left accent ----
+.location-callout {
+    background: var(--cream);
+    color: #606c71;
+    border-left: 4px solid var(--teal);
+    padding: 0.8em 1.5em;
+    border-radius: 0 8px 8px 0;
     margin: 1em 0 1.5em;
+    font-weight: 400;
+    font-size: 0.85em;
+    font-style: italic;
+}
+
+// ---- TRUST BAR ----
+.main-content .trust-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em 0 2em;
+    padding: 0.85em 1em;
+    border-top: 1px solid rgba(19, 105, 136, 0.2);
+    border-bottom: 1px solid rgba(19, 105, 136, 0.2);
+    font-size: 0.85rem;
+    gap: 0;
+}
+
+.trust-bar span {
+    color: var(--pine);
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 0.2em 1.3em;
+    border-right: 1.5px solid rgba(19, 105, 136, 0.22);
+    white-space: nowrap;
+    line-height: 1.4;
+}
+
+.trust-bar span:last-child {
+    border-right: none;
+}
+
+@media(max-width: 600px) {
+    .main-content .trust-bar {
+        flex-direction: column;
+        gap: 0.5em;
+        padding: 1em;
+    }
+    .trust-bar span {
+        border-right: none;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+// ---- PROMO CALLOUT (Summer Special etc.) ----
+.promo-callout {
+    background: linear-gradient(135deg, rgba(19, 105, 136, 0.07), rgba(21, 144, 95, 0.07));
+    border: 2px solid rgba(19, 105, 136, 0.22);
+    border-radius: 12px;
+    padding: 1.6em 2em;
+    margin: 1.5em 0 2em;
+    text-align: center;
+}
+
+.promo-callout strong:first-child {
+    display: block;
+    color: var(--pine);
+    margin-bottom: 0.6em;
+}
+
+.promo-callout .btn {
+    margin-top: 1em;
 }
 
 // ---- MEDIA QUERIES ----
-@media screen and (min-width:64em) {
+@media screen and (min-width: 64em) {
     .main-content {
-        max-width: 80%;
+        max-width: min(900px, 92%);
     }
     h2.project-tagline {
-        font-size: 2em;
-        margin-top: 0;
-        margin-bottom: 0.6em;
+        font-size: 2.6em;
     }
     .hero-sub1 {
         font-size: 1.5em;
     }
     .hero-sub2 {
-        font-size: 1.15em;
+        font-size: 1.0em;
     }
     .main-content h1 {
-        margin-top: 1em;
-        margin-bottom: 0.75em;
-        font-size: 2.8em;
+        margin-top: 0.8em;
+        margin-bottom: 0.6em;
+        font-size: 3em;
     }
     .main-content h2 {
-        margin-top: 1.25em;
-        margin-bottom: 0.6em;
-        font-size: 2.5em;
+        margin-top: 1.4em;
+        margin-bottom: 0.5em;
+        font-size: 2.2em;
+    }
+    .main-content h3 {
+        font-size: 1.6em;
     }
     .main-content p, .main-content div, .main-content ul, .main-content ol {
         font-size: 2em;
@@ -534,19 +861,20 @@ span.quote {
         margin: auto;
     }
     h2.project-tagline {
-        font-size: 2em;
-        margin-top: 0;
-        margin-bottom: 0.6em;
+        font-size: 2.3em;
     }
     .main-content h1 {
-        margin-top: 1em;
-        margin-bottom: 0.75em;
+        margin-top: 0.8em;
+        margin-bottom: 0.6em;
         font-size: 2.8em;
     }
     .main-content h2 {
-        margin-top: 1.25em;
-        margin-bottom: 0.6em;
-        font-size: 2.5em;
+        margin-top: 1.4em;
+        margin-bottom: 0.5em;
+        font-size: 2em;
+    }
+    .main-content h3 {
+        font-size: 1.5em;
     }
     .main-content p, .main-content div, .main-content ul, .main-content ol {
         font-size: 2em;
@@ -570,22 +898,26 @@ span.quote {
         max-width: 95%;
     }
     h2.project-tagline {
-        font-size: 1.5em;
-        margin-top: 0;
-        margin-bottom: 0.6em;
+        font-size: 1.8em;
+        text-align: center;
+        width: 100%;
+        padding: 0 0.5em;
     }
     .main-content h1 {
-        margin-top: 1em;
-        margin-bottom: 0.75em;
-        font-size: 3em;
+        margin-top: 0.8em;
+        margin-bottom: 0.6em;
+        font-size: 2.4em;
     }
     .main-content h2 {
-        margin-top: 1.25em;
-        margin-bottom: 0.6em;
-        font-size: 2.5em;
+        margin-top: 1.4em;
+        margin-bottom: 0.5em;
+        font-size: 1.9em;
+    }
+    .main-content h3 {
+        font-size: 1.4em;
     }
     .main-content p, .main-content div, .main-content ul, .main-content ol {
-        font-size: 2em;
+        font-size: 1.6em;
     }
     .main-content li {
         margin-bottom: 0.8em;
@@ -599,6 +931,11 @@ span.quote {
     div#acuity-schedule-container {
         padding-bottom: 150%;
     }
+    .btn.section-btn {
+        width: 100%;
+        max-width: 320px;
+        padding: 16px 24px;
+    }
 }
 
 @media(max-width: 992px) {
@@ -607,20 +944,35 @@ span.quote {
     }
 }
 
-@media(min-width:768px) {
+@media(min-width: 768px) {
+    body {
+        padding-top: 108px;  // taller desktop nav (72px logo + padding + 8px nav padding)
+    }
+    .nav-wordmark {
+        display: inline;
+    }
     .navbar-fixed-top {
-        padding: 10px 0;
+        padding: 4px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
 
-    header.page-header {
-        margin-top: 88px;
+    .nav-logo {
+        height: 92px;
+    }
+
+    .page-band {
+        min-height: 160px;
+        padding: 2.5rem 3rem 2rem;
+    }
+
+    .page-band-title {
+        font-size: 2.8em;
     }
 
     .subpage-spacer {
-        height: 88px;
+        height: 108px;
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -640,9 +992,9 @@ span.quote {
 
     div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu {
         position: absolute;
-        top: 60px;
+        top: 80px;
         left: 5px;
-        background: #081A09;
+        background: var(--asf-gradient);
         min-width: 200px;
         z-index: 1000;
         display: none;
@@ -661,6 +1013,35 @@ span.quote {
 }
 
 @media(max-width: 768px) {
+    body::after {
+        -webkit-mask-size: 320vw auto;
+        mask-size: 320vw auto;
+        height: 600px;
+    }
+    // Shorter ridgeline on mobile
+    .hero-ridge {
+        height: 100px;
+    }
+    .hero-ridge-img {
+        width: 90%;
+        max-width: none;
+    }
+    .footer-ridge {
+        height: 60px;
+    }
+    .nav-logo {
+        height: 70px;
+    }
+    .page-band {
+        min-height: 120px;
+        padding: 1.5rem 1.5rem 1.2rem;
+    }
+    .page-band-title {
+        font-size: 1.6em;
+    }
+    .subpage-spacer {
+        height: 88px;
+    }
     img.asf-img.asf-img-small.pull-right, img.asf-img.asf-img-small.pull-left {
         margin-left: auto;
         margin-right: auto;
@@ -684,15 +1065,11 @@ span.quote {
         white-space: normal;
     }
     .testimonial {
-        padding: 1.5em 1.8em;
+        padding: 1.4em 1.6em;
         margin: 1.5em 0.5em;
     }
     .main-content hr {
-        margin: 2.5em 1em;
-    }
-    h2.project-tagline {
-        text-align: center;
-        width: 100%;
-        padding: 0 1em;
+        margin: 2rem auto;
+        max-width: 80%;
     }
 }

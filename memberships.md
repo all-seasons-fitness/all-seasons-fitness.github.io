@@ -1,60 +1,59 @@
 ---
 title: Membership Options
+band_title: "Memberships, Class Packs &amp; Drop-Ins"
 short_name: memberships
 permalink: /memberships.html
 layout: default
-html_title: "Memberships & Pricing | All Seasons Fitness"
-description: "Flexible membership options, class packs, and drop-ins for All Seasons Fitness in Edmonds and Mountlake Terrace. First class free — no long-term commitments."
+html_title: "Memberships & Pricing | All Seasons Fitness, Edmonds & Mountlake Terrace, WA"
+description: "New members: first class free, then one week unlimited for $20. Monthly memberships from $62, class packs, and drop-ins in Edmonds & Mountlake Terrace. No long-term commitments."
 ---
 
-# Memberships, Class Packs & Drop-Ins
+<div class="promo-callout">
 
-Simple options. No long commitments. Choose what fits your schedule and join the community whenever you're able.
+<strong>New Member Summer Special</strong>
 
----
+<small style="color: #888; display: block; margin-top: 0.2em;">First class is free. Love it? Try a full week of unlimited classes for just $20. Show up as many times as you want, then decide if membership is right for you.</small>
 
-## First Class is Free!
+<a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a>
 
-The hardest part is often walking in the door. Come as you are, try us out, and see if it feels like a fit.
-
-<div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a></div>
+</div>
 
 ---
 
 ## Monthly Memberships
 
-<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/group7.png" alt="All Seasons Fitness community group photo">
+<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/group7.webp" alt="All Seasons Fitness community group photo" loading="lazy">
 
-**4x / month — $62**
-A good starting point for building a routine or training once per week.
-<small style="color: #606c71;">about $15.50 per class</small>
+**4x / month: $62** <small style="color: #888;">(~$15.50 per class)</small>
+<small style="color: #888; display: block; margin-top: 0.2em;">A good starting point for building a routine or training once per week.</small>
 
-**8x / month — $118**
-Ideal for training 2x per week, where strength gains and progress start to compound.
-<small style="color: #606c71;">about $14.75 per class</small>
+**8x / month: $118** <small style="color: #888;">(~$14.75 per class)</small>
+<small style="color: #888; display: block; margin-top: 0.2em;">Ideal for training 2x per week, where strength gains and progress start to compound.</small>
 
-**Unlimited — $145 ⭐ Best Value**
-Best for members training 2–3x per week or more, or anyone wanting flexibility week to week.
+**Unlimited: $145**
+<small style="color: #888; display: block; margin-top: 0.2em;">Best for members training 2-3x per week or more. Best value.</small>
 
 ---
 
 ## Class Packs & Drop-Ins
 
-<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/dad_lifting_kid.jpg" alt="Dad lifting child overhead while mom works out with dumbbells">
+<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/dad_lifting_kid.webp" alt="Dad lifting child overhead while mom works out with dumbbells" loading="lazy" style="max-width: 220px; width: 30%;">
 
-**10-Class Pack — $185** (6 month expiration)
-<small style="color: #606c71;">$18.50 per class</small>
+**10-Class Pack: $185** <small style="color: #888;">(~$18.50 per class, 6 month expiration)</small>
+<small style="color: #888; display: block; margin-top: 0.2em;">Great for new members who want flexibility while testing the waters.</small>
 
-**20-Class Pack — $320** (12 month expiration)
-<small style="color: #606c71;">$16 per class</small>
+**20-Class Pack: $320** <small style="color: #888;">(~$16 per class, 12 month expiration)</small>
+<small style="color: #888; display: block; margin-top: 0.2em;">Best value of our class pack options. If you plan to stick around but prefer no monthly commitment, you have a full year to use your sessions.</small>
 
-**Drop-In — $20**
-A good fit if your availability changes month to month or you prefer pay-as-you-go.
+**Drop-In: $20**
+
+<div style="clear: both; text-align: center; margin-top: 3em;"><small style="color: #888;"><strong>Discounts available:</strong> 20% off for partners and spouses training together. Discount also available for members who bring their own dumbbells. Contact Brittany for details.</small></div>
 
 ---
 
-## Sign Up & Book
+<div class="testimonial">
+"I have been working out with Brittany at All Seasons Fitness for over 2.5 years. It is my favorite workout class I have ever done, and even better I get to bring my daughter along and show her all different types of strong women!"
+<cite>Elisse V.</cite>
+</div>
 
-All memberships, class packs, and reservations are managed through PushPress. Access to the All Seasons Fitness app will begin when you start a membership.
-
-<div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a></div>
+<div style="text-align: center; margin: 2em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a></div>
