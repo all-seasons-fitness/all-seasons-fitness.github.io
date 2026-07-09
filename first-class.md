@@ -8,18 +8,27 @@ html_title: "Book Your Free First Class | All Seasons Fitness, Edmonds & Mountla
 description: "Your first class at All Seasons Fitness is free. Here's what to expect, what to bring, and how to prepare for your first workout in Edmonds or Mountlake Terrace, WA."
 ---
 
-Your first class is free. Here's everything you need to know before you arrive. Not sure what to expect from the workout itself? [See what our classes are like.](/workouts.html)
+Your first class is free. Here's everything you need to know before you arrive.
+
+Not sure what to expect from the workout itself? [See what our classes are like.](/workouts.html)
 
 ---
 
-## Before You Arrive
+## What to Bring
 
 <img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/plank_with_kid.webp" alt="Member doing plank exercise with child nearby" loading="lazy">
 
-- Wear comfortable workout clothes and athletic shoes
-- Bring water and a mat (a yoga mat, towel, or outdoor blanket all work)
-- Kids are welcome; bring snacks, toys, or whatever helps them stay comfortable
-- All equipment is provided
+- Comfortable workout clothes and athletic shoes
+- Water and a mat (a yoga mat, towel, or outdoor blanket all work)
+- Snacks, toys, or whatever helps your kids stay comfortable
+
+All equipment is there waiting for you.
+
+---
+
+## When You Get There
+
+- Your coach will reach out by text before your first class, so keep an eye out for that
 - Arrive 10 minutes early so we can get you set up
 - Let your coach know about any injuries, pregnancy, or postpartum considerations
 
@@ -55,8 +64,5 @@ Your first class is free. Here's everything you need to know before you arrive. 
 
 <a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a>
 
-<p style="margin: 1.5em 0 0.5em; font-size: 0.9em; color: #606c71;">Join our community for class photos & social events</p>
-
-<a href="https://www.facebook.com/groups/721088668952518/?ref=share&mibextid=NSMWBT" target="_blank" rel="noopener noreferrer"><img src="assets/images/facebook_black.png" alt="Facebook icon" style="width: 1.5em; vertical-align: middle; margin-right: 0.3em;"/>All Seasons Fitness on Facebook</a>
 
 </div>

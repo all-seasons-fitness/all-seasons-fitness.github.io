@@ -87,15 +87,13 @@ Comfortable workout clothes, a water bottle, and whatever you need for your kids
 
 Your first class is free! After that, you can choose a membership or class pack that fits your schedule; see the [memberships page](/memberships.html) for more info.
 
-<div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a></div>
-
----
-
 <div class="testimonial">
 
 "It gave me a place I could go regularly with my baby and not feel judged if I had breast milk on my shirt or if my little one started crying mid-class. Coach Brittany made me feel welcome right away, and Coach Kristina is amazing too, both are encouraging, understanding, and really know how to make new moms feel supported." - Caleigh P.
 
 </div>
+
+<div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a></div>
 
 ---
 

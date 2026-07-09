@@ -14,11 +14,11 @@ description: "Meet Brittany and Kristina, the coaches at All Seasons Fitness in 
 
 Hi! I'm Brittany, proud mama to two girls and a Pacific Northwest transplant from Humboldt County, CA. I've been in the fitness industry for almost 20 years, primarily in group coaching and gym management. All Seasons Fitness was born when my first daughter arrived and I realized how few options existed for parents who wanted to move their bodies without leaving their kids behind.
 
-My coaching style is direct and supportive. I'll push you to go heavier when you're ready, offer modifications when you need them, and genuinely celebrate your progress. I also recognize that the fitness industry can be incredibly problematic. These classes are not about shrinking yourself or earning food. They're about building strength, feeling capable, and showing up consistently in a place that actually supports you.
+My coaching style is direct and supportive. I'll push you to go heavier when you're ready, offer modifications when you need them, and genuinely celebrate your progress. While I've always loved fitness, I think it's important to acknowledge that the fitness industry can be incredibly problematic as well. These classes are not about shrinking yourself, earning food, or punishing the body you walk in with. They're about building strength, feeling capable, and showing up consistently in a place that actually supports you.
 
-If you're late, running on no sleep, or just having an off week, come anyway. These classes are built for real life in all its forms. And if you're pregnant or postpartum? We got you. Whatever your body needs, we'll be here.
+If you're late, running on no sleep, or just having an off week.. come anyways! It's so important to me that these classes support you however it is that you need to show up. And for our mamas who are currently pregnant or postpartum? We got you here too. This community has meant so much to me and I can't wait for you to experience it too.
 
-I'm so glad you're here.
+Thank you for being here!
 
 ---
 
@@ -43,4 +43,7 @@ I'm so glad to coach alongside Brittany and can't wait to get to know everyone. 
 
 </div>
 
-<div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a></div>
+<div style="text-align: center; margin: 1.5em 0;">
+<a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a>
+<a href="/schedule.html" class="btn btn-alt">View Schedule</a>
+</div>

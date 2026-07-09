@@ -15,7 +15,7 @@ Our All Seasons Strength & Conditioning classes, all an hour long, are designed 
 
 Classes typically have 8 to 16 people, small enough that your coach knows your name and your goals.
 
-Dumbbells and resistance bands are the staples, with other simple equipment mixed in now and then. All equipment is provided. Kids are welcome to hang out while you work, and many members bring theirs regularly.
+Dumbbells and resistance bands are the staples, with other simple equipment mixed in now and then. Kids are welcome to hang out while you work, and many members bring theirs regularly.
 
 The environment is supportive and community-driven: strong coaching without the pressure or performative gym culture.
 
@@ -25,7 +25,7 @@ The environment is supportive and community-driven: strong coaching without the 
 
 <img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/outdoor_with_kids.webp" alt="Mom holding baby while another member exercises at outdoor class" loading="lazy">
 
-Water, a mat, and whatever your kids might need. Check the [current schedule](/schedule.html) for location and directions.
+Water, a mat, and whatever your kids might need. We'll have weights there for you. Check the [current schedule](/schedule.html) for location and directions.
 
 ---
 

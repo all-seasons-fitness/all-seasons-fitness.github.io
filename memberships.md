@@ -56,4 +56,7 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 <cite>Elisse V.</cite>
 </div>
 
-<div style="text-align: center; margin: 2em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a></div>
+<div style="text-align: center; margin: 2em 0;">
+<a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a>
+<p style="margin: 1em 0 0; font-size: 0.85em; color: #606c71;">Have questions about which plan is right for you? <a href="mailto:Brittany@all-seasons-fitness.com">Email Brittany</a>.</p>
+</div>
