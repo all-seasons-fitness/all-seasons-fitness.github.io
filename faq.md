@@ -51,7 +51,7 @@ Classes typically have 6 to 15 people, with an average of around 8. It's small e
 
 **Where are classes held?**
 
-We're outdoors in Mountlake Terrace for part of the year, indoors at the Masonic Center in Downtown Edmonds for the rest. The exact spots are easy to find, and we'll give you directions when you sign up.
+We're outdoors in Mountlake Terrace June through September, and indoors at the Masonic Center in Downtown Edmonds the rest of the year. The exact spots are easy to find, and we'll give you directions when you sign up.
 
 ---
 
@@ -83,6 +83,10 @@ Comfortable workout clothes, a water bottle, and whatever you need for your kids
 
 Your first class is free! After that, you can choose a membership or class pack that fits your schedule; see the [memberships page](/memberships.html) for more info.
 
+**Can I pause or cancel my membership?**
+
+Yes — cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever.
+
 <div class="testimonial">
 
 "It gave me a place I could go regularly with my baby and not feel judged if I had breast milk on my shirt or if my little one started crying mid-class. Coach Brittany made me feel welcome right away, and Coach Kristina is amazing too, both are encouraging, understanding, and really know how to make new moms feel supported." - Caleigh P.
@@ -107,12 +111,12 @@ We'd love to hear from you. [Email Brittany](mailto:Brittany@all-seasons-fitness
       "name": "I haven't worked out in forever, will this class be okay for me?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Every class is designed with options for all fitness levels, from brand-new beginners to experienced athletes. You'll always be encouraged to move at your own pace, and this is a crew of people who are welcoming and supportive of wherever you're at."
+        "text": "Yes, absolutely. Every class is designed with options for all fitness levels, from brand-new beginners to experienced athletes. You'll always be encouraged to move at your own pace, and this is a crew of people who will meet you right where you are."
       }
     },
     {
       "@type": "Question",
-      "name": "Am I too old or young to fit in?",
+      "name": "Am I too old or too young?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Our community ranges from late 20s to early 70s, with a mix of fitness levels and life stages. Everyone moves at their own pace, and the variety makes class more fun and fulfilling for everyone."
@@ -155,7 +159,7 @@ We'd love to hear from you. [Email Brittany](mailto:Brittany@all-seasons-fitness
       "name": "Where are classes held?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Classes are outdoors in Mountlake Terrace for part of the year, and indoors at the Masonic Center in Downtown Edmonds for the rest. Directions are sent when you sign up."
+        "text": "Classes are outdoors in Mountlake Terrace June through September, and indoors at the Masonic Center in Downtown Edmonds the rest of the year. Directions are sent when you sign up."
       }
     },
     {
@@ -188,6 +192,14 @@ We'd love to hear from you. [Email Brittany](mailto:Brittany@all-seasons-fitness
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your first class is free. After that, memberships start at $62/month and class packs are available. See the memberships page at all-seasons-fitness.com/memberships.html for full pricing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I pause or cancel my membership?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever."
       }
     },
     {

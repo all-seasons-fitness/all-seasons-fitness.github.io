@@ -1,5 +1,5 @@
 ---
-title: First class info
+title: Your First Class
 band_title: Your First Class
 short_name: first-class
 permalink: /first-class.html

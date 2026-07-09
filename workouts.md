@@ -13,7 +13,7 @@ description: "60-minute strength and conditioning classes in Edmonds and Mountla
 
 Our All Seasons Strength & Conditioning classes, all an hour long, are designed for all fitness levels. You'll get a guided warm-up, 32-40 minutes of strength and conditioning work, and time to cool down and connect at the end. Every workout is thoughtfully programmed for real bodies (including pre- and postnatal), with strength, conditioning, and core work that build on each other week to week. Modifications are built into every movement, so you can scale up or down to meet your body where it is.
 
-Classes typically have 8 to 16 people, small enough that your coach knows your name and your goals.
+Classes typically have 6 to 15 people, small enough that your coach knows your name and your goals.
 
 Dumbbells and resistance bands are the staples, with other simple equipment mixed in now and then. Kids are welcome to hang out while you work, and many members bring theirs regularly.
 

@@ -33,6 +33,8 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 **Unlimited: $145**
 <small style="color: #888; display: block; margin-top: 0.2em;">Best for members who want to train 2-3x per week or more. Most popular option.</small>
 
+<p style="margin-top: 1.2em;"><small><strong>Life happens, and your membership can keep up:</strong> cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever.</small></p>
+
 ---
 
 ## Class Packs & Drop-Ins
