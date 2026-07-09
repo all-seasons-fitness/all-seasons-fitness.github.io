@@ -367,7 +367,7 @@ body:not(.page-home) .main-content > h1:first-child {
 // ---- NAV ----
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     background: var(--asf-gradient);
     background-color: #136988;  // fallback
@@ -542,7 +542,7 @@ div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li > 
 
 .footer-nav a {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: 600;
     letter-spacing: 0.04em;
     text-decoration: none;
@@ -564,7 +564,7 @@ div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li > 
     margin-top: 0;
     width: 100%;
     box-sizing: border-box;
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     line-height: 2.1;
 }
 
@@ -579,7 +579,7 @@ div.collapse.navbar-collapse > ul.nav > li.page-scroll > ul.nav-sub-menu > li > 
 }
 
 .site-footer .footer-meta {
-    font-size: 0.875em;
+    font-size: 1em;
     margin-top: 0.5em;
     opacity: 0.8;
 }
@@ -629,11 +629,11 @@ img.asf-img.asf-img-small {
 }
 
 img.asf-img.asf-img-small.pull-right {
-    margin: auto auto 0 1lh;
+    margin: auto auto 1em 1lh;
 }
 
 img.asf-img.asf-img-small.pull-left {
-    margin: auto 1lh 0 auto;
+    margin: auto 1lh 1em auto;
 }
 
 img.asf-img.asf-img-small.asf-img-float-center {
@@ -711,6 +711,7 @@ span.quote {
     padding: 0.75em 1.5em;
     margin: 1em 0;
     font-style: italic;
+    font-size: 0.72em;
 }
 
 .testimonial p {
@@ -809,6 +810,74 @@ span.quote {
 
 .promo-callout .btn {
     margin-top: 1em;
+}
+
+// ---- MAILCHIMP SIGNUP FORM ----
+.mc-signup {
+    background: var(--cream);
+    border: 1px solid rgba(19, 105, 136, 0.15);
+    border-radius: 12px;
+    padding: 2em 2em 1.5em;
+    margin: 2em 0;
+    text-align: center;
+}
+
+
+.mc-signup h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.mc-signup-desc {
+    color: #606c71;
+    margin-bottom: 1.2em;
+}
+
+.mc-signup-fields {
+    display: flex;
+    gap: 0.75em;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.mc-input {
+    border: 2px solid rgba(19, 105, 136, 0.3);
+    border-radius: 50px;
+    padding: 12px 20px;
+    font-size: 0.7em;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--charcoal);
+    background: #fff;
+    min-width: 180px;
+    outline: none;
+    transition: border-color 0.15s ease;
+}
+
+.mc-input:focus {
+    border-color: var(--teal);
+}
+
+.mc-signup-submit {
+    margin-top: 0.75em;
+    text-align: center;
+}
+
+#mce-responses .response {
+    margin-top: 0.75em;
+    font-size: 0.9em;
+    color: var(--pine);
+}
+
+@media(max-width: 600px) {
+    .mc-signup-fields {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .mc-input {
+        width: 100%;
+        min-width: unset;
+    }
 }
 
 // ---- MEDIA QUERIES ----
@@ -1072,4 +1141,14 @@ span.quote {
         margin: 2rem auto;
         max-width: 80%;
     }
+}
+
+// Stop em compounding inside signup form without breaking inherited page font size
+.main-content .mc-signup p,
+.main-content .mc-signup div {
+    font-size: 1em;
+}
+
+.main-content .mc-signup h2 {
+    font-size: 1.25em;
 }

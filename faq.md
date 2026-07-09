@@ -7,10 +7,6 @@ html_title: "FAQ | All Seasons Fitness, Edmonds & Mountlake Terrace, WA"
 description: "Common questions about All Seasons Fitness in Edmonds and Mountlake Terrace: class info, kids policy, modifications, costs, and more."
 ---
 
-New to All Seasons Fitness? Here are answers to the questions we hear most often. If yours isn't here, [email Brittany](mailto:Brittany@all-seasons-fitness.com) or call [(425) 780-7466](tel:+14257807466).
-
----
-
 ## Getting Started
 
 <img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/reverse_plank.webp" alt="Member performing reverse plank exercise">

@@ -13,11 +13,13 @@ description: "Read what members say about All Seasons Fitness, real reviews abou
 <img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/latpull.webp" alt="Member doing lat pulldown exercise" loading="lazy">
 
 <div class="testimonial">
+<div class="review-stars">⭐⭐⭐⭐⭐</div>
 "All Seasons Fitness embraces real life. Being able to bring your kids along to the workout is such a gift, it removes one of the biggest barriers to self-care for me and creates a welcoming, judgment-free space."
 <cite>Virginia K.</cite>
 </div>
 
 <div class="testimonial">
+<div class="review-stars">⭐⭐⭐⭐⭐</div>
 "I find these classes much more versatile and custom for my body. I'm not the most athletic and have limited mobility but I don't feel pushed beyond my limit or judged while I'm in this space. Everyone is so supportive, kind while focusing on their own goals."
 <cite>Megan L.</cite>
 </div>
@@ -25,11 +27,13 @@ description: "Read what members say about All Seasons Fitness, real reviews abou
 <img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/pushup.webp" alt="Member doing pushup during class" loading="lazy">
 
 <div class="testimonial">
+<div class="review-stars">⭐⭐⭐⭐⭐</div>
 "It's no exaggeration to say finding this class may have changed my life! I used to do a lot of sports in school but with each pregnancy I got more and more unfit, then there's the mum guilt of working out taking time away from your kid. I had been looking for something like this for so long and then stumbled across a class in the park and was so excited. The workouts are such high level, while also being completely inclusive and adaptable to all levels of fitness. Seeing myself slowly get stronger at my own pace has been the best. Getting to do it while bonding with my daughter at the same time is just the cherry on top."
 <cite>Funke W.</cite>
 </div>
 
 <div class="testimonial">
+<div class="review-stars">⭐⭐⭐⭐⭐</div>
 "All Seasons Fitness has been a lifesaver and a life CHANGER. I absolutely love this bootcamp! It's one of the few places where I can bring my children to class, which has made staying active so much more doable. The community is incredibly kind, inclusive, and genuinely supportive. Coaches Brittany and Kristina create a positive atmosphere, guiding every workout and making sure form is correct. They celebrate the wins with you like moving up to heavier weights! The workouts are great for all fitness levels, and they've been especially wonderful for me as a postpartum mom. I always feel safe and encouraged."
 <cite>Devon C.</cite>
 </div>

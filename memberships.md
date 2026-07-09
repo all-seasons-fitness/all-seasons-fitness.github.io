@@ -22,7 +22,7 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 
 ## Monthly Memberships
 
-<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/group7.webp" alt="All Seasons Fitness community group photo" loading="lazy">
+<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/group7.webp" alt="All Seasons Fitness community group photo" loading="lazy" style="max-width: 320px; width: 42%;">
 
 **4x / month: $62** <small style="color: #888;">(~$15.50 per class)</small>
 <small style="color: #888; display: block; margin-top: 0.2em;">A solid option if you're building a new routine or aiming to come once a week.</small>
@@ -37,7 +37,7 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 
 ## Class Packs & Drop-Ins
 
-<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/dad_lifting_kid.webp" alt="Dad lifting child overhead while mom works out with dumbbells" loading="lazy" style="max-width: 220px; width: 30%;">
+<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/dad_lifting_kid.webp" alt="Dad lifting child overhead while mom works out with dumbbells" loading="lazy" style="max-width: 180px; width: 25%;">
 
 **10-Class Pack: $185** <small style="color: #888;">(~$18.50 per class, 6 month expiration)</small>
 <small style="color: #888; display: block; margin-top: 0.2em;">Great for new members who want flexibility before committing to a membership.</small>
