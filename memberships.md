@@ -10,7 +10,7 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 
 <div class="promo-callout">
 
-<strong>New Member Summer Special</strong>
+<strong>New Member Summer Special — through September</strong>
 
 <small style="color: #888; display: block; margin-top: 0.2em;">First class is free. Love it? Try a full week of unlimited classes for just $20. Show up as many times as you want, then decide if membership is right for you.</small>
 
@@ -25,13 +25,13 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 <img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/group7.webp" alt="All Seasons Fitness community group photo" loading="lazy">
 
 **4x / month: $62** <small style="color: #888;">(~$15.50 per class)</small>
-<small style="color: #888; display: block; margin-top: 0.2em;">A good starting point for building a routine or training once per week.</small>
+<small style="color: #888; display: block; margin-top: 0.2em;">A solid option if you're building a new routine or aiming to come once a week.</small>
 
 **8x / month: $118** <small style="color: #888;">(~$14.75 per class)</small>
 <small style="color: #888; display: block; margin-top: 0.2em;">Ideal for training 2x per week, where strength gains and progress start to compound.</small>
 
 **Unlimited: $145**
-<small style="color: #888; display: block; margin-top: 0.2em;">Best for members training 2-3x per week or more. Best value.</small>
+<small style="color: #888; display: block; margin-top: 0.2em;">Best for members who want to train 2-3x per week or more. Most popular option.</small>
 
 ---
 
@@ -40,7 +40,7 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 <img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/dad_lifting_kid.webp" alt="Dad lifting child overhead while mom works out with dumbbells" loading="lazy" style="max-width: 220px; width: 30%;">
 
 **10-Class Pack: $185** <small style="color: #888;">(~$18.50 per class, 6 month expiration)</small>
-<small style="color: #888; display: block; margin-top: 0.2em;">Great for new members who want flexibility while testing the waters.</small>
+<small style="color: #888; display: block; margin-top: 0.2em;">Great for new members who want flexibility before committing to a membership.</small>
 
 **20-Class Pack: $320** <small style="color: #888;">(~$16 per class, 12 month expiration)</small>
 <small style="color: #888; display: block; margin-top: 0.2em;">Best value of our class pack options. If you plan to stick around but prefer no monthly commitment, you have a full year to use your sessions.</small>

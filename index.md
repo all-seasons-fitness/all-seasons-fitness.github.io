@@ -6,10 +6,10 @@ short_name: home
 html_title: "All Seasons Fitness | Group Strength Classes in Edmonds & Mountlake Terrace, WA"
 description: "Small-group strength and conditioning classes for adults in Edmonds and Mountlake Terrace, WA. Kids welcome at every class. Your first class is free."
 hero_sub1: "Kids Welcome. All Levels. Every Season."
-hero_sub2: "Small-group strength classes in Edmonds &amp; Mountlake Terrace, first class free."
+hero_sub2: "Small-group strength and conditioning classes in Edmonds &amp; Mountlake Terrace, first class free."
 ---
 
-We train hard, we modify when needed, and we genuinely show up for each other. Real coaching, real community.
+Coaches who know your name, prices that won't break the bank, and a community that truly shows up for each other.
 
 <img class="img-responsive asf-img" src="assets/images/dads.webp" alt="Dads working out together at All Seasons Fitness" loading="lazy">
 
@@ -20,20 +20,20 @@ We train hard, we modify when needed, and we genuinely show up for each other. R
 
 ## Who It's For
 
-We welcome all genders and all fitness backgrounds. Many of our members are balancing busy schedules, family life, and everything in between. Whether you're:
+We welcome all genders and all fitness backgrounds. Whether you're:
 
 - Brand new to fitness
 - A long-time athlete and parent
 - Pregnant or rebuilding strength postpartum
-- Simply looking for consistent, effective workouts
+- Looking for consistent, effective workouts
 
 You'll find coaching that meets you where you are and a community that genuinely cares.
 
 ## What to Expect
 
-- Kids are welcome, bring them along while you move
-- Modifications always offered for any ability or stage of life
-- Supportive environment, showing up as you are is always enough
+- Kids are welcome — bring them along while you move
+- Modifications available for every fitness level and life stage
+- Supportive environment — showing up as you are is always enough
 
 <img class="img-responsive asf-img" src="assets/images/baby_playing_mom_workout.webp" alt="Baby playing with toys while mom works out in the background" loading="lazy">
 

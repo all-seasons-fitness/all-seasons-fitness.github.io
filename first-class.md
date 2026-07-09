@@ -8,7 +8,7 @@ html_title: "Book Your Free First Class | All Seasons Fitness, Edmonds & Mountla
 description: "Your first class at All Seasons Fitness is free. Here's what to expect, what to bring, and how to prepare for your first workout in Edmonds or Mountlake Terrace, WA."
 ---
 
-We're so glad you're here! Your first class is free, and we'll make sure you feel welcome and ready to move. Not sure what to expect from the workout itself? [See what our classes are like.](/workouts.html)
+Your first class is free. Here's everything you need to know before you arrive. Not sure what to expect from the workout itself? [See what our classes are like.](/workouts.html)
 
 ---
 
@@ -51,7 +51,7 @@ We're so glad you're here! Your first class is free, and we'll make sure you fee
 
 <div style="text-align: center; margin: 1.5em 0;">
 
-<p style="font-size: 1.1em; margin-bottom: 1em;">Your first class is free. We can't wait to meet you!</p>
+<p style="font-size: 1.1em; margin-bottom: 1em;">Come as you are. We can't wait to meet you.</p>
 
 <a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a>
 

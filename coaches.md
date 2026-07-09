@@ -26,11 +26,11 @@ I'm so glad you're here.
 
 <img class="img-responsive asf-img pull-left asf-img-small" src="assets/images/kristina.webp" alt="Kristina, Coach at All Seasons Fitness" loading="lazy">
 
-Hey! I'm Kristina Taiwo, born and raised in the Pacific Northwest and a lifelong athlete. I competed in track and field at the University of Washington, where I earned All-American honors and a Pac-12 title. That experience taught me a lot about what it takes to perform, but it's coaching and community that have kept me in this world ever since.
+Hey! I'm Kristina Taiwo, born and raised in the Pacific Northwest and a lifelong athlete. I competed in track and field at the University of Washington, where I earned All-American honors and a Pac-12 title. That experience taught me a lot about what it takes to perform, but it's coaching and community that have kept me in this field ever since.
 
-I've spent the last eight years coaching everything from youth sports to college athletics, focusing on strength, speed, and movement across multiple sports. I care deeply about helping people find confidence in their bodies and discover what they're capable of, whether they're competing or just trying to carve out an hour for themselves.
+I've spent the last eight years coaching youth and collegiate athletes, with a focus on strength, speed, and movement. I care deeply about helping people find confidence in their bodies and discover what they're capable of, whether they're competing or just trying to carve out an hour for themselves.
 
-These days I'm a stay-at-home mom rediscovering my own fitness journey, which has been humbling, real, and honestly a little wild. Finding All Seasons Fitness changed that. Being part of a community that meets people where they're at, whether that's postpartum, brand new to exercise, or somewhere in between, is exactly where I want to be.
+These days I'm a stay-at-home mom rediscovering my own fitness journey, which has been humbling, real, and honestly a little wild. Finding All Seasons Fitness gave me a place to rebuild and a community I didn't know I needed. Being part of a space that genuinely supports people, whether they're postpartum, brand new to exercise, or somewhere in between, is exactly where I want to be.
 
 I'm so glad to coach alongside Brittany and can't wait to get to know everyone. Let's get strong together!
 

@@ -7,7 +7,7 @@ html_title: "FAQ | All Seasons Fitness, Edmonds & Mountlake Terrace, WA"
 description: "Common questions about All Seasons Fitness in Edmonds and Mountlake Terrace: class info, kids policy, modifications, costs, and more."
 ---
 
-New to All Seasons Fitness? Here are answers to some of the questions we hear most often. If you don't see what you're looking for, reach out and we're happy to help.
+New to All Seasons Fitness? Here are answers to the questions we hear most often. If yours isn't here, [email Brittany](mailto:Brittany@all-seasons-fitness.com) or call [(425) 780-7466](tel:+14257807466).
 
 ---
 
@@ -17,9 +17,9 @@ New to All Seasons Fitness? Here are answers to some of the questions we hear mo
 
 **I haven't worked out in forever, will this class be okay for me?**
 
-Every class is designed with options for all fitness levels, from brand-new beginners to experienced athletes. It's hard getting started with something new but you'll always be encouraged to move at your own pace, and this is a crew of people who are welcoming and supportive of wherever you're at.
+Yes, absolutely. Every class is designed with options for all fitness levels, from brand-new beginners to experienced athletes. You'll always be encouraged to move at your own pace, and this is a crew of people who will meet you right where you are.
 
-**Am I too old/young to fit in?**
+**Am I too old or too young?**
 
 Our community ranges from late 20s to early 70s, with a mix of fitness levels and life stages. Everyone moves at their own pace, and the variety makes class more fun and fulfilling for everyone.
 
@@ -31,13 +31,13 @@ Our community ranges from late 20s to early 70s, with a mix of fitness levels an
 
 Nope! Our classes are designed for all adults, regardless of gender. We welcome everyone who wants to get stronger, move more, and be part of a supportive community.
 
-**I'm pregnant or postpartum - can I still join?**
+**Can I join if I'm pregnant or postpartum?**
 
 Absolutely. Many of our members are prenatal or postpartum, and workouts are easily adjusted to meet your needs. Just let your coach know at the start of class.
 
 **What if I need modifications?**
 
-No problem! Every workout can be adjusted for injuries, pregnancy, postpartum needs, or whenever you're having an off day.
+Every workout can be adjusted for injuries, pregnancy, postpartum needs, or whenever you're having an off day.
 
 ---
 
@@ -48,6 +48,10 @@ No problem! Every workout can be adjusted for injuries, pregnancy, postpartum ne
 **How long are classes?**
 
 Each class runs about 60 minutes, including warm-up, strength work, conditioning, and cool down.
+
+**How many people are in a class?**
+
+Classes typically have 6 to 15 people, with an average of around 8. It's small enough that your coach knows your name, your history, and what you're working toward.
 
 **Where are classes held?**
 
@@ -61,7 +65,7 @@ We're outdoors in Mountlake Terrace for part of the year, indoors at the Masonic
 
 <img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/kids_handstands.webp" alt="Two kids doing handstands against the wall during class">
 
-Yes! All Seasons Fitness is family-friendly and while kids aren't a part of the workout they are always welcome to tag along while you move.
+Yes! All Seasons Fitness is family-friendly, and while kids aren't part of the workout, they are always welcome to tag along while you move.
 
 **What do my kids do during class?**
 
@@ -77,7 +81,7 @@ Yes, please do! It helps us plan class and make sure equipment is ready for you.
 
 **What should I bring?**
 
-Comfortable workout clothes, a water bottle, and whatever you need for your kiddos.
+Comfortable workout clothes, a water bottle, and whatever you need for your kids.
 
 **How much does it cost?**
 
@@ -130,7 +134,7 @@ We'd love to hear from you. [Email Brittany](mailto:Brittany@all-seasons-fitness
     },
     {
       "@type": "Question",
-      "name": "I'm pregnant or postpartum, can I still join?",
+      "name": "Can I join if I'm pregnant or postpartum?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Absolutely. Many of our members are prenatal or postpartum, and workouts are easily adjusted to meet your needs. Just let your coach know at the start of class."

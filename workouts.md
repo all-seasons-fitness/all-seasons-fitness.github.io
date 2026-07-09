@@ -13,7 +13,9 @@ description: "60-minute strength and conditioning classes in Edmonds and Mountla
 
 Classes run 60 minutes and are designed for all fitness levels. You'll get a guided warm-up, 32-40 minutes of strength and conditioning work, and time to cool down and connect at the end. The style is bootcamp and CrossFit-inspired, focused on functional strength, endurance, and efficient conditioning. Options to scale up or down are built into every workout.
 
-Dumbbells are used every class, with resistance bands and other simple equipment occasionally mixed in. Kids are welcome to hang out while you work and many members bring theirs regularly.
+Classes typically have 6 to 15 people, with an average of around 8 — small enough that your coach knows your name and your goals.
+
+Dumbbells are used every class, with resistance bands and other simple equipment occasionally mixed in. All equipment is provided. Kids are welcome to hang out while you work and many members bring theirs regularly.
 
 The environment is supportive and community-driven. Strong coaching without the pressure or performative gym culture.
 
@@ -23,7 +25,7 @@ The environment is supportive and community-driven. Strong coaching without the 
 
 <img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/outdoor_with_kids.webp" alt="Mom holding baby while another member exercises at outdoor class" loading="lazy">
 
-Water, a mat if you like one, and whatever your kids might need. Check the [current schedule](/schedule.html) for location and directions.
+Water, a mat, and whatever your kids might need. Check the [current schedule](/schedule.html) for location and directions.
 
 ---
 

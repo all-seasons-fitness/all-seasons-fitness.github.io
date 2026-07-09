@@ -8,8 +8,6 @@ html_title: "Class Schedule | All Seasons Fitness, Edmonds & Mountlake Terrace"
 description: "Weekly class schedule for All Seasons Fitness in Edmonds and Mountlake Terrace, WA. Morning and evening options available Monday through Sunday."
 ---
 
-All classes are 60 minutes and welcome all fitness levels. [Meet our coaches](/coaches.html) to learn more about who you'll be training with.
-
 <div class="location-callout">Currently outdoors in Mountlake Terrace through August; moving indoors to the Masonic Center in Edmonds in September. Exact directions sent when you book.</div>
 
 | Monday | 9:30am · Brittany <br/><br/> 5:30pm · Kristina |
@@ -26,7 +24,7 @@ All classes are 60 minutes and welcome all fitness levels. [Meet our coaches](/c
 
 <div class="testimonial">
 
-"What keeps me coming back is the community Brittany has built. Besides the workouts, we do fun things together outside of class. We even camp together in the summer! These ladies will laugh with you, cry with you, and meet you where you're at." - Johna B.
+"What keeps me coming back is the community Brittany has built. Besides the workouts, we do fun things together outside of class. We even camp together in the summer! This crew will laugh with you, cry with you, and show up when it counts." - Johna B.
 
 </div>
 
