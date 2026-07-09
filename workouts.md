@@ -11,13 +11,13 @@ description: "60-minute strength and conditioning classes in Edmonds and Mountla
 
 <img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/dumbbells_overhead.webp" alt="Class members pressing dumbbells overhead during workout" loading="lazy">
 
-Classes run 60 minutes and are designed for all fitness levels. You'll get a guided warm-up, 32-40 minutes of strength and conditioning work, and time to cool down and connect at the end. The style is bootcamp and CrossFit-inspired, focused on functional strength, endurance, and efficient conditioning. Options to scale up or down are built into every workout.
+Our All Seasons Strength & Conditioning classes, all an hour long, are designed for all fitness levels. You'll get a guided warm-up, 32-40 minutes of strength and conditioning work, and time to cool down and connect at the end. Every workout is thoughtfully programmed for real bodies (including pre- and postnatal), with strength, conditioning, and core work that build on each other week to week. Modifications are built into every movement, so you can scale up or down to meet your body where it is.
 
-Classes typically have 6 to 15 people, with an average of around 8 — small enough that your coach knows your name and your goals.
+Classes typically have 8 to 16 people, small enough that your coach knows your name and your goals.
 
-Dumbbells are used every class, with resistance bands and other simple equipment occasionally mixed in. All equipment is provided. Kids are welcome to hang out while you work and many members bring theirs regularly.
+Dumbbells and resistance bands are the staples, with other simple equipment mixed in now and then. All equipment is provided. Kids are welcome to hang out while you work, and many members bring theirs regularly.
 
-The environment is supportive and community-driven. Strong coaching without the pressure or performative gym culture.
+The environment is supportive and community-driven: strong coaching without the pressure or performative gym culture.
 
 ---
 

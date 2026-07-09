@@ -12,7 +12,7 @@ description: "Meet Brittany and Kristina, the coaches at All Seasons Fitness in 
 
 <img class="img-responsive asf-img pull-right asf-img-small" src="assets/images/brittany.webp" alt="Brittany, Owner and Head Coach of All Seasons Fitness" loading="lazy">
 
-Hi! I'm Brittany, proud mama to two girls and a Pacific Northwest transplant from Humboldt County, CA. I've been in the fitness industry for 17+ years, primarily in group coaching and gym management. All Seasons Fitness was born when my first daughter arrived and I realized how few options existed for parents who wanted to move their bodies without leaving their kids behind.
+Hi! I'm Brittany, proud mama to two girls and a Pacific Northwest transplant from Humboldt County, CA. I've been in the fitness industry for almost 20 years, primarily in group coaching and gym management. All Seasons Fitness was born when my first daughter arrived and I realized how few options existed for parents who wanted to move their bodies without leaving their kids behind.
 
 My coaching style is direct and supportive. I'll push you to go heavier when you're ready, offer modifications when you need them, and genuinely celebrate your progress. I also recognize that the fitness industry can be incredibly problematic. These classes are not about shrinking yourself or earning food. They're about building strength, feeling capable, and showing up consistently in a place that actually supports you.
 
