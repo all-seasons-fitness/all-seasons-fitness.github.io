@@ -6,7 +6,7 @@ short_name: home
 html_title: "All Seasons Fitness | Group Strength Classes in Edmonds & Mountlake Terrace, WA"
 description: "Small-group strength and conditioning classes for adults in Edmonds and Mountlake Terrace, WA. Kids welcome at every class. Your first class is free."
 hero_sub1: "Kids Welcome. All Levels. Every Season."
-hero_sub2: "Strength-based conditioning for all seasons of life."
+hero_sub2: "Small-group strength and conditioning classes in Edmonds &amp; Mountlake Terrace, first class free."
 ---
 
 Coaches who know your name, prices that won't break the bank, and a community that truly shows up for each other.
