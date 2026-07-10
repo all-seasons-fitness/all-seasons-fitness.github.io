@@ -712,21 +712,25 @@ span.quote {
 
 // ---- PRICING LIST ----
 // ---- TESTIMONIALS — cream card, pine left accent ----
-.testimonial {
+// Higher specificity (.main-content .testimonial = 0,2,0) overrides
+// (.main-content div = 0,1,1) which would otherwise compound font-size.
+.main-content .testimonial {
     border-left: 4px solid var(--pine);
     padding: 0.75em 1.5em;
     margin: 1em 0;
     font-style: italic;
-    font-size: 0.72em;
+    font-size: 1em;
 }
 
-.testimonial p {
+.main-content .testimonial p,
+.main-content .testimonial div {
     margin: 0;
     font-style: italic;
+    font-size: 1em;
 }
 
 // ---- TESTIMONIAL CITATION ----
-.testimonial cite {
+.main-content .testimonial cite {
     display: block;
     font-style: normal;
     font-weight: 700;
@@ -1007,9 +1011,18 @@ span.quote {
         padding-bottom: 150%;
     }
     .btn.section-btn {
+        display: block;
         width: 100%;
         max-width: 320px;
         padding: 16px 24px;
+        margin: 0.5em auto;
+    }
+    .btn.btn-alt {
+        display: block;
+        width: 100%;
+        max-width: 320px;
+        margin: 0.5em auto;
+        text-align: center;
     }
 }
 
@@ -1126,17 +1139,17 @@ span.quote {
         float: unset !important;
     }
     .main-content table th, .main-content table td {
-        padding: 10px 6px;
-        font-size: 0.75em;
+        padding: 10px 8px;
+        font-size: 1.05em;
         white-space: nowrap;
     }
     .main-content table td:first-child {
-        font-size: 0.75em;
-        width: 15%;
-        padding: 8px 4px;
+        font-size: 1.0em;
+        width: 22%;
+        padding: 10px 6px;
     }
     .main-content table td:last-child {
-        line-height: 2;
+        line-height: 1.7;
         white-space: normal;
     }
     .testimonial {
