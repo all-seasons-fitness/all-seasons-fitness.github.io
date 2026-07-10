@@ -716,8 +716,10 @@ span.quote {
 // (.main-content div = 0,1,1) which would otherwise compound font-size.
 .main-content .testimonial {
     border-left: 4px solid var(--pine);
-    padding: 0.75em 1.5em;
-    margin: 1em 0;
+    background: var(--cream);
+    border-radius: 0 8px 8px 0;
+    padding: 1em 1.5em;
+    margin: 1.8em 0;
     font-style: italic;
     font-size: 1.28em;
 }
@@ -729,6 +731,14 @@ span.quote {
     font-size: 1em;
 }
 
+// Stars are slightly larger than quote text and never italic.
+// Specificity (0,3,0) beats the div rule (0,2,1) above.
+.main-content .testimonial .review-stars {
+    font-size: 1.2em;
+    font-style: normal;
+    margin-bottom: 0.5em;
+}
+
 // ---- TESTIMONIAL CITATION ----
 .main-content .testimonial cite {
     display: block;
@@ -736,7 +746,7 @@ span.quote {
     font-weight: 700;
     color: var(--pine);
     font-size: 0.9em;
-    margin-top: 0.75em;
+    margin-top: 1em;
     padding-top: 0.5em;
     border-top: 1px solid rgba(30, 71, 54, 0.15);
 }
@@ -748,7 +758,8 @@ span.quote {
 }
 
 // ---- SCHEDULE LOCATION CALLOUT — cream background, teal left accent ----
-.location-callout {
+// Uses .main-content .location-callout (0,2,0) to beat .main-content div (0,1,1).
+.main-content .location-callout {
     background: var(--cream);
     color: #606c71;
     border-left: 4px solid var(--teal);
@@ -756,7 +767,7 @@ span.quote {
     border-radius: 0 8px 8px 0;
     margin: 1em 0 1.5em;
     font-weight: 400;
-    font-size: 0.85em;
+    font-size: 0.9em;
     font-style: italic;
 }
 
@@ -820,6 +831,11 @@ span.quote {
 
 .promo-callout .btn {
     margin-top: 1em;
+}
+
+// Prevent .main-content div rule from compounding font-size inside promo box.
+.main-content .promo-callout {
+    font-size: 1em;
 }
 
 // ---- MAILCHIMP SIGNUP FORM ----
@@ -990,7 +1006,7 @@ span.quote {
     .main-content h2 {
         margin-top: 1.4em;
         margin-bottom: 0.5em;
-        font-size: 1.9em;
+        font-size: 1.5em;
     }
     .main-content h3 {
         font-size: 1.4em;
@@ -1003,6 +1019,9 @@ span.quote {
     }
     .page-header {
         padding: 2.5rem 1.5rem 2rem;
+    }
+    .page-home .main-content > p:first-of-type {
+        text-align: center;
     }
     div#acuity-schedule-container > div#loading-indicator {
         font-size: 1.2em;
@@ -1152,9 +1171,9 @@ span.quote {
         line-height: 1.7;
         white-space: normal;
     }
-    .testimonial {
-        padding: 1.4em 1.6em;
-        margin: 1.5em 0.5em;
+    .main-content .testimonial {
+        padding: 1em 1.4em;
+        margin: 1.5em 0.4em;
     }
     .main-content hr {
         margin: 2rem auto;
