@@ -458,6 +458,10 @@ div.navbar-header.page-scroll button {
     border-color: rgba(255, 255, 255, 0.3);
 }
 
+.navbar-toggle .icon-bar {
+    background-color: #ffffff !important;
+}
+
 // Nav CTA: white pill on pine nav — inverted to stand out from nav links
 a.nav-cta {
     background: #ffffff !important;
