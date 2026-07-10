@@ -1160,11 +1160,17 @@ span.quote {
 // ---- RESPONSIVE NAV: extend hamburger to 1100px ----
 // Bootstrap 3 expands the nav at 768px, but 8 items need more room
 @media(max-width: 1100px) {
-    .navbar-toggle {
+    nav.navbar.navbar-default.navbar-fixed-top {
+        min-height: 70px;
+    }
+    .navbar-default .navbar-toggle {
         display: block !important;
+        margin-top: 18px;
+        margin-bottom: 18px;
     }
     .navbar-header {
         float: none;
+        min-height: 70px;
     }
     .navbar-collapse.collapse {
         display: none !important;
@@ -1174,6 +1180,7 @@ span.quote {
     .navbar-collapse.in,
     .navbar-collapse.collapsing {
         display: block !important;
+        background: var(--asf-gradient);
     }
     .navbar-nav {
         float: none !important;
