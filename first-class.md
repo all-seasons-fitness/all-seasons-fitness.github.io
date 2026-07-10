@@ -32,7 +32,8 @@ Your coach will text you before your first class with everything you need. Plan 
 
 <div class="testimonial">
 
-"I started going to classes when I was about 7 weeks postpartum and I am still going a couple times a week 2 years later. I love that I'm able to get a great workout and my kids have fun playing with other kids. Brittany is knowledgeable about how to workout correctly to avoid injury and she is always able to offer modifications if something doesn't feel quite right." - Annie P.
+"I started going to classes when I was about 7 weeks postpartum and I am still going a couple times a week 2 years later. I love that I'm able to get a great workout and my kids have fun playing with other kids. Brittany is knowledgeable about how to workout correctly to avoid injury and she is always able to offer modifications if something doesn't feel quite right."
+<cite>Annie P.</cite>
 
 </div>
 

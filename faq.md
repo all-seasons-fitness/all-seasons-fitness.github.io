@@ -89,7 +89,8 @@ Yes — cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever
 
 <div class="testimonial">
 
-"It gave me a place I could go regularly with my baby and not feel judged if I had breast milk on my shirt or if my little one started crying mid-class. Coach Brittany made me feel welcome right away, and Coach Kristina is amazing too, both are encouraging, understanding, and really know how to make new moms feel supported." - Caleigh P.
+"It gave me a place I could go regularly with my baby and not feel judged if I had breast milk on my shirt or if my little one started crying mid-class. Coach Brittany made me feel welcome right away, and Coach Kristina is amazing too, both are encouraging, understanding, and really know how to make new moms feel supported."
+<cite>Caleigh P.</cite>
 
 </div>
 

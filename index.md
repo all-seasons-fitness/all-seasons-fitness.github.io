@@ -53,7 +53,8 @@ Every ASF session comes from a full-year training plan, and we're looking at mor
 
 <div class="testimonial">
 
-"As a physical therapist, it is important to me that the workouts I do are designed and facilitated by someone who knows their stuff, and with decades in the coaching industry, Brittany is just that! Brittany creates community wherever she goes, and genuinely works to create an inclusive and transformative space for all those who show up." - Chelsea A.
+"As a physical therapist, it is important to me that the workouts I do are designed and facilitated by someone who knows their stuff, and with decades in the coaching industry, Brittany is just that! Brittany creates community wherever she goes, and genuinely works to create an inclusive and transformative space for all those who show up."
+<cite>Chelsea A.</cite>
 
 </div>
 
