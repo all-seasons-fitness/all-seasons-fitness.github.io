@@ -11,7 +11,7 @@ hero_sub2: "Your first class is free."
 
 Coaches who know your name, prices that won't break the bank, and a community that truly shows up for each other.
 
-<img class="img-responsive asf-img" src="assets/images/dads.webp" alt="Dads working out together at All Seasons Fitness" loading="lazy">
+<img class="img-responsive asf-img" src="assets/images/plank_lineup.webp" alt="Class members holding a plank line outdoors with kids nearby" loading="lazy">
 
 <div style="text-align: center; margin: 1.5em 0;">
 <a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a>
@@ -33,8 +33,6 @@ You'll find coaching that meets you where you are and a community that genuinely
 
 - Kids are welcome — bring them along while you move
 - Supportive environment — showing up as you are is always enough
-
-<img class="img-responsive asf-img" src="assets/images/squat_with_baby.webp" alt="Mom squatting with dumbbells while baby rides in a front carrier" loading="lazy">
 
 ## The Workouts
 

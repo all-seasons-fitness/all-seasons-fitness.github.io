@@ -74,7 +74,7 @@ description: "Read what members say about All Seasons Fitness, real reviews abou
 
 ---
 
-<p style="text-align: center; color: #606c71; margin: 2em 0 0.5em;">Love your classes? Help others find us.</p>
+<p style="text-align: center; color: #606c71; margin: 2em 0 0.5em; font-size: 1.6em;">Love your classes? Help others find us.</p>
 <div style="text-align: center; margin: 0 0 2em;"><a href="https://share.google/zhdQcO1b18eSTSGla" class="btn btn-alt" target="_blank" rel="noopener noreferrer">Leave a Google Review</a></div>
 
 <div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a></div>

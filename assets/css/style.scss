@@ -767,7 +767,7 @@ span.quote {
     border-radius: 0 8px 8px 0;
     margin: 1em 0 1.5em;
     font-weight: 400;
-    font-size: 0.9em;
+    font-size: 1.6em;
     font-style: italic;
 }
 
@@ -835,6 +835,10 @@ span.quote {
 
 // Prevent .main-content div rule from compounding font-size inside promo box.
 .main-content .promo-callout {
+    font-size: 1.6em;
+}
+
+.main-content .promo-callout small {
     font-size: 1em;
 }
 

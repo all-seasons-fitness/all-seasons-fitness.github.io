@@ -22,8 +22,6 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 
 ## Monthly Memberships
 
-<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/group7.webp" alt="All Seasons Fitness community group photo" loading="lazy" style="max-width: 320px; width: 42%;">
-
 **4x / month: $62** <small style="color: #888;">(~$15.50 per class)</small>
 <small style="color: #888; display: block; margin-top: 0.2em;">A solid option if you're building a new routine or aiming to come once a week.</small>
 
@@ -33,13 +31,15 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 **Unlimited: $145**
 <small style="color: #888; display: block; margin-top: 0.2em;">Best for members who want to train 2-3x per week or more. Most popular option.</small>
 
-<p style="margin-top: 1.2em;"><small><strong>Life happens, and your membership can keep up:</strong> cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever.</small></p>
+<div style="margin-top: 1.2em;"><small style="color: #888;"><strong>Life happens, and your membership can keep up:</strong> cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever.</small></div>
+
+<img class="img-responsive asf-img" src="assets/images/group7.webp" alt="All Seasons Fitness community group photo" loading="lazy">
 
 ---
 
 ## Class Packs & Drop-Ins
 
-<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/dad_lifting_kid.webp" alt="Dad lifting child overhead while mom works out with dumbbells" loading="lazy" style="max-width: 180px; width: 25%;">
+<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/dad_lifting_kid.webp" alt="Dad lifting child overhead while mom works out with dumbbells" loading="lazy">
 
 **10-Class Pack: $185** <small style="color: #888;">(~$18.50 per class, 6 month expiration)</small>
 <small style="color: #888; display: block; margin-top: 0.2em;">Great for new members who want flexibility before committing to a membership.</small>
@@ -60,5 +60,5 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 
 <div style="text-align: center; margin: 2em 0;">
 <a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a>
-<p style="margin: 1em 0 0; font-size: 0.85em; color: #606c71;">Have questions about which plan is right for you? <a href="mailto:Brittany@all-seasons-fitness.com">Email Brittany</a>.</p>
+<p style="margin: 1em 0 0; color: #606c71; font-size: 1.6rem;">Have questions about which plan is right for you? <a href="mailto:Brittany@all-seasons-fitness.com">Email Brittany</a>.</p>
 </div>

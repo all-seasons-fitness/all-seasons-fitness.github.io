@@ -18,7 +18,7 @@ description: "Weekly class schedule for All Seasons Fitness in Edmonds and Mount
 
 <div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/calendar" class="btn btn-alt" target="_blank" rel="noopener noreferrer">View Full Calendar</a></div>
 
-<img class="img-responsive asf-img" src="assets/images/class_indoor_large.webp" alt="Large indoor class with members and kids working out together" loading="lazy">
+<img class="img-responsive asf-img" src="assets/images/coaches_community.webp" alt="Coaches Brittany and Kristina with the full All Seasons Fitness community" loading="lazy">
 
 ---
 

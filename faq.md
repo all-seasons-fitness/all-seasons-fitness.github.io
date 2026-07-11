@@ -65,6 +65,8 @@ Yes! All Seasons Fitness is family-friendly, and while kids aren't part of the w
 
 **What do my kids do during class?**
 
+<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/outdoor_with_kids.webp" alt="Mom holding baby while another member exercises at outdoor class" loading="lazy">
+
 It depends on your kiddo! Some play with others, some will stay next to you and try to climb all over you every chance they get. Sometimes the goal is just getting out of the house and getting some movement in. Bring snacks, toys, or whatever keeps them happy. If you need to nurse or step aside for a moment, that's okay too!
 
 ---
@@ -100,7 +102,7 @@ Yes — cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever
 
 ## Still Have Questions?
 
-We'd love to hear from you. [Email Brittany](mailto:Brittany@all-seasons-fitness.com) or call [(425) 780-7466](tel:+14257807466).
+<p style="font-size: 1.6em;">We'd love to hear from you. <a href="mailto:Brittany@all-seasons-fitness.com">Email Brittany</a> or call <a href="tel:+14257807466">(425) 780-7466</a>.</p>
 
 <script type="application/ld+json">
 {

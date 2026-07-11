@@ -9,7 +9,7 @@ description: "60-minute strength and conditioning classes in Edmonds and Mountla
 
 ## What to Expect
 
-<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/dumbbells_overhead.webp" alt="Class members pressing dumbbells overhead during workout" loading="lazy">
+<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/tricep_dips_branded.webp" alt="Coach Brittany and member doing tricep dips in All Seasons Fitness branded tanks" loading="lazy">
 
 Our All Seasons Strength & Conditioning classes, all an hour long, are designed for all fitness levels. You'll get a guided warm-up, 32-40 minutes of strength and conditioning work, and time to cool down and connect at the end. Every workout is thoughtfully programmed for real bodies (including pre- and postnatal), with strength, conditioning, and core work that build on each other week to week. Modifications are built into every movement, so you can scale up or down to meet your body where it is.
 
@@ -23,7 +23,7 @@ The environment is supportive and community-driven: strong coaching without the 
 
 ## What to Bring
 
-<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/outdoor_with_kids.webp" alt="Mom holding baby while another member exercises at outdoor class" loading="lazy">
+<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/family_workout_indoor.webp" alt="Husband and wife doing banded face pulls on mats while their kids play alongside them" loading="lazy">
 
 Water, a mat, and whatever your kids might need. We'll have weights there for you. Check the [current schedule](/schedule.html) for location and directions.
 

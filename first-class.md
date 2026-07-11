@@ -8,19 +8,17 @@ html_title: "Book Your Free First Class | All Seasons Fitness, Edmonds & Mountla
 description: "Your first class at All Seasons Fitness is free. Here's what to expect, what to bring, and how to prepare for your first workout in Edmonds or Mountlake Terrace, WA."
 ---
 
-Your first class is free. [Curious what the workout is like?](/workouts.html) Here's what to know before you arrive.
+<p style="font-size: 1.6em;">Your first class is free. <a href="/workouts.html">Curious what the workout is like?</a> Here's what to know before you arrive.</p>
 
 ---
 
 ## What to Bring
 
-<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/plank_with_kid.webp" alt="Member doing plank exercise with child nearby" loading="lazy">
+<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/squat_with_baby.webp" alt="Mom squatting with dumbbells while baby rides in a front carrier during class" loading="lazy">
 
 - Comfortable workout clothes and athletic shoes
 - Water and a mat (a yoga mat, towel, or outdoor blanket all work)
 - Snacks, toys, or whatever helps your kids stay comfortable
-
-All equipment is there waiting for you.
 
 ---
 
