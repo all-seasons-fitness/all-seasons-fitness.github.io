@@ -34,6 +34,8 @@ You'll find coaching that meets you where you are and a community that genuinely
 - Kids are welcome — bring them along while you move
 - Supportive environment — showing up as you are is always enough
 
+<img class="img-responsive asf-img" src="assets/images/squat_with_baby.webp" alt="Mom squatting with dumbbells while baby rides in a front carrier" loading="lazy">
+
 ## The Workouts
 
 <img class="img-responsive asf-img" src="assets/images/outdoor_class_dumbbells.webp" alt="Members doing dumbbell exercises in a row at an outdoor class" loading="lazy">
