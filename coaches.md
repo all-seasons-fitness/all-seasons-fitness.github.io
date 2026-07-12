@@ -38,7 +38,7 @@ I'm so glad to coach alongside Brittany and can't wait to get to know everyone. 
 
 <div class="testimonial">
 
-"I've been going to All Seasons Fitness for several years now and it fits so many stages of life! The workouts are strength focused and Brittany (and all the coaches) are great about offering appropriate modifications for varying skill levels and pregnancy & postpartum. Because of this I've enjoyed continuing exercise routines through having kids. And I love having the ability to bring kids to the workout — they play, you workout — and bonus it sets a great example for them on doing hard things! I'm beyond grateful for these classes and the beautiful community that Brittany has built!"
+"I've been going to All Seasons Fitness for several years now and it fits so many stages of life! The workouts are strength focused and Brittany (and all the coaches) are great about offering appropriate modifications for varying skill levels and pregnancy & postpartum. Because of this I've enjoyed continuing exercise routines through having kids. And I love having the ability to bring kids to the workout: they play, you workout, and bonus it sets a great example for them on doing hard things! I'm beyond grateful for these classes and the beautiful community that Brittany has built!"
 <cite>Emily F.</cite>
 
 </div>

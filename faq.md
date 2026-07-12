@@ -27,6 +27,10 @@ Our community ranges from late 20s to early 70s, with a mix of fitness levels an
 
 Nope! Our classes are designed for all adults, regardless of gender. We welcome everyone who wants to get stronger, move more, and be part of a supportive community.
 
+**I'm not a parent, are these classes for me?**
+
+Absolutely! While All Seasons Fitness was built with parents in mind, these classes are for everyone. You don't need to be a parent to show up, get stronger, and be part of the community. And in fact, it's a nice balance to have a good amount of our members kids free too.
+
 **Can I join if I'm pregnant or postpartum?**
 
 Absolutely. Many of our members are prenatal or postpartum, and workouts are easily adjusted to meet your needs. Just let your coach know at the start of class.
@@ -53,6 +57,10 @@ Classes typically have 6 to 15 people, with an average of around 8. It's small e
 
 We're outdoors in Mountlake Terrace June through September, and indoors at the Masonic Center in Downtown Edmonds the rest of the year. The exact spots are easy to find, and we'll give you directions when you sign up.
 
+**What happens if it rains?**
+
+Class moves indoors! Outdoor season doesn't mean weather roulette: if the rain shows up, we'll let you know where to meet and the workout happens as planned.
+
 ---
 
 ## Family-Friendly
@@ -67,7 +75,11 @@ Yes! All Seasons Fitness is family-friendly, and while kids aren't part of the w
 
 <img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/outdoor_with_kids.webp" alt="Mom holding baby while another member exercises at outdoor class" loading="lazy">
 
-It depends on your kiddo! Some play with others, some will stay next to you and try to climb all over you every chance they get. Sometimes the goal is just getting out of the house and getting some movement in. Bring snacks, toys, or whatever keeps them happy. If you need to nurse or step aside for a moment, that's okay too!
+It depends on your kiddo! Some kids will roam around looking for new toys and kids to play with and others will never want to leave your side. For some of you, the goal is just getting out of the house and getting some movement in. Even if it's not perfect. If you're a mom and need to nurse or step aside for a moment that's totally okay too!
+
+**Is this childcare?**
+
+No, kids come along and hang out while you train, but they stay with you during class. Think of it as bring-your-kids, not drop-off care. Everyone does a fantastic job of collectively watching out for each other's kiddos but your kiddo is your responsibility.
 
 ---
 
@@ -87,7 +99,11 @@ Your first class is free! After that, you can choose a membership or class pack 
 
 **Can I pause or cancel my membership?**
 
-Yes — cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever.
+Yes: cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever.
+
+**Can I try more than one class before committing?**
+
+Yes! Through September, new members can follow their free first class with a full week of unlimited classes for $20. After that, drop-ins and class packs let you ease in without a membership.
 
 <div class="testimonial">
 
@@ -135,6 +151,14 @@ Yes — cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever
     },
     {
       "@type": "Question",
+      "name": "I'm not a parent, are these classes for me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! While All Seasons Fitness was built with parents in mind, these classes are for everyone. You don't need to be a parent to show up, get stronger, and be part of the community."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Can I join if I'm pregnant or postpartum?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -167,6 +191,30 @@ Yes — cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever
     },
     {
       "@type": "Question",
+      "name": "What happens if it rains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Class moves indoors! If the rain shows up during outdoor season, we'll let you know where to meet and the workout happens as planned."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this childcare?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, kids come along and hang out while you train, but they stay with you during class. It's bring-your-kids, not drop-off care."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I try more than one class before committing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Through September, new members can follow their free first class with a full week of unlimited classes for $20. Drop-ins and class packs are also available."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Do I need to sign up ahead of time?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -186,7 +234,7 @@ Yes — cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever
       "name": "What do my kids do during class?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It depends on your kiddo! Some play with others, some stay next to you. Bring snacks, toys, or whatever keeps them happy. If you need to nurse or step aside for a moment, that's okay too."
+        "text": "It depends on your kiddo! Some play with others, some stay next to you. If you need to nurse or step aside for a moment, that's okay too."
       }
     },
     {

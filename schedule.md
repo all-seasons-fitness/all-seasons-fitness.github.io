@@ -8,6 +8,8 @@ html_title: "Class Schedule | All Seasons Fitness, Edmonds & Mountlake Terrace"
 description: "Weekly class schedule for All Seasons Fitness in Edmonds and Mountlake Terrace, WA. Morning and evening options available Monday through Sunday."
 ---
 
+<img class="img-responsive asf-img" src="assets/images/coaches_community.webp" alt="Coaches Brittany and Kristina with the full All Seasons Fitness community" loading="lazy">
+
 <div class="location-callout">Currently outdoors in Mountlake Terrace through August; moving indoors to the Masonic Center in Edmonds in September. Exact directions are included when you book your class.</div>
 
 | Monday | 9:30am · Brittany <br/> 5:30pm · Kristina |
@@ -17,8 +19,6 @@ description: "Weekly class schedule for All Seasons Fitness in Edmonds and Mount
 | Sunday | 9am · Brittany/Kristina |
 
 <div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/calendar" class="btn btn-alt" target="_blank" rel="noopener noreferrer">View Full Calendar</a></div>
-
-<img class="img-responsive asf-img" src="assets/images/coaches_community.webp" alt="Coaches Brittany and Kristina with the full All Seasons Fitness community" loading="lazy">
 
 ---
 

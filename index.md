@@ -27,12 +27,7 @@ We welcome all genders and all fitness backgrounds. Whether you're:
 - Pregnant or rebuilding strength postpartum
 - Looking for consistent, effective workouts
 
-You'll find coaching that meets you where you are and a community that genuinely cares.
-
-## What to Expect
-
-- Kids are welcome — bring them along while you move
-- Supportive environment — showing up as you are is always enough
+You'll find coaching that meets you where you are and a community that genuinely cares. Showing up as you are is always enough.
 
 ## The Workouts
 
@@ -40,12 +35,12 @@ You'll find coaching that meets you where you are and a community that genuinely
 
 **Programmed for the year. Each workout has its purpose.**
 
-Every ASF session comes from a full-year training plan, and we're looking at more than just a random leg day and arm day. We train strength, power, agility, balance, mobility, single-leg work, rotation — everything a body needs to do. It's programmed on purpose across every plane you move in, and sequenced so it builds week to week. Movements never repeat two classes in a row, and every month is stress-tested before it hits the floor.
+Every ASF session comes from a full-year training plan, and we're looking at more than just a random leg day and arm day. We train strength, power, agility, balance, mobility, single-leg work, rotation, everything a body needs to do. It's programmed on purpose across every plane you move in, and sequenced so it builds week to week. Movements never repeat two classes in a row, and every month is stress-tested before it hits the floor.
 
 - **Heavy when it should be. Never two workouts in a row.** The program is balanced against real attendance patterns, so your hardest sessions land when you're fresh enough to gain something from them. You'll work every class. You'll never dread the next one.
 - **One hour, zero filler.** A warm-up built for that day's lifts, at least 32 minutes of real work, and a cool-down that targets exactly what you loaded. In and out in 60.
 - **Scaled for whoever shows up.** Every session is written with modification paths already built in, before it's ever coached. Coming back from an injury, brand new to lifting, pregnant or postpartum, or chasing a heavier dumbbell than last month: your coach already knows your version of today's workout and will help you through it.
-- **Dumbbells, bands, and smart programming.** That's it. That's the whole equipment list. The challenge comes from design — tempo, volume, density — not from more stuff.
+- **Dumbbells, bands, and smart programming.** That's it. That's the whole equipment list. The challenge comes from design (tempo, volume, density), not from more stuff.
 
 <p><small><em>Outdoors June through September, indoors the rest of the year. All seasons, all year.</em></small></p>
 
@@ -57,6 +52,8 @@ Every ASF session comes from a full-year training plan, and we're looking at mor
 <cite>Chelsea A.</cite>
 
 </div>
+
+All Seasons Fitness was started by Brittany, a mom of two and a coach with almost 20 years in the fitness industry. When her oldest daughter arrived, she realized very quickly there weren't any options to workout unless you had childcare for your kids. So, she built one. [Meet your coaches →](/coaches.html)
 
 ---
 
@@ -82,7 +79,7 @@ Every ASF session comes from a full-year training plan, and we're looking at mor
 
 ## Ready to try a class?
 
-Your first class is free, kids welcome.
+Your first class is free, kids are welcome at no charge, and memberships start at $62/month.
 
 <div style="text-align: center; margin: 1.5em 0;">
 <a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a>

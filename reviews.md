@@ -36,8 +36,6 @@ description: "Read what members say about All Seasons Fitness, real reviews abou
 
 ---
 
-## From Google Reviews
-
 <img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/mom_toddler_class.webp" alt="Mom pausing workout to interact with toddler while other members smile" loading="lazy">
 
 <div class="testimonial">
