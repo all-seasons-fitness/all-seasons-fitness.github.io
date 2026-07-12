@@ -10,7 +10,9 @@ description: "Read what members say about All Seasons Fitness, real reviews abou
 
 ## What Members Are Saying
 
-<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/latpull.webp" alt="Member doing lat pulldown exercise" loading="lazy">
+<p style="text-align: center; font-size: 1.3em; margin: 0.5em 0 1.5em;">★★★★★&ensp;<strong>Rated 5.0 on Google</strong> across 30+ reviews</p>
+
+<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/dumbbells_overhead.webp" alt="Members pressing dumbbells overhead together at an outdoor class" loading="lazy">
 
 <div class="testimonial">
 "All Seasons Fitness embraces real life. Being able to bring your kids along to the workout is such a gift, it removes one of the biggest barriers to self-care for me and creates a welcoming, judgment-free space."
@@ -22,7 +24,7 @@ description: "Read what members say about All Seasons Fitness, real reviews abou
 <cite>Megan L.</cite>
 </div>
 
-<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/pushup.webp" alt="Member doing pushup during class" loading="lazy">
+<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/plank_with_kid.webp" alt="Member holding a plank with her kid climbing on her back during class" loading="lazy">
 
 <div class="testimonial">
 "It's no exaggeration to say finding this class may have changed my life! I used to do a lot of sports in school but with each pregnancy I got more and more unfit, then there's the mum guilt of working out taking time away from your kid. I had been looking for something like this for so long and then stumbled across a class in the park and was so excited. The workouts are such high level, while also being completely inclusive and adaptable to all levels of fitness. Seeing myself slowly get stronger at my own pace has been the best. Getting to do it while bonding with my daughter at the same time is just the cherry on top."

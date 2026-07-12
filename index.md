@@ -31,7 +31,7 @@ You'll find coaching that meets you where you are and a community that genuinely
 
 ## The Workouts
 
-<img class="img-responsive asf-img" src="assets/images/outdoor_class_dumbbells.webp" alt="Members doing dumbbell exercises in a row at an outdoor class" loading="lazy">
+<img class="img-responsive asf-img" src="assets/images/outdoor_class_dumbbells.webp" alt="Coach Brittany demonstrates the hinge position while coaching a member through dumbbell rows at an outdoor class" loading="lazy">
 
 **Programmed for the year. Each workout has its purpose.**
 

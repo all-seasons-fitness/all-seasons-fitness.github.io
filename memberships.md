@@ -29,9 +29,11 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 <small style="color: #888; display: block; margin-top: 0.2em;">Ideal for training 2x per week, where strength gains and progress start to compound.</small>
 
 **Unlimited: $145** <small style="color: #888;">($12/class at 3x/week)</small>
-<small style="color: #888; display: block; margin-top: 0.2em;">Best for members who want to train 2-3x per week or more. Most popular option.</small>
+<small style="color: #888; display: block; margin-top: 0.2em;">Best for members training 3x per week or more. Most popular option.</small>
 
 <div style="margin-top: 1.2em;"><small style="color: #888;"><strong>Life happens, and your membership can keep up:</strong><br>cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever.</small></div>
+
+<div style="margin-top: 0.8em;"><small style="color: #888;"><strong>Kids come to class with you, always free.</strong><br>They hang out nearby while you train: bring-your-kids, not drop-off childcare.</small></div>
 
 <img class="img-responsive asf-img" src="assets/images/group7.webp" alt="All Seasons Fitness community group photo" loading="lazy">
 
@@ -50,7 +52,7 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 **Drop-In: $20**
 <small style="color: #888; display: block; margin-top: 0.2em;">No commitment, come when you can.</small>
 
-<div style="clear: both; text-align: center; margin-top: 3em;"><small style="color: #888;"><strong>Discounts available:</strong> 20% off for partners and spouses training together. Discount also available for members who bring their own dumbbells. Contact Brittany for details.</small></div>
+<div style="clear: both; text-align: center; margin-top: 3em;"><small style="color: #888;"><strong>Discounts available:</strong> 20% off for partners and spouses training together. Discount also available for members who bring their own dumbbells. <a href="mailto:Brittany@all-seasons-fitness.com">Contact Brittany</a> for details.</small></div>
 
 ---
 

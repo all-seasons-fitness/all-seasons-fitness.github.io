@@ -9,11 +9,11 @@ description: "Common questions about All Seasons Fitness in Edmonds and Mountlak
 
 ## Getting Started
 
-<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/reverse_plank.webp" alt="Member performing reverse plank exercise">
+<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/baby_playing_mom_workout.webp" alt="Baby playing with toys in the foreground while mom works out during class" loading="lazy">
 
 **I haven't worked out in forever, will this class be okay for me?**
 
-Yes, absolutely. Every class is designed with options for all fitness levels, from brand-new beginners to experienced athletes. You'll always be encouraged to move at your own pace, and this is a crew of people who will meet you right where you are.
+Yes, absolutely. Every class is designed with options for all fitness levels, from brand-new beginners to experienced athletes. You'll always be encouraged to move at your own pace, and this is a crew of people who will meet you right where you are. Every movement can be adjusted for injuries, sore spots, or just an off day.
 
 **Am I too old or too young?**
 
@@ -22,6 +22,8 @@ Our community ranges from late 20s to early 70s, with a mix of fitness levels an
 <div class="testimonial">"As I'm aging I'm concerned about strength and balance. I started with one day a week and have recently upped it to two. I've noticed great improvements in strength and flexibility. The best part? I can put on my shoes while standing, something I couldn't do in October." <cite>Ann J.</cite></div>
 
 <img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/class_age_diversity.webp" alt="Class members of various ages working out together">
+
+<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/dads.webp" alt="Two dads working out with dumbbells at an outdoor class" loading="lazy">
 
 **Is this class only for women?**
 
@@ -35,15 +37,15 @@ Absolutely! While All Seasons Fitness was built with parents in mind, these clas
 
 Absolutely. Many of our members are prenatal or postpartum, and workouts are easily adjusted to meet your needs. Just let your coach know at the start of class.
 
-**What if I need modifications?**
-
-Every workout can be adjusted for injuries, pregnancy, postpartum needs, or whenever you're having an off day.
-
 ---
 
 ## Class Details
 
 <img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/outdoor_class.webp" alt="Outdoor fitness class in the park">
+
+**Do I need to sign up ahead of time?**
+
+Yes, please do! It helps us plan class and make sure equipment is ready for you.
 
 **How long are classes?**
 
@@ -52,6 +54,8 @@ Each class runs about 60 minutes, including warm-up, strength work, conditioning
 **How many people are in a class?**
 
 Classes typically have 6 to 15 people, with an average of around 8. It's small enough that your coach knows your name, your history, and what you're working toward.
+
+<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/group_indoor.webp" alt="Indoor class working out on mats at the Masonic Center in Downtown Edmonds" loading="lazy">
 
 **Where are classes held?**
 
@@ -71,6 +75,10 @@ Class moves indoors! Outdoor season doesn't mean weather roulette: if the rain s
 
 Yes! All Seasons Fitness is family-friendly, and while kids aren't part of the workout, they are always welcome to tag along while you move.
 
+**What ages of kids can come?**
+
+Most kids at class are somewhere between babyhood and about 8 years old, but all ages are welcome, from newborns in carriers to big kids who bring a book.
+
 **What do my kids do during class?**
 
 <img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/outdoor_with_kids.webp" alt="Mom holding baby while another member exercises at outdoor class" loading="lazy">
@@ -81,17 +89,20 @@ It depends on your kiddo! Some kids will roam around looking for new toys and ki
 
 No, kids come along and hang out while you train, but they stay with you during class. Think of it as bring-your-kids, not drop-off care. Everyone does a fantastic job of collectively watching out for each other's kiddos but your kiddo is your responsibility.
 
+<div class="testimonial">
+
+"It gave me a place I could go regularly with my baby and not feel judged if I had breast milk on my shirt or if my little one started crying mid-class. Coach Brittany made me feel welcome right away, and Coach Kristina is amazing too, both are encouraging, understanding, and really know how to make new moms feel supported."
+<cite>Caleigh P.</cite>
+
+</div>
+
 ---
 
 ## Gear & Costs
 
-**Do I need to sign up ahead of time?**
-
-Yes, please do! It helps us plan class and make sure equipment is ready for you.
-
 **What should I bring?**
 
-Comfortable workout clothes, a water bottle, and whatever you need for your kids.
+Comfortable workout clothes, a water bottle, and whatever you need for your kids. All the equipment will be there waiting for you.
 
 **How much does it cost?**
 
@@ -104,13 +115,6 @@ Yes: cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever.
 **Can I try more than one class before committing?**
 
 Yes! Through September, new members can follow their free first class with a full week of unlimited classes for $20. After that, drop-ins and class packs let you ease in without a membership.
-
-<div class="testimonial">
-
-"It gave me a place I could go regularly with my baby and not feel judged if I had breast milk on my shirt or if my little one started crying mid-class. Coach Brittany made me feel welcome right away, and Coach Kristina is amazing too, both are encouraging, understanding, and really know how to make new moms feel supported."
-<cite>Caleigh P.</cite>
-
-</div>
 
 <div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a></div>
 
@@ -130,7 +134,7 @@ Yes! Through September, new members can follow their free first class with a ful
       "name": "I haven't worked out in forever, will this class be okay for me?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, absolutely. Every class is designed with options for all fitness levels, from brand-new beginners to experienced athletes. You'll always be encouraged to move at your own pace, and this is a crew of people who will meet you right where you are."
+        "text": "Yes, absolutely. Every class is designed with options for all fitness levels, from brand-new beginners to experienced athletes. You'll always be encouraged to move at your own pace, and this is a crew of people who will meet you right where you are. Every movement can be adjusted for injuries, sore spots, or just an off day."
       }
     },
     {
@@ -167,14 +171,6 @@ Yes! Through September, new members can follow their free first class with a ful
     },
     {
       "@type": "Question",
-      "name": "What if I need modifications?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Every workout can be adjusted for injuries, pregnancy, postpartum needs, or whenever you're having an off day."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "How long are classes?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -202,7 +198,7 @@ Yes! Through September, new members can follow their free first class with a ful
       "name": "Is this childcare?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No, kids come along and hang out while you train, but they stay with you during class. It's bring-your-kids, not drop-off care."
+        "text": "No, kids come along and hang out while you train, but they stay with you during class. It's bring-your-kids, not drop-off care. Everyone helps watch out for each other's kiddos, but your kiddo is your responsibility."
       }
     },
     {
@@ -223,6 +219,14 @@ Yes! Through September, new members can follow their free first class with a ful
     },
     {
       "@type": "Question",
+      "name": "What ages of kids can come?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most kids at class are between babyhood and about 8 years old, but all ages are welcome, from newborns in carriers to big kids who bring a book."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Can I bring my kids?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -234,7 +238,7 @@ Yes! Through September, new members can follow their free first class with a ful
       "name": "What do my kids do during class?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It depends on your kiddo! Some play with others, some stay next to you. If you need to nurse or step aside for a moment, that's okay too."
+        "text": "It depends on your kiddo! Some roam around looking for toys and kids to play with, others never want to leave your side. Bring snacks, toys, or whatever keeps them happy, and if you need to nurse or step aside for a moment, that's totally okay."
       }
     },
     {
@@ -258,10 +262,9 @@ Yes! Through September, new members can follow their free first class with a ful
       "name": "What should I bring to class?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Comfortable workout clothes, a water bottle, and whatever you need for your kids."
+        "text": "Comfortable workout clothes, a water bottle, and whatever you need for your kids. All the equipment will be there waiting for you."
       }
     }
   ]
 }
 </script>
-
