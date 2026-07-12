@@ -35,8 +35,6 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 
 <div style="margin-top: 0.8em;"><small style="color: #888;"><strong>Kids come to class with you, always free.</strong><br>They hang out nearby while you train: bring-your-kids, not drop-off childcare.</small></div>
 
-<img class="img-responsive asf-img" src="assets/images/group7.webp" alt="All Seasons Fitness community group photo" loading="lazy">
-
 ---
 
 ## Class Packs & Drop-Ins

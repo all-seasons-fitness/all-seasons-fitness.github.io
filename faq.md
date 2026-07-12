@@ -9,19 +9,17 @@ description: "Common questions about All Seasons Fitness in Edmonds and Mountlak
 
 ## Getting Started
 
-<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/baby_playing_mom_workout.webp" alt="Baby playing with toys in the foreground while mom works out during class" loading="lazy">
-
 **I haven't worked out in forever, will this class be okay for me?**
 
 Yes, absolutely. Every class is designed with options for all fitness levels, from brand-new beginners to experienced athletes. You'll always be encouraged to move at your own pace, and this is a crew of people who will meet you right where you are. Every movement can be adjusted for injuries, sore spots, or just an off day.
+
+<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/class_age_diversity.webp" alt="Class members of various ages working out together" loading="lazy">
 
 **Am I too old or too young?**
 
 Our community ranges from late 20s to early 70s, with a mix of fitness levels and life stages. Everyone moves at their own pace, and the variety makes class more fun and fulfilling for everyone.
 
 <div class="testimonial">"As I'm aging I'm concerned about strength and balance. I started with one day a week and have recently upped it to two. I've noticed great improvements in strength and flexibility. The best part? I can put on my shoes while standing, something I couldn't do in October." <cite>Ann J.</cite></div>
-
-<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/class_age_diversity.webp" alt="Class members of various ages working out together">
 
 <img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/dads.webp" alt="Two dads working out with dumbbells at an outdoor class" loading="lazy">
 
@@ -40,8 +38,6 @@ Absolutely. Many of our members are prenatal or postpartum, and workouts are eas
 ---
 
 ## Class Details
-
-<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/outdoor_class.webp" alt="Outdoor fitness class in the park">
 
 **Do I need to sign up ahead of time?**
 
@@ -71,7 +67,7 @@ Class moves indoors! Outdoor season doesn't mean weather roulette: if the rain s
 
 **Can I bring my kids?**
 
-<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/kids_handstands.webp" alt="Two kids doing handstands against the wall during class">
+<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/kids_handstands.webp" alt="Two kids doing handstands against the wall during class" loading="lazy">
 
 Yes! All Seasons Fitness is family-friendly, and while kids aren't part of the workout, they are always welcome to tag along while you move.
 
@@ -81,9 +77,9 @@ Most kids at class are somewhere between babyhood and about 8 years old, but all
 
 **What do my kids do during class?**
 
-<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/outdoor_with_kids.webp" alt="Mom holding baby while another member exercises at outdoor class" loading="lazy">
-
 It depends on your kiddo! Some kids will roam around looking for new toys and kids to play with and others will never want to leave your side. For some of you, the goal is just getting out of the house and getting some movement in. Even if it's not perfect. If you're a mom and need to nurse or step aside for a moment that's totally okay too!
+
+<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/baby_playing_mom_workout.webp" alt="Baby playing with toys in the foreground while mom works out during class" loading="lazy">
 
 **Is this childcare?**
 
@@ -99,6 +95,8 @@ No, kids come along and hang out while you train, but they stay with you during 
 ---
 
 ## Gear & Costs
+
+<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/outdoor_with_kids.webp" alt="Mom holding baby while another member exercises at outdoor class" loading="lazy">
 
 **What should I bring?**
 

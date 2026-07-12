@@ -23,6 +23,8 @@ The environment is supportive and community-driven: strong coaching without the 
 
 ## How the Programming Works
 
+<img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/coach_form_correction.webp" alt="Coach Brittany crouched beside a member, adjusting her form mid-set" loading="lazy">
+
 Every session comes from a full-year training plan, written by Brittany and reviewed every month before it ever hits the floor. The year rotates through lower body, upper body, total-body, conditioning, and grinder days, sequenced so strength builds week to week, and so your hardest sessions never stack back to back no matter which days you attend.
 
 A few rules the programming always follows: movements never repeat two classes in a row, so nothing gets stale. Modification paths for pregnancy, postpartum, injuries, and first-timers are written into every block before it's ever coached, not improvised on the spot. And the challenge comes from smart design (tempo, volume, and density), not from complicated equipment, so you spend your hour working, not learning machines.

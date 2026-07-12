@@ -17,6 +17,8 @@ Tap the button below, enter your email, and we'll send you a link to pick a free
 
 ## What the Hour Looks Like
 
+<img class="img-responsive asf-img asf-img-small pull-right" src="assets/images/coach_demo_indoor.webp" alt="Coach demonstrating a banded row while the class watches at an indoor session" loading="lazy">
+
 Every class runs the same way: a warm-up built for that day's workout, 32–40 minutes of strength and conditioning work, and a cool-down that targets what you just trained. Your coach demonstrates every movement, helps you pick the right weights, and checks on you throughout. You'll never be left guessing what to do or how to do it. [Curious about the programming? Here's how the workouts are built.](/workouts.html)
 
 ---
