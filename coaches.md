@@ -32,7 +32,7 @@ I've spent the last eight years coaching youth and collegiate athletes, with a f
 
 These days I'm a stay-at-home mom rediscovering my own fitness journey, which has been humbling, real, and honestly a little wild. Finding All Seasons Fitness gave me a place to rebuild and a community I didn't know I needed. Being part of a space that genuinely supports people, whether they're postpartum, brand new to exercise, or somewhere in between, is exactly where I want to be.
 
-I'm so glad to coach alongside Brittany and can't wait to get to know everyone. Let's get strong together!
+I'm so glad to coach alongside Brittany and love being apart of this group!
 
 ---
 
