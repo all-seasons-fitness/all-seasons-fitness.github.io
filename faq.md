@@ -120,7 +120,7 @@ Yes! Through September, new members can follow their free first class with a ful
 
 ## Still Have Questions?
 
-<p style="font-size: 1.6em;">We'd love to hear from you. <a href="mailto:Brittany@all-seasons-fitness.com">Email Brittany</a> or call <a href="tel:+14257807466">(425) 780-7466</a>.</p>
+<p style="font-size: 1.6em;">We'd love to hear from you. <a href="mailto:Brittany@all-seasons-fitness.com">Email Brittany</a> or call <a href="tel:+14253812306">(425) 381-2306</a>.</p>
 
 <script type="application/ld+json">
 {
