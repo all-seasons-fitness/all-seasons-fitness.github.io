@@ -12,11 +12,11 @@ description: "Weekly class schedule for All Seasons Fitness in Edmonds and Mount
 
 <div class="location-callout">Currently outdoors in Mountlake Terrace through August; moving indoors to the Masonic Center in Edmonds in September. Exact directions are included when you book your class.</div>
 
-| Monday | 9:30am · Brittany <br/> 5:30pm · Kristina |
-| Wednesday | 9:30am · Kristina <br/> 5:30pm · Brittany |
-| Friday | 9:30am · Brittany |
-| Saturday | 9am · Brittany/Kristina |
-| Sunday | 9am · Brittany/Kristina |
+| Monday | 10am · Brittany <br/> 5:30pm · Kristina |
+| Wednesday | 10am · Kristina <br/> 5:30pm · Brittany |
+| Friday | 6am · Brittany <br/> 10am · Brittany |
+| Saturday | 8am · Brittany/Kristina <br/> 9:15am · Brittany/Kristina |
+| Sunday | 9:15am · Brittany/Kristina |
 
 <div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/calendar" class="btn btn-alt" target="_blank" rel="noopener noreferrer">View Full Calendar</a></div>
 
