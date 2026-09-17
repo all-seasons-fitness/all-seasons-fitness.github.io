@@ -1,0 +1,44 @@
+name: Build
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+# A new push to the same PR cancels the in-flight run.
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Reads .ruby-version (3.4.1). Ruby >= 3.0 is required: github-pages 232
+      # pulls nokogiri >= 1.16.2, which will not install on older Rubies.
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      # JEKYLL_ENV=production matches what GitHub Pages does, so conditionals
+      # in _layouts/default.html (analytics, JSON-LD) behave the same here.
+      - name: Build site
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build
+
+      # Catches broken internal links and missing images — the most common way
+      # a green build still ships a visibly wrong page.
+      #
+      # continue-on-error is deliberate: an existing site almost always has
+      # pre-existing findings, and a permanently red check gets ignored. Fix the
+      # backlog, then delete this line to make it blocking.
+      - name: Check links and images
+        continue-on-error: true
+        run: |
+          gem install html-proofer --no-document
+          htmlproofer _site \
+            --disable-external \
+            --allow-hash-href \
+            --ignore-empty-alt
