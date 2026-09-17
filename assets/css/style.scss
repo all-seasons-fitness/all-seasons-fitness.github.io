@@ -1,4 +1,10 @@
 ---
+# Pinned explicitly. This file used to land at /index.css only because
+# _config.yml set a site-wide `permalink: ""` default, which on a non-HTML
+# page resolves to /index.<ext>. That default was removed (it also let any
+# root-level .md take over the homepage), so the URL is named here instead.
+# _layouts/default.html references /index.css -- keep the two in sync.
+permalink: /index.css
 ---
 
 // Hero gradient stops (kept exactly): #136988 teal → #15905F green
