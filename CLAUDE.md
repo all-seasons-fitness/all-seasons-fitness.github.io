@@ -119,6 +119,33 @@ Edit `_data/navigation.yml` to add/remove/reorder nav links. Links with `cta: tr
 
 Push to `main` → GitHub Pages builds and deploys automatically (usually within ~1 minute). The live domain is `all-seasons-fitness.com` (set via `CNAME`).
 
+**Do not push directly to `main`.** Open a pull request instead:
+
+1. Branch, commit, open a PR.
+2. `.github/workflows/build.yml` runs `bundle exec jekyll build` + html-proofer.
+   A failed build means the change would silently never appear on the live site
+   — GitHub Pages refuses to deploy a broken build and leaves the last good
+   version up, so breakage looks like "nothing happened".
+3. Review the preview URL on the PR (see below).
+4. Merge → deploys to production.
+
+### Preview
+
+Reviewing rendered output requires **either** a local server (`bundle exec jekyll serve`,
+needs Ruby 3.4.1 — see Local Development) **or** a PR preview URL.
+
+Rollback is `git revert` + push; GitHub Pages has no one-click rollback.
+
+### Preview-URL gotcha
+
+`_config.yml` hardcodes `url: https://all-seasons-fitness.com`, which feeds the
+canonical tag and the LocalBusiness JSON-LD in `_layouts/default.html`. A preview
+build served from a different hostname will still emit production URLs there.
+That is *desirable* for SEO — the canonical points at production, so the preview
+will not compete for search rankings — but it means **any absolute link you click
+in a preview navigates you to the live site**. Verify content on the preview;
+distrust absolute links.
+
 ---
 
 ## Key External Links
@@ -133,7 +160,13 @@ Push to `main` → GitHub Pages builds and deploys automatically (usually within
 ## Gotchas
 
 - `_config.yml` changes require a server restart during local dev.
-- `CLAUDE.md` is excluded from Jekyll processing (it's in the root and not a `.md` page with front matter, so Jekyll ignores it).
+- **`_config.yml` sets `permalink: ""` as a default for all pages** — i.e. every page
+  claims the site root unless its front matter overrides it. Real pages do override it
+  (`permalink: /schedule.html`, etc.); `index.md` does not, because `/` is what it wants.
+  **Any root `.md` file without front matter therefore renders at `/` and replaces the
+  homepage.** `CLAUDE.md` did exactly that on 2026-09-17 and took the live site down to a
+  rendering of this file. `CLAUDE.md` and `README.md` are now in `exclude:` — do not remove
+  them, and add any new root-level docs there too.
 - The `_posts/` directory contains a sample Jekyll post — it is unused and does not appear on the site.
 - Bootstrap CSS is served as a local file (`assets/css/bootstrap.min.css`), not from a CDN.
 - The site has no JavaScript framework — all interactivity is minimal and done inline or via included scripts.

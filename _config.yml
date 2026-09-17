@@ -141,6 +141,12 @@ include:
   - _pages
   - style.css
 exclude:
+  # These have no front matter, so the `permalink: ""` default below applies and
+  # they render at the site root, colliding with index.md. CLAUDE.md won that
+  # collision and replaced the live homepage (2026-09-17). Do not remove.
+  # NOTE: bare "README" further down does NOT match "README.md".
+  - CLAUDE.md
+  - README.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
