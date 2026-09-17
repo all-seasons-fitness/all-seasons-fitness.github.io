@@ -149,6 +149,28 @@ Reviewing locally instead requires `bundle exec jekyll serve` and Ruby 3.4.1
 
 Rollback is `git revert` + push; GitHub Pages has no one-click rollback.
 
+### What CI checks
+
+`.github/workflows/build.yml` runs on every PR and **blocks the merge** on:
+
+- `bundle exec jekyll build` (Ruby 3.4.1, `JEKYLL_ENV=production`, `PAGES_REPO_NWO` set --
+  GitHub Pages injects that itself, a plain runner does not)
+- `test/site_test.rb` -- homepage identity, every root `.md` declaring a permalink or being
+  excluded, `/index.css` existing, page metadata, JSON-LD validity, and agreement between the
+  schedule table and its structured data
+- `html-proofer` over `_site` (internal links, images, scripts)
+
+A separate non-blocking `visual` job builds the base branch and the PR, screenshots eight pages
+at two widths, and diffs them. Artifacts land under `visual-diff`. Nothing is committed as a
+baseline -- the comparison is against the base branch rendered in the same run.
+
+`.github/workflows/canary.yml` runs every 15 minutes against the **live** site and opens a
+labelled issue on failure. It is the only check that looks at what is served rather than what is
+merged, so it also catches breakage that never went through CI.
+
+The `staged_deploy` ruleset on `main` requires a PR and a passing `build`. `visual` is
+deliberately not required.
+
 ### Preview-URL gotcha
 
 `_config.yml` hardcodes `url: https://all-seasons-fitness.com`, which feeds the
