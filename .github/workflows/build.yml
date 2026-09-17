@@ -26,6 +26,11 @@ jobs:
       - name: Build site
         env:
           JEKYLL_ENV: production
+          # jekyll-github-metadata (bundled with the github-pages gem) resolves
+          # the repo via this. GitHub Pages' own builder injects it; a plain
+          # Actions runner does not, so the build dies in _layouts/default.html
+          # with "No repo name found".
+          PAGES_REPO_NWO: ${{ github.repository }}
         run: bundle exec jekyll build
 
       # Catches broken internal links and missing images — the most common way
