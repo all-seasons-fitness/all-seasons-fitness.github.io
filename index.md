@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /
 show_gh_info: false
 title: All Seasons Fitness
 short_name: home

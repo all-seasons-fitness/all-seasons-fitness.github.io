@@ -83,7 +83,11 @@ defaults:
       path: "" # all files in the project
       type: "pages"
     values:
-      permalink: ""
+      # NOTE: do not reintroduce a `permalink:` default here. A site-wide
+      # `permalink: ""` makes every page claim the site root unless its front
+      # matter overrides it, so any root-level .md without front matter silently
+      # replaces the homepage. That is what CLAUDE.md did to the live site on
+      # 2026-09-17. index.md now sets `permalink: /` explicitly instead.
       layout: "default"
 
 # Site Author
@@ -141,9 +145,7 @@ include:
   - _pages
   - style.css
 exclude:
-  # These have no front matter, so the `permalink: ""` default below applies and
-  # they render at the site root, colliding with index.md. CLAUDE.md won that
-  # collision and replaced the live homepage (2026-09-17). Do not remove.
+  # Repo docs, not site content -- keep them out of the build entirely.
   # NOTE: bare "README" further down does NOT match "README.md".
   - CLAUDE.md
   - README.md

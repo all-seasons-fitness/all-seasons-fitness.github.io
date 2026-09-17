@@ -173,13 +173,18 @@ distrust absolute links.
 ## Gotchas
 
 - `_config.yml` changes require a server restart during local dev.
-- **`_config.yml` sets `permalink: ""` as a default for all pages** — i.e. every page
-  claims the site root unless its front matter overrides it. Real pages do override it
-  (`permalink: /schedule.html`, etc.); `index.md` does not, because `/` is what it wants.
-  **Any root `.md` file without front matter therefore renders at `/` and replaces the
-  homepage.** `CLAUDE.md` did exactly that on 2026-09-17 and took the live site down to a
-  rendering of this file. `CLAUDE.md` and `README.md` are now in `exclude:` — do not remove
-  them, and add any new root-level docs there too.
-- The `_posts/` directory contains a sample Jekyll post — it is unused and does not appear on the site.
+- **Every page needs an explicit `permalink` in its front matter.** `index.md` uses
+  `permalink: /`; every other page names its own (`/schedule.html`, etc.).
+  **Do not add a `permalink:` default back to `_config.yml`.** A site-wide
+  `permalink: ""` makes every page claim the site root, so any root-level `.md`
+  without front matter silently becomes the homepage — which is what `CLAUDE.md`
+  did to the live site on 2026-09-17. The default was removed; CI now asserts that
+  `_site/index.html` is the real homepage, because that failure builds green.
+- `CLAUDE.md` and `README.md` are in `exclude:` so they are not built at all. Add any
+  new root-level repo docs there too.
+- `_posts/` is empty. It previously held Jekyll's scaffold "Welcome to Jekyll!" post,
+  which **was** publicly reachable on the live site (with BlogPosting structured data
+  attributing it to the business) despite an earlier note here claiming otherwise.
+  Removed 2026-09-17. There is no blog; adding a file here publishes it.
 - Bootstrap CSS is served as a local file (`assets/css/bootstrap.min.css`), not from a CDN.
 - The site has no JavaScript framework — all interactivity is minimal and done inline or via included scripts.
