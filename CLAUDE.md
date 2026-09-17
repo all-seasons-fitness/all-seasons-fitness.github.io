@@ -160,7 +160,13 @@ distrust absolute links.
 ## Gotchas
 
 - `_config.yml` changes require a server restart during local dev.
-- `CLAUDE.md` is excluded from Jekyll processing (it's in the root and not a `.md` page with front matter, so Jekyll ignores it).
+- **`_config.yml` sets `permalink: ""` as a default for all pages** — i.e. every page
+  claims the site root unless its front matter overrides it. Real pages do override it
+  (`permalink: /schedule.html`, etc.); `index.md` does not, because `/` is what it wants.
+  **Any root `.md` file without front matter therefore renders at `/` and replaces the
+  homepage.** `CLAUDE.md` did exactly that on 2026-09-17 and took the live site down to a
+  rendering of this file. `CLAUDE.md` and `README.md` are now in `exclude:` — do not remove
+  them, and add any new root-level docs there too.
 - The `_posts/` directory contains a sample Jekyll post — it is unused and does not appear on the site.
 - Bootstrap CSS is served as a local file (`assets/css/bootstrap.min.css`), not from a CDN.
 - The site has no JavaScript framework — all interactivity is minimal and done inline or via included scripts.
