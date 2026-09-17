@@ -49,6 +49,17 @@ jobs:
           fi
           echo "Homepage OK"
 
+          # _layouts/default.html hardcodes /index.css. That path exists only
+          # because assets/css/style.scss pins `permalink: /index.css`. If that
+          # pin is lost the stylesheet moves to /assets/css/style.css and every
+          # page renders unstyled -- with a green build and a 200 on every page.
+          if [ ! -f _site/index.css ]; then
+            echo "::error::_site/index.css is missing. The site stylesheet has moved;"
+            echo "::error::check the permalink in assets/css/style.scss."
+            exit 1
+          fi
+          echo "Stylesheet OK"
+
       # Catches broken internal links and missing images — the most common way
       # a green build still ships a visibly wrong page.
       #
