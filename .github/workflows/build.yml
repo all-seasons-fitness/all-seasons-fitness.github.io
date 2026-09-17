@@ -4,10 +4,13 @@ on:
   pull_request:
   workflow_dispatch:
 
-# A new push to the same PR cancels the in-flight run.
 concurrency:
   group: build-${{ github.ref }}
   cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
 
 jobs:
   build:
@@ -33,41 +36,13 @@ jobs:
           PAGES_REPO_NWO: ${{ github.repository }}
         run: bundle exec jekyll build
 
-      # index.md is the only page that should claim the site root. A root-level
-      # .md file without front matter inherits `permalink: ""` from _config.yml,
-      # collides with index.md at "/", and can silently replace the homepage --
-      # which is exactly what CLAUDE.md did to the live site on 2026-09-17.
-      # That failure produces a completely green build, so assert on it.
-      - name: Assert homepage is the real homepage
-        run: |
-          if ! grep -q "All Seasons Fitness | Group Strength Classes" _site/index.html; then
-            echo "::error::_site/index.html is not the real homepage. A root-level"
-            echo "::error::markdown file without front matter has likely taken over '/'."
-            echo "--- title found instead: ---"
-            grep -o "<title>[^<]*</title>" _site/index.html || echo "(no title tag)"
-            exit 1
-          fi
-          echo "Homepage OK"
+      # Assertions against _site: homepage identity, permalink hygiene, the
+      # stylesheet path, page metadata, JSON-LD validity, and agreement between
+      # the schedule table and its structured data. See test/site_test.rb.
+      - name: Test built site
+        run: bundle exec ruby test/site_test.rb
 
-          # _layouts/default.html hardcodes /index.css. That path exists only
-          # because assets/css/style.scss pins `permalink: /index.css`. If that
-          # pin is lost the stylesheet moves to /assets/css/style.css and every
-          # page renders unstyled -- with a green build and a 200 on every page.
-          if [ ! -f _site/index.css ]; then
-            echo "::error::_site/index.css is missing. The site stylesheet has moved;"
-            echo "::error::check the permalink in assets/css/style.scss."
-            exit 1
-          fi
-          echo "Stylesheet OK"
-
-      # Catches broken internal links and missing images — the most common way
-      # a green build still ships a visibly wrong page.
-      #
-      # continue-on-error is deliberate: an existing site almost always has
-      # pre-existing findings, and a permanently red check gets ignored. Fix the
-      # backlog, then delete this line to make it blocking.
       - name: Check links and images
-        continue-on-error: true
         run: |
           gem install html-proofer --no-document
           htmlproofer _site \
@@ -75,18 +50,8 @@ jobs:
             --allow-hash-href \
             --ignore-empty-alt
 
-      # Publishes the built site to the Cloudflare Pages project
-      # `all-seasons-preview`, served at
-      # https://staging.all-seasons-fitness.brittanyjelani.com behind Cloudflare
-      # Access (Google sign-in; Drew and Brittany only).
-      #
-      # --branch=staging matches the project's production_branch, so the upload
-      # becomes that project's current deployment and shows up at the custom
-      # domain. This means the staging URL always reflects the MOST RECENT PR
-      # build -- with two PRs open, the later build wins. Every deploy also gets
-      # its own immutable <hash>.all-seasons-preview.pages.dev URL in the job
-      # log if you need to look at one specific build.
       - name: Publish to staging
+        id: deploy
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -95,3 +60,83 @@ jobs:
             pages deploy _site
             --project-name=all-seasons-preview
             --branch=staging
+
+      # Puts the staging link in the PR itself. Editing one comment rather than
+      # adding a new one on every push keeps the thread readable.
+      - name: Comment the staging link on the PR
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const marker = "<!-- staging-link -->";
+            const body = [
+              marker,
+              "### Staging preview",
+              "",
+              "**https://staging.all-seasons-fitness.brittanyjelani.com**",
+              "",
+              "Sign in with Google. Shows this PR merged into `main`, and always reflects the",
+              "**most recent** build across all open PRs.",
+              "",
+              `Built from \`${context.payload.pull_request.head.sha.slice(0, 7)}\`. ` +
+              `This build also has its own permanent URL in the *Publish to staging* job log.`,
+            ].join("\n");
+
+            const { data: comments } = await github.rest.issues.listComments({
+              ...context.repo, issue_number: context.issue.number,
+            });
+            const existing = comments.find(c => c.body.includes(marker));
+
+            if (existing) {
+              await github.rest.issues.updateComment({ ...context.repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number, body });
+            }
+
+  # Separate job: it needs a browser toolchain and has nothing to do with the
+  # Ruby build, so keeping it apart means a slow browser install cannot delay
+  # the checks that gate the merge.
+  visual:
+    runs-on: ubuntu-latest
+    # Reported, never blocking. A real design change legitimately moves pixels;
+    # this produces an artifact to look at, not a verdict.
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Build site
+        env:
+          JEKYLL_ENV: production
+          PAGES_REPO_NWO: ${{ github.repository }}
+        run: bundle exec jekyll build
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install browser and deps
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Serve the built site
+        run: |
+          python3 -m http.server 4000 --directory _site &
+          for i in $(seq 1 30); do
+            curl -sf http://127.0.0.1:4000/ >/dev/null && break
+            sleep 1
+          done
+
+      - name: Screenshot and diff
+        run: node test/visual/compare.mjs
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: visual-diff
+          path: test/visual/output
+          retention-days: 14

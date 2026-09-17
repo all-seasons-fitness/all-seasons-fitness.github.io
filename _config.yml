@@ -149,6 +149,7 @@ exclude:
   # NOTE: bare "README" further down does NOT match "README.md".
   - CLAUDE.md
   - README.md
+  - test
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor

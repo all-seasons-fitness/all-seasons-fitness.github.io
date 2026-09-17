@@ -88,7 +88,7 @@
     }
     </script>
   </head>
-  <body class="page-{{ page.short_name | default: 'other' }}">
+  <body id="page-top" class="page-{{ page.short_name | default: 'other' }}">
     {% include nav.html %}
 
     {% if page.short_name == 'home' %}
