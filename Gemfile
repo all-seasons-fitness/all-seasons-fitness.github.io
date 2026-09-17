@@ -32,3 +32,8 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
+# Build-output assertions (test/site_test.rb). Not used by GitHub Pages, which
+# ignores this Gemfile and builds with its own pinned github-pages gem set.
+group :test do
+  gem "minitest", "~> 5.25"
+end
