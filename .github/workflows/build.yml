@@ -33,6 +33,22 @@ jobs:
           PAGES_REPO_NWO: ${{ github.repository }}
         run: bundle exec jekyll build
 
+      # index.md is the only page that should claim the site root. A root-level
+      # .md file without front matter inherits `permalink: ""` from _config.yml,
+      # collides with index.md at "/", and can silently replace the homepage --
+      # which is exactly what CLAUDE.md did to the live site on 2026-09-17.
+      # That failure produces a completely green build, so assert on it.
+      - name: Assert homepage is the real homepage
+        run: |
+          if ! grep -q "All Seasons Fitness | Group Strength Classes" _site/index.html; then
+            echo "::error::_site/index.html is not the real homepage. A root-level"
+            echo "::error::markdown file without front matter has likely taken over '/'."
+            echo "--- title found instead: ---"
+            grep -o "<title>[^<]*</title>" _site/index.html || echo "(no title tag)"
+            exit 1
+          fi
+          echo "Homepage OK"
+
       # Catches broken internal links and missing images — the most common way
       # a green build still ships a visibly wrong page.
       #
@@ -47,3 +63,24 @@ jobs:
             --disable-external \
             --allow-hash-href \
             --ignore-empty-alt
+
+      # Publishes the built site to the Cloudflare Pages project
+      # `all-seasons-preview`, served at
+      # https://staging.all-seasons-fitness.brittanyjelani.com behind Cloudflare
+      # Access (Google sign-in; Drew and Brittany only).
+      #
+      # --branch=staging matches the project's production_branch, so the upload
+      # becomes that project's current deployment and shows up at the custom
+      # domain. This means the staging URL always reflects the MOST RECENT PR
+      # build -- with two PRs open, the later build wins. Every deploy also gets
+      # its own immutable <hash>.all-seasons-preview.pages.dev URL in the job
+      # log if you need to look at one specific build.
+      - name: Publish to staging
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: >-
+            pages deploy _site
+            --project-name=all-seasons-preview
+            --branch=staging

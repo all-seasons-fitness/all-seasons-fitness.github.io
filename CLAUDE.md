@@ -131,8 +131,21 @@ Push to `main` → GitHub Pages builds and deploys automatically (usually within
 
 ### Preview
 
-Reviewing rendered output requires **either** a local server (`bundle exec jekyll serve`,
-needs Ruby 3.4.1 — see Local Development) **or** a PR preview URL.
+**https://staging.all-seasons-fitness.brittanyjelani.com**
+
+Every pull request build is published there automatically — no local server needed.
+Sign in with Google; access is limited to Drew and Brittany via Cloudflare Access.
+
+It always shows the **most recent** PR build. With two PRs open at once the later
+build wins, so check the PR's job log for that build's own permanent
+`<hash>.all-seasons-preview.pages.dev` URL if you need to be sure which is which.
+
+The staging site is a separate Cloudflare Pages project (`all-seasons-preview`) on a
+different domain. It has no connection to `all-seasons-fitness.com`, whose DNS is not
+in this Cloudflare account — nothing published to staging can reach production.
+
+Reviewing locally instead requires `bundle exec jekyll serve` and Ruby 3.4.1
+(see Local Development).
 
 Rollback is `git revert` + push; GitHub Pages has no one-click rollback.
 
