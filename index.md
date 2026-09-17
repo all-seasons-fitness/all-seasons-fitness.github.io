@@ -73,7 +73,7 @@ All Seasons Fitness was started by Brittany, a mom of two and a coach with almos
 <div id="mce-responses"><div class="response" id="mce-error-response" style="display:none;"></div><div class="response" id="mce-success-response" style="display:none;"></div></div>
 </form>
 </div>
-<script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+<script src="https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
 <script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
 ---

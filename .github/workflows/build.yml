@@ -94,49 +94,74 @@ jobs:
             }
 
   # Separate job: it needs a browser toolchain and has nothing to do with the
-  # Ruby build, so keeping it apart means a slow browser install cannot delay
-  # the checks that gate the merge.
+  # Ruby build, so a slow browser install cannot delay the checks that gate the
+  # merge.
   visual:
     runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
     # Reported, never blocking. A real design change legitimately moves pixels;
-    # this produces an artifact to look at, not a verdict.
+    # this produces images to look at, not a verdict.
     continue-on-error: true
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out this PR
+        uses: actions/checkout@v4
+        with:
+          path: head
+
+      - name: Check out the base branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.base_ref }}
+          path: base
 
       - uses: ruby/setup-ruby@v1
         with:
+          ruby-version: .ruby-version
+          working-directory: head
           bundler-cache: true
 
-      - name: Build site
+      - name: Build both versions
         env:
           JEKYLL_ENV: production
           PAGES_REPO_NWO: ${{ github.repository }}
-        run: bundle exec jekyll build
+        run: |
+          cd head && bundle exec jekyll build && cd ..
+          cd base && bundle install --quiet && bundle exec jekyll build && cd ..
 
       - uses: actions/setup-node@v4
         with:
           node-version: 22
 
       - name: Install browser and deps
+        working-directory: head
         run: |
           npm install --no-audit --no-fund
           npx playwright install --with-deps chromium
 
-      - name: Serve the built site
+      - name: Serve both builds
         run: |
-          python3 -m http.server 4000 --directory _site &
-          for i in $(seq 1 30); do
-            curl -sf http://127.0.0.1:4000/ >/dev/null && break
-            sleep 1
+          python3 -m http.server 4000 --directory head/_site &
+          python3 -m http.server 4001 --directory base/_site &
+          for port in 4000 4001; do
+            for i in $(seq 1 30); do
+              curl -sf "http://127.0.0.1:$port/" >/dev/null && break
+              sleep 1
+            done
           done
 
+      # Diffs this PR against the base branch rendered in the same run, on the
+      # same browser and fonts -- so the only variable is the change itself.
       - name: Screenshot and diff
+        working-directory: head
+        env:
+          HEAD_URL: http://127.0.0.1:4000
+          BASE_URL: http://127.0.0.1:4001
         run: node test/visual/compare.mjs
 
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: visual-diff
-          path: test/visual/output
+          path: head/test/visual/output
           retention-days: 14
+          if-no-files-found: ignore
