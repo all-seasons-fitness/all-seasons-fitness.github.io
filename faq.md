@@ -55,7 +55,7 @@ Classes typically have 6 to 15 people, with an average of around 8. It's small e
 
 **Where are classes held?**
 
-We're outdoors in Mountlake Terrace June through September, and indoors at the Masonic Center in Downtown Edmonds the rest of the year. The exact spots are easy to find, and we'll give you directions when you sign up.
+Our classes are held indoors at the Masonic Center in Downtown Edmonds. For the summers, we move outdoors to Mountlake Terrace.
 
 **What happens if it rains?**
 
@@ -180,7 +180,7 @@ Yes! After your first class you have special access to a New Member Week, which 
       "name": "Where are classes held?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Classes are outdoors in Mountlake Terrace June through September, and indoors at the Masonic Center in Downtown Edmonds the rest of the year. Directions are sent when you sign up."
+        "text": "Our classes are held indoors at the Masonic Center in Downtown Edmonds. For the summers, we move outdoors to Mountlake Terrace."
       }
     },
     {
