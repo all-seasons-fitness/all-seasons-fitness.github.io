@@ -55,7 +55,7 @@ Classes typically have 6 to 15 people, with an average of around 8. It's small e
 
 **Where are classes held?**
 
-Our classes are held indoors at the Masonic Center in Downtown Edmonds. For the summers (June through September), we move outdoors to Mountlake Terrace.
+Our classes are held indoors at the Masonic Center (510 Dayton Street) in Downtown Edmonds. For the summers (June through September), we move outdoors to Mountlake Terrace.
 
 **What happens if it rains?**
 
@@ -100,7 +100,7 @@ No, kids come along and hang out while you train, but they stay with you during 
 
 **What should I bring?**
 
-Comfortable workout clothes, a water bottle, and whatever you need for your kids. All the equipment will be there waiting for you.
+Comfortable workout clothes, a water bottle, a mat (a yoga mat, towel, or outdoor blanket all work), and whatever you need for your kids. Weights are provided.
 
 **How much does it cost?**
 
@@ -180,7 +180,7 @@ Yes! After your first class you have special access to a New Member Week, which 
       "name": "Where are classes held?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our classes are held indoors at the Masonic Center in Downtown Edmonds. For the summers (June through September), we move outdoors to Mountlake Terrace."
+        "text": "Our classes are held indoors at the Masonic Center (510 Dayton Street) in Downtown Edmonds. For the summers (June through September), we move outdoors to Mountlake Terrace."
       }
     },
     {
@@ -260,7 +260,7 @@ Yes! After your first class you have special access to a New Member Week, which 
       "name": "What should I bring to class?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Comfortable workout clothes, a water bottle, and whatever you need for your kids. All the equipment will be there waiting for you."
+        "text": "Comfortable workout clothes, a water bottle, a mat (a yoga mat, towel, or outdoor blanket all work), and whatever you need for your kids. Weights are provided."
       }
     }
   ]
