@@ -10,7 +10,7 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 
 <div class="promo-callout">
 
-<strong>New Member Summer Special, through September</strong>
+<strong>New Member Special</strong>
 
 <small style="color: #888; display: block; margin-top: 0.2em;">First class is free. Love it? Try a full week of unlimited classes for just $20. Show up as many times as you want, then decide if membership is right for you.</small>
 
@@ -29,9 +29,9 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 <small style="color: #888; display: block; margin-top: 0.2em;">Ideal for training 2x per week, where strength gains and progress start to compound.</small>
 
 **Unlimited: $145** <small style="color: #888;">($12/class at 3x/week)</small>
-<small style="color: #888; display: block; margin-top: 0.2em;">Best for members training 3x per week or more. Most popular option.</small>
+<small style="color: #888; display: block; margin-top: 0.2em;">Best for members training 3x per week or more.</small>
 
-<div style="margin-top: 1.2em;"><small style="color: #888;"><strong>Life happens, and your membership can keep up:</strong><br>cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever.</small></div>
+<div style="margin-top: 1.2em;"><small style="color: #888;"><strong>Life happens, and your membership can keep up:</strong><br>you can cancel, pause, or downgrade with 3 days' notice. Upgrades can happen whenever you need them!</small></div>
 
 <div style="margin-top: 0.8em;"><small style="color: #888;"><strong>Kids come to class with you, always free.</strong><br>They hang out nearby while you train: bring-your-kids, not drop-off childcare.</small></div>
 

@@ -55,7 +55,7 @@ Classes typically have 6 to 15 people, with an average of around 8. It's small e
 
 **Where are classes held?**
 
-We're outdoors in Mountlake Terrace June through September, and indoors at the Masonic Center in Downtown Edmonds the rest of the year. The exact spots are easy to find, and we'll give you directions when you sign up.
+Our classes are held indoors at the Masonic Center in Downtown Edmonds. For the summers (June through September), we move outdoors to Mountlake Terrace.
 
 **What happens if it rains?**
 
@@ -108,11 +108,11 @@ Your first class is free! After that, you can choose a membership or class pack 
 
 **Can I pause or cancel my membership?**
 
-Yes: cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever.
+Yes: you can cancel, pause, or downgrade with 3 days' notice. Upgrades can happen whenever you need them!
 
 **Can I try more than one class before committing?**
 
-Yes! Through September, new members can follow their free first class with a full week of unlimited classes for $20. After that, drop-ins and class packs let you ease in without a membership.
+Yes! After your first class you have special access to a New Member Week, which gets you one week of unlimited classes for $20. This gives you a chance to meet both our coaches and get a better feel for the workouts and the community before deciding on the next steps.
 
 <div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a></div>
 
@@ -180,7 +180,7 @@ Yes! Through September, new members can follow their free first class with a ful
       "name": "Where are classes held?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Classes are outdoors in Mountlake Terrace June through September, and indoors at the Masonic Center in Downtown Edmonds the rest of the year. Directions are sent when you sign up."
+        "text": "Our classes are held indoors at the Masonic Center in Downtown Edmonds. For the summers (June through September), we move outdoors to Mountlake Terrace."
       }
     },
     {
@@ -204,7 +204,7 @@ Yes! Through September, new members can follow their free first class with a ful
       "name": "Can I try more than one class before committing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Through September, new members can follow their free first class with a full week of unlimited classes for $20. Drop-ins and class packs are also available."
+        "text": "Yes! After your first class you have special access to a New Member Week, which gets you one week of unlimited classes for $20. This gives you a chance to meet both our coaches and get a better feel for the workouts and the community before deciding on the next steps."
       }
     },
     {
@@ -252,7 +252,7 @@ Yes! Through September, new members can follow their free first class with a ful
       "name": "Can I pause or cancel my membership?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever."
+        "text": "Yes: you can cancel, pause, or downgrade with 3 days' notice. Upgrades can happen whenever you need them!"
       }
     },
     {
