@@ -43,7 +43,7 @@ Every ASF session comes from a full-year training plan, and we're looking at mor
 - **Scaled for whoever shows up.** Every session is written with modification paths already built in, before it's ever coached. Coming back from an injury, brand new to lifting, pregnant or postpartum, or chasing a heavier dumbbell than last month: your coach already knows your version of today's workout and will help you through it.
 - **Dumbbells, bands, and smart programming.** That's it. That's the whole equipment list. The challenge comes from design (tempo, volume, density), not from more stuff.
 
-<p><small><em>Outdoors June through September, indoors the rest of the year. All seasons, all year.</em></small></p>
+<p><small><em>Indoors October–May, moving outdoors June through September.</em></small></p>
 
 [See how a class runs →](/workouts.html)
 
