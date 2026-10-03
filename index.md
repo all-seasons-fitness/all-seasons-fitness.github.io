@@ -38,8 +38,8 @@ You'll find coaching that meets you where you are and a community that genuinely
 
 Every ASF session comes from a full-year training plan, and we're looking at more than just a random leg day and arm day. We train strength, power, agility, balance, mobility, single-leg work, rotation, everything a body needs to do. It's programmed on purpose across every plane you move in, and sequenced so it builds week to week. Movements never repeat two classes in a row, and every month is stress-tested before it hits the floor.
 
-- **Heavy when it should be. Never two workouts in a row.** The program is balanced against real attendance patterns, so your hardest sessions land when you're fresh enough to gain something from them. You'll work every class. You'll never dread the next one.
-- **One hour, zero filler.** A warm-up built for that day's lifts, at least 32 minutes of real work, and a cool-down that targets exactly what you loaded. In and out in 60.
+- **Heavy when it should be. Movements are never repeated two days in a row.** The program is balanced against real attendance patterns, so your hardest sessions land when you're fresh enough to gain something from them. You'll work every class. You'll never dread the next one.
+- **One hour, zero filler.** A warm-up built for that day's lifts, 32–40 minutes of real work, and a cool-down that targets exactly what you loaded. In and out in 60.
 - **Scaled for whoever shows up.** Every session is written with modification paths already built in, before it's ever coached. Coming back from an injury, brand new to lifting, pregnant or postpartum, or chasing a heavier dumbbell than last month: your coach already knows your version of today's workout and will help you through it.
 - **Dumbbells, bands, and smart programming.** That's it. That's the whole equipment list. The challenge comes from design (tempo, volume, density), not from more stuff.
 
@@ -73,8 +73,7 @@ All Seasons Fitness was started by Brittany, a mom of two and a coach with almos
 <div id="mce-responses"><div class="response" id="mce-error-response" style="display:none;"></div><div class="response" id="mce-success-response" style="display:none;"></div></div>
 </form>
 </div>
-<script src="https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
-<script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<script>/* mc-validate (~140 KB, bundles its own jQuery) loads only once someone touches the form; until then the form posts normally. */(function(){var f=document.getElementById('mc-embedded-subscribe-form'),started=false;function load(){if(started)return;started=true;var s=document.createElement('script');s.src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js';s.onload=function(){(function($){window.fnames=new Array();window.ftypes=new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));window.$mcj=jQuery.noConflict(true);};document.head.appendChild(s);}f.addEventListener('focusin',load);f.addEventListener('pointerenter',load);})();</script>
 
 ---
 

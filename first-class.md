@@ -37,7 +37,7 @@ No: this is the place you get in shape, not the place you prove you already are.
 - Water and a mat (a yoga mat, towel, or outdoor blanket all work)
 - Snacks, toys, or whatever helps your kids stay comfortable
 
-<small style="color: #888;">Weights are provided.</small>
+<small style="color: var(--muted);">Weights are provided.</small>
 
 ---
 

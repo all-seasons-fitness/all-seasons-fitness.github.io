@@ -95,7 +95,7 @@ Current schedule (as of update):
 - Monday: 10am (Brittany), 5:30pm (Kristina)
 - Wednesday: 10am (Kristina), 5:30pm (Brittany)
 - Friday: 6am (Brittany), 10am (Brittany)
-- Saturday: 8am (Brittany/Kristina), 9:15am (Brittany/Kristina)
+- Saturday: 8am (Brittany), 9:15am (Kristina)
 - Sunday: 9:15am (Brittany/Kristina)
 
 ---
