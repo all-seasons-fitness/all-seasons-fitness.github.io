@@ -108,7 +108,7 @@ Your first class is free! After that, you can choose a membership or class pack 
 
 **Can I pause or cancel my membership?**
 
-Yes: you can cancel, pause, or downgrade within 3 days notice. Upgrades can happen whenever you need them!
+Yes: you can cancel, pause, or downgrade with 3 days' notice. Upgrades can happen whenever you need them!
 
 **Can I try more than one class before committing?**
 
@@ -252,7 +252,7 @@ Yes! After your first class you have special access to a New Member Week, which 
       "name": "Can I pause or cancel my membership?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes: you can cancel, pause, or downgrade within 3 days notice. Upgrades can happen whenever you need them!"
+        "text": "Yes: you can cancel, pause, or downgrade with 3 days' notice. Upgrades can happen whenever you need them!"
       }
     },
     {
