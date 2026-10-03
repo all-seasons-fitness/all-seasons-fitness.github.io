@@ -10,7 +10,7 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 
 <div class="promo-callout">
 
-<strong>New Member Summer Special, through September</strong>
+<strong>New Member Special</strong>
 
 <small style="color: #888; display: block; margin-top: 0.2em;">First class is free. Love it? Try a full week of unlimited classes for just $20. Show up as many times as you want, then decide if membership is right for you.</small>
 

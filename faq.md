@@ -112,7 +112,7 @@ Yes: cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever.
 
 **Can I try more than one class before committing?**
 
-Yes! Through September, new members can follow their free first class with a full week of unlimited classes for $20. After that, drop-ins and class packs let you ease in without a membership.
+Yes! After your first class you have special access to a New Member Week, which gets you one week of unlimited classes for $20. This gives you a chance to meet our coaches, try some new class times and workouts before deciding on next steps.
 
 <div style="text-align: center; margin: 1.5em 0;"><a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a></div>
 
@@ -204,7 +204,7 @@ Yes! Through September, new members can follow their free first class with a ful
       "name": "Can I try more than one class before committing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Through September, new members can follow their free first class with a full week of unlimited classes for $20. Drop-ins and class packs are also available."
+        "text": "Yes! After your first class you have special access to a New Member Week, which gets you one week of unlimited classes for $20. This gives you a chance to meet our coaches, try some new class times and workouts before deciding on next steps."
       }
     },
     {
