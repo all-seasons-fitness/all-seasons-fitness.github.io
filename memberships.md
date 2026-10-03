@@ -29,7 +29,7 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 <small style="color: #888; display: block; margin-top: 0.2em;">Ideal for training 2x per week, where strength gains and progress start to compound.</small>
 
 **Unlimited: $145** <small style="color: #888;">($12/class at 3x/week)</small>
-<small style="color: #888; display: block; margin-top: 0.2em;">Best for members training 3x per week or more. Most popular option.</small>
+<small style="color: #888; display: block; margin-top: 0.2em;">Best for members training 3x per week or more.</small>
 
 <div style="margin-top: 1.2em;"><small style="color: #888;"><strong>Life happens, and your membership can keep up:</strong><br>cancel, pause, or downgrade anytime with 3 days notice. Upgrade whenever.</small></div>
 
