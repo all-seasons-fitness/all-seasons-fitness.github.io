@@ -18,8 +18,7 @@ $section-headings-color: #1e4736; // pine
 
 @import "{{ site.theme }}";
 
-// Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Signika:wght@700&display=swap');
+// Google Fonts: loaded via <link> in _layouts/default.html (an @import here chains CSS → CSS → font)
 
 // ---- PALETTE ----
 // Derived from the hero gradient (#136988 teal → #15905F green)
@@ -28,6 +27,7 @@ $section-headings-color: #1e4736; // pine
     --teal:         #136988;  // blue-green; white on it = 6.2:1 AA ✓
     --cream:        #edf6f9;  // light teal tint — brand-aligned card/stripe background
     --charcoal:     #2b2f2e;  // soft near-black body text
+    --muted:        #4f5f66;  // slate small print; 6.6:1 on white, 5.0:1 on gradient bottom #d8e2e7
     --asf-gradient: linear-gradient(to right, #136988, #15905F);
 }
 

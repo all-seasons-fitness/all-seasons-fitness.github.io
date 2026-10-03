@@ -12,7 +12,7 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 
 <strong>New Member Special</strong>
 
-<small style="color: #888; display: block; margin-top: 0.2em;">First class is free. Love it? Try a full week of unlimited classes for just $20. Show up as many times as you want, then decide if membership is right for you.</small>
+<small style="color: var(--muted); display: block; margin-top: 0.2em;">First class is free. Love it? Try a full week of unlimited classes for just $20. Show up as many times as you want, then decide if membership is right for you.</small>
 
 <a href="https://allseasonsfitness.pushpress.com/landing/plans/plan_d52a452e820d40/login" class="btn section-btn" target="_blank" rel="noopener noreferrer">Book Your Free Class</a>
 
@@ -22,18 +22,18 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 
 ## Monthly Memberships
 
-**4x / month: $62** <small style="color: #888;">($15.50 per class)</small>
-<small style="color: #888; display: block; margin-top: 0.2em;">A solid option if you're building a new routine or aiming to come once a week.</small>
+**4x / month: $62** <small style="color: var(--muted);">($15.50 per class)</small>
+<small style="color: var(--muted); display: block; margin-top: 0.2em;">A solid option if you're building a new routine or aiming to come once a week.</small>
 
-**8x / month: $118** <small style="color: #888;">($14.75 per class)</small>
-<small style="color: #888; display: block; margin-top: 0.2em;">Ideal for training 2x per week, where strength gains and progress start to compound.</small>
+**8x / month: $118** <small style="color: var(--muted);">($14.75 per class)</small>
+<small style="color: var(--muted); display: block; margin-top: 0.2em;">Ideal for training 2x per week, where strength gains and progress start to compound.</small>
 
-**Unlimited: $145** <small style="color: #888;">($12/class at 3x/week)</small>
-<small style="color: #888; display: block; margin-top: 0.2em;">Best for members training 3x per week or more.</small>
+**Unlimited: $145** <small style="color: var(--muted);">($12/class at 3x/week)</small>
+<small style="color: var(--muted); display: block; margin-top: 0.2em;">Best for members training 3x per week or more.</small>
 
-<div style="margin-top: 1.2em;"><small style="color: #888;"><strong>Life happens, and your membership can keep up:</strong><br>you can cancel, pause, or downgrade with 3 days' notice. Upgrades can happen whenever you need them!</small></div>
+<div style="margin-top: 1.2em;"><small style="color: var(--muted);"><strong>Life happens, and your membership can keep up:</strong><br>you can cancel, pause, or downgrade with 3 days' notice. Upgrades can happen whenever you need them!</small></div>
 
-<div style="margin-top: 0.8em;"><small style="color: #888;"><strong>Kids come to class with you, always free.</strong><br>They hang out nearby while you train: bring-your-kids, not drop-off childcare.</small></div>
+<div style="margin-top: 0.8em;"><small style="color: var(--muted);"><strong>Kids come to class with you, always free.</strong><br>They hang out nearby while you train: bring-your-kids, not drop-off childcare.</small></div>
 
 ---
 
@@ -41,16 +41,16 @@ description: "New members: first class free, then one week unlimited for $20. Mo
 
 <img class="img-responsive asf-img asf-img-small pull-left" src="assets/images/dad_lifting_kid.webp" alt="Dad lifting child overhead while mom works out with dumbbells" loading="lazy">
 
-**10-Class Pack: $185** <small style="color: #888;">($18.50 per class)</small>
-<small style="color: #888; display: block; margin-top: 0.2em;">Great for new members who want flexibility before committing to a membership. Expires in 6 months.</small>
+**10-Class Pack: $185** <small style="color: var(--muted);">($18.50 per class)</small>
+<small style="color: var(--muted); display: block; margin-top: 0.2em;">Great for new members who want flexibility before committing to a membership. Expires in 6 months.</small>
 
-**20-Class Pack: $320** <small style="color: #888;">($16 per class)</small>
-<small style="color: #888; display: block; margin-top: 0.2em;">Best value of our class pack options. If you plan to stick around but prefer no monthly commitment, you have a full year to use your sessions. Expires in 12 months.</small>
+**20-Class Pack: $320** <small style="color: var(--muted);">($16 per class)</small>
+<small style="color: var(--muted); display: block; margin-top: 0.2em;">Best value of our class pack options. If you plan to stick around but prefer no monthly commitment, you have a full year to use your sessions. Expires in 12 months.</small>
 
 **Drop-In: $20**
-<small style="color: #888; display: block; margin-top: 0.2em;">No commitment, come when you can.</small>
+<small style="color: var(--muted); display: block; margin-top: 0.2em;">No commitment, come when you can.</small>
 
-<div style="clear: both; text-align: center; margin-top: 3em;"><small style="color: #888;"><strong>Discounts available:</strong> 20% off for partners and spouses training together. Discount also available for members who bring their own dumbbells. <a href="mailto:Brittany@all-seasons-fitness.com">Contact Brittany</a> for details.</small></div>
+<div style="clear: both; text-align: center; margin-top: 3em;"><small style="color: var(--muted);"><strong>Discounts available:</strong> 20% off for partners and spouses training together. Discount also available for members who bring their own dumbbells. <a href="mailto:Brittany@all-seasons-fitness.com">Contact Brittany</a> for details.</small></div>
 
 ---
 

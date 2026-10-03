@@ -37,7 +37,7 @@ No: this is the place you get in shape, not the place you prove you already are.
 - Water and a mat (a yoga mat, towel, or outdoor blanket all work)
 - Snacks, toys, or whatever helps your kids stay comfortable
 
-<small style="color: #888;">Weights will be provided on your first class.</small>
+<small style="color: var(--muted);">Weights are provided.</small>
 
 ---
 
@@ -51,7 +51,7 @@ We also 100% understand and respect the need for a kid free workout if you want 
 
 ## When You Get There
 
-Your coach will text you before your first class to check in on your injuries, ask questions and help you with everything you need, including exactly where to find us. We're outdoors in Mountlake Terrace June through September and indoors at the Masonic Center in Downtown Edmonds the rest of the year.
+Your coach will text you before your first class to check in on your injuries, ask questions and help you with everything you need, including exactly where to find us. We're outdoors in Mountlake Terrace June through September and indoors at the Masonic Center (510 Dayton Street) in Downtown Edmonds the rest of the year.
 
 Plan to arrive 10 minutes early so you can settle in, meet your coach, and get set up without rushing.
 

@@ -5,12 +5,12 @@ short_name: schedule
 permalink: /schedule.html
 layout: default
 html_title: "Class Schedule | All Seasons Fitness, Edmonds & Mountlake Terrace"
-description: "Weekly class schedule for All Seasons Fitness in Edmonds and Mountlake Terrace, WA. Morning and evening options available Monday through Sunday."
+description: "Weekly class schedule for All Seasons Fitness in Edmonds and Mountlake Terrace, WA. Morning and evening classes Monday, Wednesday, Friday, Saturday and Sunday."
 ---
 
 <img class="img-responsive asf-img" src="assets/images/coaches_community.webp" alt="Coaches Brittany and Kristina with the full All Seasons Fitness community" loading="lazy">
 
-<div class="location-callout">Indoors in the Masonic Center in Downtown Edmonds, moving outdoors to Mountlake Terrace every summer. Exact directions are included when you book your class.</div>
+<div class="location-callout">Indoors at the Masonic Center (510 Dayton Street) in Downtown Edmonds, moving outdoors to Mountlake Terrace every summer. Exact directions are included when you book your class.</div>
 
 | Monday | 10am · Brittany <br/> 5:30pm · Kristina |
 | Wednesday | 10am · Kristina <br/> 5:30pm · Brittany |
